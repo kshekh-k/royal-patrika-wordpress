@@ -1,0 +1,2 @@
+<?php
+return ['project-id-version'=>'Loco Translate 2.6.10','report-msgid-bugs-to'=>'https://wordpress.org/support/plugin/loco-translate/','pot-creation-date'=>'2024-06-11 07:02+0000','po-revision-date'=>'2024-07-13 13:56+0000','last-translator'=>'','language-team'=>'Hindi','language'=>'hi_IN','plural-forms'=>'nplurals=2; plural=n != 1;','mime-version'=>'1.0','content-type'=>'text/plain; charset=UTF-8','content-transfer-encoding'=>'8bit','x-generator'=>'Loco https://localise.biz/','x-loco-version'=>'2.6.10; wp-6.5.5','x-domain'=>'loco-translate','messages'=>[]];

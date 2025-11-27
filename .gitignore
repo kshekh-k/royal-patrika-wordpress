@@ -1,0 +1,103 @@
+# ------------------------------------------------------------
+# WordPress Core Files (Never Commit Core)
+# ------------------------------------------------------------
+wp-admin/
+wp-includes/
+
+# WordPress Core Files that can be committed
+index.php
+license.txt
+readme.html
+
+# ------------------------------------------------------------
+# WordPress Uploads & User Content
+# ------------------------------------------------------------
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/updraft/
+wp-content/themes/twentytwentyfive
+wp-content/backups/
+wp-content/ai1wm-backups/
+
+# ------------------------------------------------------------
+# Ignore All Plugins Except Custom Ones
+# (Uncomment and keep only your custom plugin folder)
+# ------------------------------------------------------------
+# wp-content/plugins/*
+# !wp-content/plugins/my-custom-plugin/
+
+# ------------------------------------------------------------
+# Ignore All Themes Except Custom Theme
+# (Uncomment and keep only your theme)
+# ------------------------------------------------------------
+# wp-content/themes/*
+# !wp-content/themes/mytheme/
+
+# ------------------------------------------------------------
+# Node / Build Tools
+# ------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.pnp.*
+.pnp.js
+.pnp.cjs
+.vscode-test/
+dist/
+build/
+.cache/
+.temp/
+
+# ------------------------------------------------------------
+# Environment Files
+# ------------------------------------------------------------
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local DB config (if needed)
+wp-config.php
+
+# ------------------------------------------------------------
+# Composer Vendors (if using Bedrock or Composer)
+# ------------------------------------------------------------
+vendor/
+composer.lock
+
+# ------------------------------------------------------------
+# System and Editor Junk Files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.sass-cache/
+cache/
+.idea/
+.vscode/
+*.bak
+*.swp
+*.orig
+
+# ------------------------------------------------------------
+# OS-specific
+# ------------------------------------------------------------
+ehthumbs.db
+Desktop.ini
+
+# ------------------------------------------------------------
+# PHPStorm / JetBrains
+# ------------------------------------------------------------
+/.idea/
+*.iml
+
+# ------------------------------------------------------------
+# Optional (If using Tailwind / SASS)
+# ------------------------------------------------------------
+*.map

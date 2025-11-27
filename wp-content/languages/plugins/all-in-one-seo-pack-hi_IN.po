@@ -1,0 +1,628 @@
+# Translation of Plugins - All in One SEO – Powerful SEO Plugin to Boost SEO Rankings &amp; Increase Traffic - Stable (latest release) in Hindi
+# This file is distributed under the same license as the Plugins - All in One SEO – Powerful SEO Plugin to Boost SEO Rankings &amp; Increase Traffic - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-10-11 13:39:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: hi_IN\n"
+"Project-Id-Version: Plugins - All in One SEO – Powerful SEO Plugin to Boost SEO Rankings &amp; Increase Traffic - Stable (latest release)\n"
+
+#: languages/aioseo-lite.php:821
+msgid "Allow"
+msgstr "अनुमति दें"
+
+#: languages/aioseo-lite.php:2785
+msgid "Exclude Images"
+msgstr "चित्र निकालें"
+
+#: app/Common/Tools/SystemStatus.php:58
+msgid "Site Language"
+msgstr "साइट भाषा"
+
+#: app/Common/Tools/SystemStatus.php:54 app/Common/Utils/Tags.php:396
+#: app/Common/Utils/Tags.php:568 languages/aioseo-lite.php:6785
+msgid "Site Title"
+msgstr "साइट शीर्षक"
+
+#: app/Common/Tools/SystemStatus.php:98
+msgid "Search Engine Visibility"
+msgstr "खोज इंजन दृश्यता"
+
+#: languages/aioseo-lite.php:6552
+msgid "SEO for Categories, Tags and Custom Taxonomies"
+msgstr "श्रेणियों, टैग और कस्टम टैक्सोनोमी के लिए एसईओ"
+
+#: app/Common/Admin/Dashboard.php:80 languages/aioseo-lite.php:6564
+msgid "SEO News"
+msgstr "एसईओ समाचार"
+
+#: languages/aioseo-lite.php:8263
+msgid "Upgrade"
+msgstr "अपग्रेड करें"
+
+#: languages/aioseo-lite.php:924
+msgid "Analyze"
+msgstr "विश्लेषण करें"
+
+#: languages/aioseo-lite.php:1321
+msgid "Block Bad Bots using HTTP"
+msgstr "HTTP के प्रयोग से खराब बॉट्स ब्लॉक करें।"
+
+#: languages/aioseo-lite.php:1349
+msgid "Block Referral Spam using HTTP"
+msgstr "HTTP के प्रयोग से रेफरल स्पैम ब्लॉक करें"
+
+#: languages/aioseo-lite.php:8366
+msgid "Use Custom Blocklists"
+msgstr "कस्टम ब्लॉकलिस्ट का प्रयोग करें"
+
+#: languages/aioseo-lite.php:3767
+msgid "Image SEO"
+msgstr "चित्र एसईओ"
+
+#. Translators: This is an action link users can click to purchase a license
+#. for All in One SEO Pro.
+#: app/Lite/Admin/Admin.php:51 app/Lite/Admin/Admin.php:80
+#: app/Lite/Main/Filters.php:76 languages/aioseo-lite.php:8293
+msgid "Upgrade to Pro"
+msgstr "प्रो में अपग्रेड करें"
+
+#. Translators: This is an action link users can click to open our general
+#. documentation page.
+#: app/Lite/Main/Filters.php:71
+msgid "Documentation"
+msgstr "दस्तावेज़ीकरण"
+
+#. Translators: This is an action link users can click to open the General
+#. Settings menu.
+#: app/Common/Admin/Admin.php:646 app/Lite/Main/Filters.php:61
+#: languages/aioseo-lite.php:6589
+msgid "SEO Settings"
+msgstr "एसईओ सेटिंग"
+
+#: languages/aioseo-lite.php:2862
+msgid "Facebook App ID"
+msgstr "फेसबुक ऐप आईडी"
+
+#: languages/aioseo-lite.php:2859
+msgid "Facebook Admin ID"
+msgstr "फेसबुक एडमिन आईडी"
+
+#: app/Common/Sitemap/Output.php:32
+msgid "dynamically"
+msgstr "गतिशील रूप से "
+
+#: languages/aioseo-lite.php:4313
+msgid "Last Modified"
+msgstr "अंतिम संशोधित"
+
+#: app/Common/Sitemap/Xsl.php:39 languages/aioseo-lite.php:638
+msgid "Additional Pages"
+msgstr "अतिरिक्त पेज"
+
+#: app/Common/Views/sitemap/html/widget-options.php:74
+#: languages/aioseo-lite.php:5723
+msgid "Post Types"
+msgstr "पोस्ट टाइप"
+
+#: languages/aioseo-lite.php:620
+msgid "Add URL"
+msgstr "URL जोड़ें"
+
+#: app/Common/Views/sitemap/html/widget-options.php:97
+#: languages/aioseo-lite.php:7085
+msgid "Taxonomies"
+msgstr "टैक्सोनॉमी"
+
+#: app/Common/SearchStatistics/IndexStatus.php:282
+msgid "All Post Types"
+msgstr "सभी पोस्ट प्रकार"
+
+#: languages/aioseo-lite.php:2656
+msgid "Enable Sitemap Indexes"
+msgstr "साइटमैप सूचकांकों को सक्षम करें"
+
+#: languages/aioseo-lite.php:5444
+msgid "Page URL"
+msgstr "पृष्ठ यूआरएल"
+
+#: app/Common/Tools/SystemStatus.php:74
+msgid "Site URL"
+msgstr "साइट की यू.आर.एल."
+
+#: app/Common/Tools/SystemStatus.php:82
+msgid "Multisite"
+msgstr "मल्टीसाइट"
+
+#: app/Common/Tools/SystemStatus.php:323 languages/aioseo-lite.php:532
+msgid "Active Theme"
+msgstr "सक्रिय थीम"
+
+#: languages/aioseo-lite.php:611
+msgid "Add Rule"
+msgstr "नियम जोड़ें"
+
+#: app/Common/Tools/SystemStatus.php:70
+msgid "Home URL"
+msgstr "होम यूआरएल"
+
+#. Translators: This is an action link users can click to open our premium
+#. support.
+#: app/Lite/Main/Filters.php:66 languages/aioseo-lite.php:7051
+msgid "Support"
+msgstr "सहायता"
+
+#: languages/aioseo-lite.php:3123
+msgid "Front Page"
+msgstr "मुख्य पृष्ठ"
+
+#: languages/aioseo-lite.php:1146
+msgid "Author"
+msgstr "लेखक"
+
+#: app/Common/EmailReports/Summary/Content.php:556
+#: app/Common/EmailReports/Summary/Content.php:582
+#: app/Common/Tools/SystemStatus.php:262 languages/aioseo-lite.php:4795
+msgid "N/A"
+msgstr "अनुपलब्ध"
+
+#: languages/aioseo-lite.php:7029
+msgid "Summary"
+msgstr "सारांश"
+
+#: languages/aioseo-lite.php:1380
+msgid "Blog"
+msgstr "ब्लॉग"
+
+#: languages/aioseo-lite.php:3797
+msgid "Import"
+msgstr "आयात"
+
+#: app/Common/Tools/SystemStatus.php:83 app/Common/Tools/SystemStatus.php:87
+#: app/Common/Tools/SystemStatus.php:298 app/Common/Tools/SystemStatus.php:302
+#: app/Common/Tools/SystemStatus.php:306 languages/aioseo-lite.php:8982
+msgid "Yes"
+msgstr "हाँ"
+
+#: app/Common/Tools/SystemStatus.php:83 app/Common/Tools/SystemStatus.php:87
+#: app/Common/Tools/SystemStatus.php:298 app/Common/Tools/SystemStatus.php:302
+#: app/Common/Tools/SystemStatus.php:306 languages/aioseo-lite.php:4905
+msgid "No"
+msgstr "नहीं"
+
+#: languages/aioseo-lite.php:3752
+msgid "Image"
+msgstr "छवि"
+
+#: app/Common/Utils/Tags.php:458 languages/aioseo-lite.php:2913
+msgid "Featured Image"
+msgstr "विशेष चित्र"
+
+#: languages/aioseo-lite.php:6986
+#: dist/Lite/assets/link-format/link-format-block.js:2
+msgid "Submit"
+msgstr "प्रस्तुत करें|"
+
+#: languages/aioseo-lite.php:8467
+msgid "User Agent"
+msgstr "प्रयोक्ता एजेंट"
+
+#: languages/aioseo-lite.php:8961
+msgid "XML Sitemap"
+msgstr "XML साइटमैप "
+
+#: languages/aioseo-lite.php:3945
+msgid "Include Author Archives in your sitemap."
+msgstr "अपने साइटमैप में लेखक आर्काइव शामिल करें।"
+
+#: app/Common/Tools/SystemStatus.php:50 languages/aioseo-lite.php:8511
+msgid "Version"
+msgstr "संस्करण "
+
+#: languages/aioseo-lite.php:6169
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: app/Common/SearchStatistics/IndexStatus.php:286
+#: app/Common/Views/report/summary.php:159
+#: app/Common/Views/report/summary.php:256
+#: app/Common/Views/report/summary.php:626
+#: app/Common/Views/report/summary.php:767 languages/aioseo-lite.php:5669
+msgid "Post"
+msgstr "पोस्ट "
+
+#: languages/aioseo-lite.php:538
+msgid "Activity"
+msgstr "गतिविधि "
+
+#: languages/aioseo-lite.php:6918
+msgid "Sport"
+msgstr "स्पोर्ट"
+
+#: languages/aioseo-lite.php:1264
+msgid "Bar"
+msgstr "बार"
+
+#: languages/aioseo-lite.php:4782
+msgid "Musician"
+msgstr "संगीतकार "
+
+#: languages/aioseo-lite.php:5639
+msgid "Politician"
+msgstr "राजनीतिज्ञ "
+
+#: languages/aioseo-lite.php:5849
+msgid "Public Figure"
+msgstr "पब्लिक फिगर"
+
+#: languages/aioseo-lite.php:1630
+msgid "City"
+msgstr "शहर "
+
+#: languages/aioseo-lite.php:1957
+msgid "Country"
+msgstr "देश "
+
+#: languages/aioseo-lite.php:4279
+msgid "Landmark"
+msgstr "लैंडमार्क"
+
+#: languages/aioseo-lite.php:1391
+msgid "Book"
+msgstr "किताब  "
+
+#: languages/aioseo-lite.php:2458
+msgid "Drink"
+msgstr "पेय   "
+
+#: languages/aioseo-lite.php:3043
+msgid "Food"
+msgstr "भोजन "
+
+#: languages/aioseo-lite.php:3144
+msgid "Game"
+msgstr "गेम"
+
+#: languages/aioseo-lite.php:4762
+msgid "Movie"
+msgstr "मूवी"
+
+#: app/Common/Main/Updates.php:1175 languages/aioseo-lite.php:5821
+msgid "Product"
+msgstr "उत्पाद "
+
+#: languages/aioseo-lite.php:5672
+msgid "Post Author Image"
+msgstr "पोस्ट ऑथर इमेज "
+
+#: languages/aioseo-lite.php:2965
+msgid "First Available Image"
+msgstr "पहला उपलब्ध इमेज "
+
+#: languages/aioseo-lite.php:1087
+msgid "Article Section"
+msgstr "आर्टिकल सेक्शन"
+
+#: languages/aioseo-lite.php:1090
+msgid "Article Tags"
+msgstr "आर्टिकल टैग्स "
+
+#: languages/aioseo-lite.php:5525
+msgid "Person"
+msgstr "व्यक्ति "
+
+#: languages/aioseo-lite.php:5340
+msgid "Organization"
+msgstr "संस्था"
+
+#: languages/aioseo-lite.php:7057
+msgid "System Status"
+msgstr "सिस्टम स्टेटस "
+
+#: app/Common/Tools/SystemStatus.php:174 app/Common/Tools/SystemStatus.php:178
+#: app/Common/Tools/SystemStatus.php:182 app/Common/Tools/SystemStatus.php:186
+#: app/Common/Tools/SystemStatus.php:190 app/Common/Tools/SystemStatus.php:194
+#: app/Common/Tools/SystemStatus.php:198 app/Common/Tools/SystemStatus.php:202
+#: app/Common/Tools/SystemStatus.php:206 app/Common/Tools/SystemStatus.php:210
+#: app/Common/Tools/SystemStatus.php:214 app/Common/Tools/SystemStatus.php:218
+#: app/Common/Tools/SystemStatus.php:222
+msgid "Not set"
+msgstr "सेट नहीं "
+
+#: languages/aioseo-lite.php:5191
+msgid "On"
+msgstr "ऑन"
+
+#: languages/aioseo-lite.php:5181
+msgid "Off"
+msgstr "ऑफ"
+
+#: app/Common/Tools/SystemStatus.php:273
+msgid "SQL Mode"
+msgstr "SQL मोड"
+
+#: app/Common/Tools/SystemStatus.php:277
+msgid "PHP Version"
+msgstr "PHP संस्करण "
+
+#: languages/aioseo-lite.php:8580
+msgid "View the Changelog"
+msgstr "चेंजलॉग देखें "
+
+#: languages/aioseo-lite.php:8620
+msgid "Watch video tutorials"
+msgstr "वीडियो ट्यूटोरियल देखें "
+
+#: languages/aioseo-lite.php:3373
+msgid "Google Analytics"
+msgstr "Google विश्लेषिकी   "
+
+#: languages/aioseo-lite.php:2834
+msgid "Export Settings"
+msgstr "सेटिंग्स एक्सपोर्ट करें "
+
+#: languages/aioseo-lite.php:1749
+msgid "Company"
+msgstr "कंपनी"
+
+#: languages/aioseo-lite.php:1502
+msgid "Cafe"
+msgstr "कैफे "
+
+#: languages/aioseo-lite.php:3649
+msgid "Hotel"
+msgstr "होटल "
+
+#: languages/aioseo-lite.php:6134
+msgid "Restaurant"
+msgstr "रेस्टोरेंट "
+
+#: languages/aioseo-lite.php:5511
+msgid "Performance"
+msgstr "प्रदर्शन "
+
+#: languages/aioseo-lite.php:8532
+msgid "Video Sitemap"
+msgstr "वीडियो साइटमैप "
+
+#: languages/aioseo-lite.php:2518
+msgid "Edit .htaccess"
+msgstr ".htaccess एडिट करें"
+
+#: languages/aioseo-lite.php:1549
+msgid "Cause"
+msgstr "कारण  "
+
+#: languages/aioseo-lite.php:6927
+msgid "Sports League"
+msgstr "स्पोर्ट्स    "
+
+#: languages/aioseo-lite.php:6930
+msgid "Sports Team"
+msgstr "स्पोर्ट्स टीम  "
+
+#: languages/aioseo-lite.php:8133
+msgid "University"
+msgstr "विश्वविद्यालय "
+
+#: languages/aioseo-lite.php:541
+msgid "Actor"
+msgstr "अभिनेता "
+
+#: languages/aioseo-lite.php:1127
+msgid "Athlete"
+msgstr "एथलीट "
+
+#: languages/aioseo-lite.php:2325
+msgid "Director"
+msgstr "निर्देशक "
+
+#: languages/aioseo-lite.php:6890
+msgid "Song"
+msgstr "गाना "
+
+#: app/Common/Main/Updates.php:1133 languages/aioseo-lite.php:1084
+msgid "Article"
+msgstr "आर्टिकल  "
+
+#: languages/aioseo-lite.php:1205
+msgid "Automatically Generate Article Tags"
+msgstr "स्वचालित रूप से आर्टिकल टैग्स जनरेट करें "
+
+#: languages/aioseo-lite.php:6782
+msgid "Site Name"
+msgstr "साइट का नाम "
+
+#: languages/aioseo-lite.php:707
+msgid "Advanced Settings"
+msgstr "उन्नत सेटिंग्स "
+
+#: languages/aioseo-lite.php:5170
+msgid "Object Type"
+msgstr "ऑब्जेक्ट टाइप "
+
+#: app/Common/Tools/SystemStatus.php:285
+msgid "PHP Max Upload Size"
+msgstr "PHP अधिकतम अपलोड साइज "
+
+#: languages/aioseo-lite.php:8726
+msgid "Website"
+msgstr "वेबसाइट "
+
+#: languages/aioseo-lite.php:828
+msgid "Allows you to specify the maximum number of posts in a sitemap (up to 50,000)."
+msgstr "आपको एक साइटमैप में पोस्ट की अधिकतम संख्या (50,000 तक) निर्दिष्ट करने की अनुमति देता है।"
+
+#: languages/aioseo-lite.php:6641
+msgid "Server"
+msgstr "सर्वर "
+
+#: app/Common/Tools/SystemStatus.php:253
+msgid "Operating System"
+msgstr "ऑपरेटिंग सिस्टम"
+
+#: languages/aioseo-lite.php:2761
+msgid "Episode"
+msgstr "एपिसोड"
+
+#: languages/aioseo-lite.php:8067
+msgid "TV Show"
+msgstr "टीवी शो"
+
+#: languages/aioseo-lite.php:748
+msgid "Album"
+msgstr "एल्बम"
+
+#: languages/aioseo-lite.php:5839
+msgid "Profile"
+msgstr "प्रोफाइल"
+
+#: languages/aioseo-lite.php:6288
+msgid "School"
+msgstr "स्कूल"
+
+#: languages/aioseo-lite.php:1261
+msgid "Band"
+msgstr "बैंड "
+
+#: languages/aioseo-lite.php:8251
+msgid "Update Options"
+msgstr "विकल्प अपडेट करें "
+
+#: languages/aioseo-lite.php:2856
+msgid "Facebook"
+msgstr "फेसबुक"
+
+#: languages/aioseo-lite.php:3292
+msgid "Getting started? Read the Beginners Guide"
+msgstr "शुरू कर रहे हैं? नए प्रयोगकर्ताओं के लिए गाइड पढ़ें"
+
+#: languages/aioseo-lite.php:3949
+msgid "Include Date Archives in your sitemap."
+msgstr "अपने साइटमैप में तिथि संग्रह शामिल करें।"
+
+#: languages/aioseo-lite.php:6484
+msgid "Select which Post Types appear in your sitemap."
+msgstr "चुनें कि आपके साइटमैप में कौन से पोस्ट प्रकार दिखाई देंगे।"
+
+#: app/Common/Tools/SystemStatus.php:289
+msgid "PHP Max Post Size"
+msgstr "PHP अधि पोस्ट आकार"
+
+#: languages/aioseo-lite.php:2044
+msgid "Custom Image"
+msgstr "कस्टम चित्र"
+
+#: app/Common/Tools/SystemStatus.php:281
+msgid "PHP Memory Limit"
+msgstr "PHP मेमोरी सीमा"
+
+#: app/Common/Admin/Admin.php:254 languages/aioseo-lite.php:2910
+msgid "Feature Manager"
+msgstr "विशेषता प्रबंधक"
+
+#: app/Common/Admin/Admin.php:628
+msgid "Edit SEO"
+msgstr "एसईओ संपादित करें "
+
+#: app/Common/Admin/Admin.php:448 app/Common/Admin/SiteHealth.php:91
+msgid "SEO"
+msgstr "एसईओ"
+
+#. Plugin Name of the plugin
+#: all_in_one_seo_pack.php
+msgid "All in One SEO"
+msgstr "All in One SEO"
+
+#: languages/aioseo-lite.php:1516
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: languages/aioseo-lite.php:6226
+msgid "Save"
+msgstr "सहेजें"
+
+#: languages/aioseo-lite.php:2515
+#: dist/Lite/assets/link-format/link-format-block.js:2
+msgid "Edit"
+msgstr "संपादित करें "
+
+#: app/Common/Admin/Admin.php:361
+#: app/Common/Views/sitemap/html/widget-options.php:13
+#: languages/aioseo-lite.php:7826
+msgid "Title"
+msgstr "शीर्षक"
+
+#: app/Common/Utils/Tags.php:453 languages/aioseo-lite.php:2287
+msgid "Description"
+msgstr "विवरण"
+
+#: languages/aioseo-lite.php:2671
+msgid "Enabled"
+msgstr "सक्षम "
+
+#: app/Common/Tools/SystemStatus.php:174 app/Common/Tools/SystemStatus.php:178
+#: app/Common/Tools/SystemStatus.php:182 app/Common/Tools/SystemStatus.php:186
+#: app/Common/Tools/SystemStatus.php:190 app/Common/Tools/SystemStatus.php:194
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: languages/aioseo-lite.php:2340
+msgid "Disabled"
+msgstr "अक्षम "
+
+#: languages/aioseo-lite.php:3635
+msgid "Home Page Settings"
+msgstr "होम पेज सेटिंग्स "
+
+#: languages/aioseo-lite.php:2397
+msgid "Display Settings"
+msgstr "डिस्प्ले सेटिंग्स   "
+
+#: languages/aioseo-lite.php:2290
+msgid "Description Format"
+msgstr "विवरण प्रारूप"
+
+#: languages/aioseo-lite.php:1559
+msgid "Check this if you want your categories for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "यदि आप दिए गए पोस्ट के लिए अपनी श्रेणियों को इस पोस्ट के लिए मेटा कीवर्ड्स के रूप में प्रयोग करना चाहते हैं तो इसे चेक करें (एडिट पोस्ट स्क्रीन पर आपके द्वारा निर्दिष्ट किये गए किसी भी कीवर्ड्स के अतिरिक्त)। "
+
+#: languages/aioseo-lite.php:1565
+msgid "Check this if you want your tags for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "यदि आप दिए गए पोस्ट के लिए अपने टैग्स को इस पोस्ट के लिए मेटा कीवर्ड्स के रूप में प्रयोग करना चाहते हैं तो इसे चेक करें (एडिट पोस्ट स्क्रीन पर आपके द्वारा निर्दिष्ट किये गए किसी भी कीवर्ड्स के अतिरिक्त)। "
+
+#: languages/aioseo-lite.php:7736
+msgid "This option allows you to toggle the use of Meta Keywords throughout the whole of the site."
+msgstr "यह विकल्प आपको सम्पूर्ण साइट में मेटा कीवर्ड्स के प्रयोग को टॉगल करने की अनुमति देता है।"
+
+#: languages/aioseo-lite.php:8470
+msgid "User Agent Blocklist"
+msgstr "यूजर एजेंट ब्लॉकलिस्ट"
+
+#: languages/aioseo-lite.php:6012
+msgid "Referer Blocklist"
+msgstr "रेफरर ब्लॉकलिस्ट"
+
+#: languages/aioseo-lite.php:8007
+msgid "Track Blocked Bots"
+msgstr "प्रतिबंधित बॉट्स ट्रैक करें"
+
+#: languages/aioseo-lite.php:1241
+msgid "Bad Bot Blocker"
+msgstr "बैड बॉट अवरोधक"
+
+#: app/Common/Admin/Admin.php:210 languages/aioseo-lite.php:3160
+msgid "General Settings"
+msgstr "सामान्य सेटिंग"
+
+#. Translators: 1 - The IP address. 2 - The user agent.
+#: app/Common/Tools/BadBotBlocker.php:228
+msgid "Blocked bot with IP %1$s -- matched user agent %2$s found in blocklist."
+msgstr "आईपी %1$s के साथ प्रतिबंधित बॉट -- ब्लॉकलिस्ट में मेल करता हुआ उपयोगकर्ता एजेंट %2$s मिला।"
+
+#. Translators: 1 - The IP address. 2 - The referer.
+#: app/Common/Tools/BadBotBlocker.php:237
+msgid "Blocked bot with IP %1$s -- matched referer %2$s found in blocklist."
+msgstr "आईपी %1$s के साथ प्रतिबंधित बॉट -- ब्लॉकलिस्ट में मेल करता हुआ रेफरर %2$s मिला। "

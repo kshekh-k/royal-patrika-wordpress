@@ -1,0 +1,40 @@
+16-11-2025 21:22:27 - INFO  - 9.0.7 - 64.5 MB/256 MB - royalpatrika_admin > Start upgrade from 9.0.7
+16-11-2025 21:22:27 - INFO  - 9.0.7 - 64.8 MB/256 MB - royalpatrika_admin > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+16-11-2025 21:22:27 - INFO  - 9.0.7 - 64.8 MB/256 MB - royalpatrika_admin > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+16-11-2025 21:22:27 - INFO  - 9.0.7 - 64.8 MB/256 MB - royalpatrika_admin > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+16-11-2025 21:22:27 - INFO  - 9.0.7 - 64.8 MB/256 MB - royalpatrika_admin > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+16-11-2025 21:22:27 - INFO  - 9.0.7 - 64.8 MB/256 MB - royalpatrika_admin > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+16-11-2025 21:22:27 - INFO  - 9.0.7 - 64.8 MB/256 MB - royalpatrika_admin > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+16-11-2025 21:22:27 - INFO  - 9.0.7 - 64.8 MB/256 MB - royalpatrika_admin > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+16-11-2025 21:22:27 - INFO  - 9.0.7 - 64.8 MB/256 MB - royalpatrika_admin > Deleting settings backup newsletter_backup_8.8.5
+16-11-2025 21:22:27 - INFO  - 9.0.7 - 64.8 MB/256 MB - royalpatrika_admin > Backing up options of 9.0.7
+16-11-2025 21:22:27 - INFO  - 9.0.7 - 64.9 MB/256 MB - royalpatrika_admin > End

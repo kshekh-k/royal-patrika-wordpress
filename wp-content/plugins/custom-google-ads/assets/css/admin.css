@@ -1,0 +1,18 @@
+.custom-google-ad {
+    margin: 30px 0;
+    text-align: center;
+    clear: both;
+}
+
+.custom-google-ad img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .custom-google-ad {
+        margin: 20px 0;
+    }
+}

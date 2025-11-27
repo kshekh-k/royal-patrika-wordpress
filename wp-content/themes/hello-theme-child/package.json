@@ -1,0 +1,16 @@
+{
+  "name": "roya-patrika",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "npx @tailwindcss/cli -i tailwind.css -o styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "swiper": "^12.0.3",
+    "tailwindcss": "^4.1.17"
+  }
+}

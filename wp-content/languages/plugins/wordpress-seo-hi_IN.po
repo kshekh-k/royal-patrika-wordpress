@@ -1,0 +1,3873 @@
+# Translation of Plugins - Yoast SEO &#8211; Advanced SEO with real-time guidance and built-in AI - Stable (latest release) in Hindi
+# This file is distributed under the same license as the Plugins - Yoast SEO &#8211; Advanced SEO with real-time guidance and built-in AI - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-10-18 08:48:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: hi_IN\n"
+"Project-Id-Version: Plugins - Yoast SEO &#8211; Advanced SEO with real-time guidance and built-in AI - Stable (latest release)\n"
+
+#: src/presenters/admin/sidebar-presenter.php:90 js/dist/general-page.js:8
+#: js/dist/new-settings.js:8 js/dist/support.js:7
+msgid "Buy now for 30% off"
+msgstr "अभी 30% छूट पर खरीदें"
+
+#: src/presenters/admin/sidebar-presenter.php:72 js/dist/general-page.js:6
+#: js/dist/new-settings.js:6 js/dist/support.js:5
+msgid "SEO that scales with your product catalog."
+msgstr "एसईओ जो आपके उत्पाद सूची के साथ बढ़ता है।"
+
+#. translators: 1: Link start tag to the WordPress Reading Settings page, 2:
+#. Link closing tag.
+#. translators: %1$s and %2$s are replaced by opening and closing <a> tags
+#: src/llms-txt/application/file/file-failure-notification-presenter.php:39
+#: js/dist/new-settings.js:40
+msgid "An existing llms.txt file wasn't created by Yoast or has been edited manually. Yoast won't overwrite it. %1$sDelete it manually%2$s or turn off this feature."
+msgstr "एक मौजूदा llms.txt फ़ाइल योस्ट द्वारा नहीं बनाई गई थी या उसे मैन्युअल रूप से संपादित किया गया है। योस्ट उसे अधिलेखित नहीं करेगा। %1$sउसे मैन्युअल रूप से हटाएँ%2$s या इस सुविधा को बंद कर दें।"
+
+#: inc/class-wpseo-admin-bar-menu.php:609
+#: src/plans/user-interface/upgrade-sidebar-menu-integration.php:110
+msgid "30% off - BF Sale"
+msgstr "30% छूट - ब्लैक फ्राइडे सेल"
+
+#: inc/class-wpseo-admin-bar-menu.php:602
+#: src/plans/user-interface/upgrade-sidebar-menu-integration.php:107
+msgid "Upgrade"
+msgstr "अपग्रेड"
+
+#. translators: %1$s is the plugin name, %2$s and %3$s are a link.
+#: inc/class-addon-manager.php:422
+msgid "Your %1$s plugin cannot be updated as your subscription has expired. %2$sRenew your product subscription%3$s to restore updates and full feature access."
+msgstr "आपकी सदस्यता समाप्त हो जाने के कारण आपके %1$s प्लगइन को अपडेट नहीं किया जा सकता। अपडेट और पूर्ण सुविधाओं तक पहुँच बहाल करने के लिए %2$sअपनी उत्पाद सदस्यता का नवीनीकरण करें%3$s।"
+
+#. translators: %1$s and %2$s are a <span> opening and closing tag.
+#: inc/class-addon-manager.php:413
+msgid "%1$s30%% OFF - Black Friday %2$s"
+msgstr "%1$s30%% छूट - ब्लैक फ्राइडे %2$s"
+
+#: admin/class-premium-upsell-admin-block.php:213 js/dist/general-page.js:10
+#: js/dist/new-settings.js:10
+msgid "Get 30% off now!"
+msgstr "अभी 30% छूट पाएं!"
+
+#: inc/class-my-yoast-api-request.php:161
+msgid "Not all needed fields are present."
+msgstr "सभी आवश्यक फ़ील्ड मौजूद नहीं हैं।"
+
+#: src/presenters/admin/sidebar-presenter.php:72 js/dist/general-page.js:6
+#: js/dist/new-settings.js:6 js/dist/support.js:5
+msgid "Now with Local, News & Video SEO + 1 Google Docs seat!"
+msgstr "अब स्थानीय, समाचार और वीडियो एसईओ + 1 गूगल डॉक्स सीट के साथ!"
+
+#: admin/class-premium-upsell-admin-block.php:155 js/dist/ai-consent.js:3
+#: js/dist/ai-generator.js:3 js/dist/block-editor.js:19
+#: js/dist/classic-editor.js:2 js/dist/editor-modules.js:117
+#: js/dist/elementor.js:3 js/dist/externals-components.js:128
+#: js/dist/general-page.js:6 js/dist/integrations-page.js:29
+#: js/dist/new-settings.js:6 js/dist/redirects.js:2 js/dist/support.js:5
+msgid "Make your articles visible, be seen in Google News"
+msgstr "अपने लेखों को दृश्यमान बनाएं, गूगल समाचार में दिखाई दें"
+
+#: admin/class-premium-upsell-admin-block.php:154 js/dist/ai-consent.js:3
+#: js/dist/ai-generator.js:3 js/dist/block-editor.js:19
+#: js/dist/classic-editor.js:2 js/dist/editor-modules.js:117
+#: js/dist/elementor.js:3 js/dist/externals-components.js:128
+#: js/dist/general-page.js:6 js/dist/integrations-page.js:29
+#: js/dist/new-settings.js:6 js/dist/redirects.js:2 js/dist/support.js:5
+msgid "Generate SEO optimized metadata in seconds with AI"
+msgstr "एआई की मदद से सेकंडों में एसईओ अनुकूलित मेटाडेटा उत्पन्न करें"
+
+#: admin/class-premium-upsell-admin-block.php:158 js/dist/ai-consent.js:3
+#: js/dist/ai-generator.js:3 js/dist/block-editor.js:19
+#: js/dist/classic-editor.js:2 js/dist/editor-modules.js:117
+#: js/dist/elementor.js:3 js/dist/externals-components.js:128
+#: js/dist/general-page.js:6 js/dist/integrations-page.js:29
+#: js/dist/new-settings.js:6 js/dist/redirects.js:2 js/dist/support.js:5
+msgid "Internal links and redirect management, easy"
+msgstr "आंतरिक लिंक और पुनर्निर्देशन प्रबंधन, आसान"
+
+#: admin/class-premium-upsell-admin-block.php:157 js/dist/ai-consent.js:3
+#: js/dist/ai-generator.js:3 js/dist/block-editor.js:19
+#: js/dist/classic-editor.js:2 js/dist/editor-modules.js:117
+#: js/dist/elementor.js:3 js/dist/externals-components.js:128
+#: js/dist/general-page.js:6 js/dist/integrations-page.js:29
+#: js/dist/new-settings.js:6 js/dist/redirects.js:2 js/dist/support.js:5
+msgid "Easy Local SEO. Show up in Google Maps results"
+msgstr "आसान स्थानीय एसईओ। गूगल मैप्स के नतीजों में दिखें"
+
+#: admin/class-premium-upsell-admin-block.php:163 js/dist/general-page.js:6
+#: js/dist/new-settings.js:6 js/dist/support.js:5
+msgid "Boost visibility for your products, from 10 or 10,000+"
+msgstr "अपने उत्पादों की दृश्यता 10 या 10,000+ तक बढ़ाएँ"
+
+#: admin/class-premium-upsell-admin-block.php:156 js/dist/ai-consent.js:3
+#: js/dist/ai-generator.js:3 js/dist/block-editor.js:19
+#: js/dist/classic-editor.js:2 js/dist/editor-modules.js:117
+#: js/dist/elementor.js:3 js/dist/externals-components.js:128
+#: js/dist/general-page.js:6 js/dist/integrations-page.js:29
+#: js/dist/new-settings.js:6 js/dist/redirects.js:2 js/dist/support.js:5
+msgid "Built to get found by search, AI, and real users"
+msgstr "खोज, एआई और वास्तविक उपयोगकर्ताओं द्वारा खोजे जाने के लिए बनाया गया"
+
+#: src/presenters/admin/sidebar-presenter.php:74 js/dist/ai-consent.js:2
+#: js/dist/ai-generator.js:2 js/dist/block-editor.js:18
+#: js/dist/classic-editor.js:1 js/dist/editor-modules.js:116
+#: js/dist/elementor.js:2 js/dist/externals-components.js:127
+#: js/dist/general-page.js:5 js/dist/integrations-page.js:28
+#: js/dist/new-settings.js:5 js/dist/redirects.js:1 js/dist/support.js:4
+msgid "AI tools included"
+msgstr "एआई उपकरण शामिल हैं"
+
+#: admin/class-premium-upsell-admin-block.php:159 js/dist/ai-consent.js:3
+#: js/dist/ai-generator.js:3 js/dist/block-editor.js:19
+#: js/dist/classic-editor.js:2 js/dist/editor-modules.js:117
+#: js/dist/elementor.js:3 js/dist/externals-components.js:128
+#: js/dist/general-page.js:6 js/dist/integrations-page.js:29
+#: js/dist/new-settings.js:6 js/dist/redirects.js:2 js/dist/support.js:5
+msgid "Access to friendly help when you need it, day or night"
+msgstr "दिन हो या रात, जब भी आपको आवश्यकता हो, मैत्रीपूर्ण सहायता तक पहुंच"
+
+#. translators: %1$s and %2$s expand to a span wrap to avoid linebreaks. %3$s
+#. expands to "Yoast SEO Premium".
+#: src/presenters/admin/sidebar-presenter.php:67 js/dist/general-page.js:7
+#: js/dist/general-page.js:8 js/dist/new-settings.js:7
+#: js/dist/new-settings.js:8 js/dist/support.js:6 js/dist/support.js:7
+msgid "%1$s%2$s %3$s"
+msgstr "%1$s%2$s %3$s"
+
+#. translators: %1$s expands to "Yoast SEO academy".
+#: src/presenters/admin/sidebar-presenter.php:77 js/dist/ai-consent.js:3
+#: js/dist/ai-generator.js:3 js/dist/block-editor.js:19
+#: js/dist/classic-editor.js:2 js/dist/editor-modules.js:117
+#: js/dist/elementor.js:3 js/dist/externals-components.js:128
+#: js/dist/general-page.js:6 js/dist/integrations-page.js:29
+#: js/dist/new-settings.js:6 js/dist/redirects.js:2 js/dist/support.js:5
+msgid "%1$s access"
+msgstr "%1$s एक्सेस"
+
+#: src/ai-consent/user-interface/ai-consent-integration.php:109
+msgid "AI features"
+msgstr "एआई विशेषताएं"
+
+#: admin/class-premium-upsell-admin-block.php:100 js/dist/general-page.js:12
+#: js/dist/new-settings.js:12 js/dist/plans.js:3 js/dist/plans.js:7
+msgid "Now includes:"
+msgstr "अब इसमें शामिल हैं:"
+
+#: src/llms-txt/application/file/file-failure-notification-presenter.php:46
+#: js/dist/new-settings.js:40
+msgid "You have activated the Yoast llms.txt feature, but we couldn't generate an llms.txt file. It looks like there aren't sufficient permissions on the web server's filesystem."
+msgstr "आपने योस्ट llms.txt सुविधा सक्रिय कर दी है, लेकिन हम llms.txt फ़ाइल जनरेट नहीं कर सके। ऐसा लगता है कि वेब सर्वर के फ़ाइल सिस्टम पर पर्याप्त अनुमतियाँ नहीं हैं।"
+
+#: src/plans/user-interface/plans-page-integration.php:130 js/dist/plans.js:8
+msgid "Plans"
+msgstr "योजनाओं"
+
+#. translators: 1,3,5: expand to opening paragraph tag, 2,4,6: expand to
+#. opening paragraph tag.
+#: src/llms-txt/user-interface/health-check/file-reports.php:64
+msgid "%1$sYou have activated the Yoast llms.txt feature, but we couldn't generate an llms.txt file.%2$s%3$sIt looks like there is an llms.txt file already that wasn't created by Yoast, or the llms.txt file created by Yoast has been edited manually.%4$s%5$sWe don't want to overwrite this file's content, so if you want to let Yoast keep auto-generating the llms.txt file, you can manually delete the existing one. Otherwise, consider disabling the Yoast feature.%6$s"
+msgstr "%1$sआपने योस्ट llms.txt सुविधा सक्रिय कर दी है, लेकिन हम llms.txt फ़ाइल नहीं बना पाए।%2$s %3$sऐसा लगता है कि पहले से ही एक llms.txt फ़ाइल है जो योस्ट द्वारा नहीं बनाई गई थी, या योस्ट द्वारा बनाई गई llms.txt फ़ाइल को मैन्युअल रूप से संपादित किया गया है।%4$s %5$sहम इस फ़ाइल की सामग्री को अधिलेखित नहीं करना चाहते हैं, इसलिए यदि आप चाहते हैं कि योस्ट llms.txt फ़ाइल को स्वचालित रूप से बनाता रहे, तो आप मौजूदा फ़ाइल को मैन्युअल रूप से हटा सकते हैं। अन्यथा, योस्ट सुविधा को अक्षम करने पर विचार करें।%6$s"
+
+#: src/llms-txt/application/file/file-failure-notification-presenter.php:49
+#: src/llms-txt/user-interface/health-check/file-reports.php:86
+msgid "You have activated the Yoast llms.txt feature, but we couldn't generate an llms.txt file, for unknown reasons."
+msgstr "आपने योस्ट llms.txt सुविधा सक्रिय कर दी है, लेकिन अज्ञात कारणों से हम llms.txt फ़ाइल नहीं बना सके।"
+
+#. translators: 1,3: expand to opening paragraph tag, 2,4: expand to opening
+#. paragraph tag.
+#: src/llms-txt/user-interface/health-check/file-reports.php:77
+msgid "%1$sYou have activated the Yoast llms.txt feature, but we couldn't generate an llms.txt file.%2$s%3$sIt looks like there aren't sufficient permissions on the web server's filesystem.%4$s"
+msgstr "%1$sआपने योस्ट llms.txt सुविधा सक्रिय कर दी है, लेकिन हम llms.txt फ़ाइल नहीं बना सके।%2$s %3$sऐसा लगता है कि वेब सर्वर के फ़ाइल सिस्टम पर पर्याप्त अनुमतियाँ नहीं हैं।%4$s"
+
+#: src/llms-txt/application/file/file-failure-notification-presenter.php:55
+#: src/llms-txt/user-interface/health-check/file-reports.php:61
+#: src/llms-txt/user-interface/health-check/file-reports.php:74
+#: src/llms-txt/user-interface/health-check/file-reports.php:85
+msgid "Your llms.txt file couldn't be auto-generated"
+msgstr "आपकी llms.txt फ़ाइल स्वतः जनरेट नहीं की जा सकी"
+
+#. translators: %s: Yoast SEO.
+#: src/llms-txt/user-interface/health-check/file-reports.php:40
+msgid "%s keeps your llms.txt file up-to-date. This helps LLMs access and provide your site's information more easily."
+msgstr "%s आपकी llms.txt फ़ाइल को अप-टू-डेट रखता है। इससे LLM को आपकी साइट की जानकारी तक पहुँचने और उसे अधिक आसानी से प्रदान करने में मदद मिलती है।"
+
+#. translators: %s: Yoast SEO.
+#: src/llms-txt/user-interface/health-check/file-reports.php:34
+msgid "Your llms.txt file is auto-generated by %s"
+msgstr "आपकी llms.txt फ़ाइल %s द्वारा स्वतः जनरेट की गई है"
+
+#: src/dashboard/user-interface/tracking/setup-steps-tracking-route.php:149
+msgid "No valid parameters were passed."
+msgstr "कोई वैध पैरामीटर पारित नहीं किया गया।"
+
+#: src/integrations/admin/link-count-columns-integration.php:147
+msgid "Number of internal links linking to this post."
+msgstr "इस पोस्ट से जुड़ने वाले आंतरिक लिंक की संख्या।"
+
+#: src/integrations/admin/link-count-columns-integration.php:139
+msgid "Number of outgoing internal links in this post."
+msgstr "इस पोस्ट में आउटगोइंग आंतरिक लिंक की संख्या।"
+
+#: inc/class-wpseo-rank.php:223 js/dist/externals/dashboardFrontend.js:4
+msgid "Not analyzed"
+msgstr "विश्लेषण नहीं किया गया"
+
+#. translators: %s: Yoast SEO.
+#: wp-seo-main.php:578
+msgid "%s activation failed"
+msgstr "%s का सक्रियकरण असफल हुआ"
+
+#. translators: %s: Yoast SEO.
+#: src/presenters/admin/migration-error-presenter.php:42
+msgid "%s is unable to create database tables"
+msgstr "%s डेटाबेस तालिकाएँ बनाने में असमर्थ है"
+
+#: src/presenters/admin/sidebar-presenter.php:93 js/dist/general-page.js:6
+#: js/dist/new-settings.js:6 js/dist/support.js:5
+msgid "Buy now"
+msgstr "अभी खरीदें"
+
+#: src/integrations/admin/check-required-version.php:115
+msgid "Required Yoast SEO version"
+msgstr "आवश्यक योस्ट एसईओ संस्करण"
+
+#: src/integrations/admin/check-required-version.php:91
+msgid "The package could not be installed because it's not supported by the currently installed Yoast SEO version."
+msgstr "पैकेज स्थापित नहीं किया जा सका क्योंकि यह वर्तमान में स्थापित योस्ट एसईओ संस्करण द्वारा समर्थित नहीं है।"
+
+#. translators: 1: Current Yoast SEO version, 2: Version required by the
+#. uploaded plugin.
+#: src/integrations/admin/check-required-version.php:84
+msgid "The Yoast SEO version on your site is %1$s, however the uploaded plugin requires %2$s."
+msgstr "आपकी साइट पर योस्ट एसईओ संस्करण %1$s है, हालाँकि अपलोड किए गए प्लगइन के लिए %2$s की आवश्यकता है।"
+
+#: src/user-meta/framework/custom-meta/noindex-author.php:108
+msgid "Do not allow search engines to show this author's archives in search results."
+msgstr "खोज इंजनों को इस लेखक के पुरालेखों को खोज परिणामों में दिखाने की अनुमति न दें।"
+
+#: admin/menu/class-base-menu.php:260 admin/menu/class-base-menu.php:264
+msgid "Upgrades"
+msgstr "अपग्रेड"
+
+#: blocks/dynamic-blocks/breadcrumbs/block.json
+msgctxt "block title"
+msgid "Yoast Breadcrumbs"
+msgstr "योस्ट ब्रेडक्रंब्स"
+
+#: blocks/dynamic-blocks/breadcrumbs/block.json
+msgctxt "block keyword"
+msgid "site structure"
+msgstr "साइट संरचना"
+
+#: blocks/dynamic-blocks/breadcrumbs/block.json
+msgctxt "block keyword"
+msgid "internal linking"
+msgstr "आंतरिक लिंकिंग"
+
+#: blocks/dynamic-blocks/breadcrumbs/block.json
+msgctxt "block keyword"
+msgid "breadcrumbs"
+msgstr "ब्रेडक्रंब"
+
+#: blocks/dynamic-blocks/breadcrumbs/block.json
+msgctxt "block description"
+msgid "Adds the Yoast SEO breadcrumbs to your template or content."
+msgstr "आपके टेम्पलेट या सामग्री में योस्ट एसईओ ब्रेडक्रंब जोड़ता है।"
+
+#: blocks/structured-data-blocks/faq/block.json
+msgctxt "block title"
+msgid "Yoast FAQ"
+msgstr "योस्ट अक्सर पूछे जाने वाले प्रश्न"
+
+#: blocks/structured-data-blocks/how-to/block.json
+msgctxt "block title"
+msgid "Yoast How-to"
+msgstr "योस्ट कैसे करें"
+
+#: blocks/structured-data-blocks/faq/block.json
+msgctxt "block description"
+msgid "List your Frequently Asked Questions in an SEO-friendly way."
+msgstr "अपने अक्सर पूछे जाने वाले प्रश्नों को एसईओ-अनुकूल तरीके से सूचीबद्ध करें।"
+
+#: blocks/structured-data-blocks/faq/block.json
+#: blocks/structured-data-blocks/how-to/block.json
+msgctxt "block keyword"
+msgid "Schema"
+msgstr "स्कीमा"
+
+#: blocks/dynamic-blocks/breadcrumbs/block.json
+#: blocks/structured-data-blocks/faq/block.json
+#: blocks/structured-data-blocks/how-to/block.json
+msgctxt "block keyword"
+msgid "SEO"
+msgstr "एसईओ"
+
+#: blocks/structured-data-blocks/faq/block.json
+#: blocks/structured-data-blocks/how-to/block.json
+msgctxt "block keyword"
+msgid "Structured Data"
+msgstr "संरचित डेटा"
+
+#: blocks/structured-data-blocks/faq/block.json
+msgctxt "block keyword"
+msgid "FAQ"
+msgstr "सामान्य प्रश्न"
+
+#: blocks/structured-data-blocks/faq/block.json
+msgctxt "block keyword"
+msgid "Frequently Asked Questions"
+msgstr "अक्सर पूछे जाने वाले प्रश्नों"
+
+#: blocks/structured-data-blocks/how-to/block.json
+msgctxt "block keyword"
+msgid "How to"
+msgstr "कैसे"
+
+#: blocks/structured-data-blocks/how-to/block.json
+msgctxt "block keyword"
+msgid "How-to"
+msgstr "कैसे"
+
+#: admin/class-admin.php:315
+#: src/user-meta/framework/additional-contactmethods/x.php:28
+msgid "X username (without @)"
+msgstr "X उपयोक्तानाम (बिना @ के)"
+
+#: src/presenters/admin/sidebar-presenter.php:101
+msgid "30-day money back guarantee."
+msgstr "30 - दिन की पैसे वापस करने की गारंटी।"
+
+#. translators: 1: PHP class name, 2: PHP variable name
+#: inc/class-yoast-dynamic-rewrites.php:67
+msgid "The %1$s class must not be instantiated before the %2$s global is set."
+msgstr "%2$s ग्लोबल सेट होने से पहले %1$s क्लास को इंस्टेंटियेट नहीं किया जाना चाहिए।"
+
+#. translators: %s expands to Yoast WooCommerce SEO
+#. translators: %s expands to Yoast SEO Premium
+#. translators: %s expands to "Yoast WooCommerce SEO"
+#. translators: %s expands to "Yoast SEO" Premium
+#: admin/class-premium-upsell-admin-block.php:219
+#: admin/class-premium-upsell-admin-block.php:221 js/dist/general-page.js:9
+#: js/dist/general-page.js:10 js/dist/new-settings.js:9
+#: js/dist/new-settings.js:10
+msgid "Explore %s now!"
+msgstr "अभी %s का अन्वेषण करें!"
+
+#: admin/watchers/class-slug-change-watcher.php:68
+msgid "Search engines and other websites can still send traffic to your trashed content."
+msgstr "खोज इंजन और अन्य वेबसाइटें अभी भी आपकी ट्रैश की गई सामग्री पर ट्रैफ़िक भेज सकती हैं।"
+
+#. translators: 1: Yoast SEO, 2: Link start tag to the Learn more link, 3: Link
+#. closing tag.
+#: src/presenters/admin/woocommerce-beta-editor-presenter.php:53
+msgid "The %1$s interface is currently unavailable in the beta WooCommerce product editor. To resolve any issues, please disable the beta editor. %2$sLearn how to disable the beta WooCommerce product editor.%3$s"
+msgstr "%1$s इंटरफ़ेस वर्तमान में बीटा वूकॉमर्स उत्पाद संपादक में उपलब्ध नहीं है। किसी भी समस्या के समाधान के लिए कृपया बीटा संपादक को अक्षम करें। %2$sबीटा वूकॉमर्स उत्पाद संपादक को अक्षम करने का तरीका जानें।%3$s"
+
+#: src/presenters/admin/woocommerce-beta-editor-presenter.php:50
+msgid "Compatibility issue: Yoast SEO is incompatible with the beta WooCommerce product editor."
+msgstr "संगतता समस्या: योस्ट एसईओ बीटा वूकॉमर्स उत्पाद संपादक के साथ असंगत है।"
+
+#: admin/class-premium-upsell-admin-block.php:89 js/dist/block-editor.js:476
+#: js/dist/classic-editor.js:459 js/dist/elementor.js:5
+#: js/dist/general-page.js:10 js/dist/new-settings.js:10
+msgid "BLACK FRIDAY"
+msgstr "ब्लैक फ्राइडे"
+
+#: admin/class-premium-upsell-admin-block.php:90
+#: admin/menu/class-base-menu.php:264 js/dist/block-editor.js:476
+#: js/dist/classic-editor.js:459 js/dist/elementor.js:5
+#: js/dist/general-page.js:10 js/dist/new-settings.js:10
+msgid "30% OFF"
+msgstr "30% छूट"
+
+#: admin/views/class-yoast-feature-toggles.php:206 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:323
+msgid "AI title & description generator"
+msgstr "एआई शीर्षक और विवरण जनरेटर"
+
+#: admin/views/class-yoast-feature-toggles.php:209
+msgid "Use the power of Yoast AI to automatically generate compelling titles and descriptions for your posts and pages."
+msgstr "अपने पोस्ट और पृष्ठों के लिए स्वचालित रूप से सम्मोहक शीर्षक और विवरण उत्पन्न करने के लिए योस्ट एआई की शक्ति का उपयोग करें।"
+
+#. translators: %s expands to a unit of time (e.g. 1 day).
+#. translators: %1$s, %2$s and %3$s expand to units of time (e.g. 1 day).
+#: src/integrations/blocks/structured-data-blocks.php:178
+#: js/dist/how-to-block.js:10 js/dist/how-to-block.js:16
+msgid "%1$s, %2$s and %3$s"
+msgstr "%1$s, %2$s और %3$s"
+
+#. translators: %s expands to a unit of time (e.g. 1 day).
+#. translators: %1$s and %2$s expand to units of time (e.g. 1 day).
+#: src/integrations/blocks/structured-data-blocks.php:172
+#: js/dist/how-to-block.js:9 js/dist/how-to-block.js:15
+msgid "%1$s and %2$s"
+msgstr "%1$s और %2$s"
+
+#. translators: 1: Opening tag of the link to the Search appearance settings
+#. page, 2: Link closing tag.
+#: src/content-type-visibility/application/content-type-visibility-watcher-actions.php:157
+msgid "You've added a new type of content. We recommend that you review the corresponding %1$sSearch appearance settings%2$s."
+msgstr "आपने एक नई प्रकार की सामग्री जोड़ी है. हम अनुशंसा करते हैं कि आप संबंधित %1$sखोज उपस्थिति सेटिंग्स%2$s की समीक्षा करें।"
+
+#: src/content-type-visibility/application/content-type-visibility-dismiss-notifications.php:66
+msgid "Taxonomy is not new."
+msgstr "टेक्सोनोमी कोई नई बात नहीं है।"
+
+#: src/content-type-visibility/application/content-type-visibility-dismiss-notifications.php:73
+msgid "Taxonomy is no longer new."
+msgstr "टेक्सोनोमी अब कोई नई बात नहीं है।"
+
+#: src/content-type-visibility/application/content-type-visibility-dismiss-notifications.php:37
+msgid "Post type is not new."
+msgstr "पोस्ट का प्रकार नया नहीं है।"
+
+#: src/content-type-visibility/application/content-type-visibility-dismiss-notifications.php:43
+msgid "Post type is no longer new."
+msgstr "पोस्ट प्रकार अब नया नहीं है।"
+
+#: src/content-type-visibility/application/content-type-visibility-dismiss-notifications.php:73
+msgid "Error: Taxonomy was not removed from new_taxonomies list."
+msgstr "त्रुटि: टैक्सोनॉमी को new_taxonomies सूची से नहीं हटाया गया था।"
+
+#: src/content-type-visibility/application/content-type-visibility-dismiss-notifications.php:43
+msgid "Error: Post type was not removed from new_post_types list."
+msgstr "त्रुटि: पोस्ट प्रकार को new_post_types सूची से नहीं हटाया गया।"
+
+#: src/integrations/support-integration.php:130 js/dist/support.js:8
+msgid "Support"
+msgstr "समर्थन"
+
+#: src/integrations/admin/crawl-settings-integration.php:163
+#: js/dist/new-settings.js:29 js/dist/new-settings.js:175
+msgid "Prevent Google AdsBot from crawling"
+msgstr "गूगल एड्सबोट को क्रॉल होने से रोकें"
+
+#: src/commands/index-command.php:174
+msgid "Your WordPress environment is running on a non-production site. Indexables can only be created on production environments. Please check your `WP_ENVIRONMENT_TYPE` settings."
+msgstr "आपका वर्डप्रेस वातावरण एक गैर-उत्पादन साइट पर चल रहा है। इंडेक्सेबल्स केवल उत्पादन परिवेश पर ही बनाए जा सकते हैं। कृपया अपनी `WP_ENVIRONMENT_TYPE` सेटिंग जांचें।"
+
+#. translators: %s expands to the inclusive language score
+#: inc/class-wpseo-rank.php:239 inc/class-wpseo-rank.php:244
+#: inc/class-wpseo-rank.php:249
+msgid "Inclusive language: %s"
+msgstr "समावेशी भाषा: %s"
+
+#: src/integrations/admin/background-indexing-integration.php:186
+msgid "Every fifteen minutes"
+msgstr "हर पंद्रह मिनट में"
+
+#. translators: %1$s expands to Yoast SEO, %2$s to Wincher
+#: admin/class-wincher-dashboard-widget.php:58
+msgid "%1$s / %2$s: Top Keyphrases"
+msgstr "%1$s / %2$s: शीर्ष कीफ्रेज"
+
+#. translators: %s: expands to the post type
+#: src/exceptions/indexable/post-type-not-built-exception.php:20
+msgid "The post type %s could not be indexed because it does not meet indexing requirements."
+msgstr "पोस्ट प्रकार %s को अनुक्रमित नहीं किया जा सका क्योंकि यह अनुक्रमण आवश्यकताओं को पूरा नहीं करता।"
+
+#: src/integrations/academy-integration.php:111 js/dist/academy.js:2
+msgid "Academy"
+msgstr "अकादमी"
+
+#. translators: %1$s expands to a strong tag, %2$s expands to the product name,
+#. %3$s expands to a closing strong tag, %4$s expands to an a tag. %5$s expands
+#. to MyYoast, %6$s expands to a closing a tag,  %7$s expands to the product
+#. name
+#: inc/class-addon-manager.php:534
+msgid "%1$s %2$s isn't working as expected %3$s and you are not receiving updates or support! Make sure to %4$s activate your product subscription in %5$s%6$s to unlock all the features of %7$s."
+msgstr "%1$s %2$s अपेक्षा के अनुरूप काम नहीं कर रहा है %3$s और आपको अपडेट या समर्थन नहीं मिल रहा है! %7$s की सभी सुविधाओं को अनलॉक करने के लिए %4$s को %5$s%6$s में अपने उत्पाद सदस्यता को सक्रिय करना सुनिश्चित करें।"
+
+#. translators: %1$s: Yoast SEO
+#: src/initializers/crawl-cleanup-permalinks.php:144
+msgid "%1$s: redirect utm variables to #"
+msgstr "%1$s: यूटीएम वैरिएबल को # पर रीडायरेक्ट करें"
+
+#. translators: %1$s: Yoast SEO
+#: src/helpers/crawl-cleanup-helper.php:271
+msgid "%1$s: unregistered URL parameter removed. See %2$s"
+msgstr "%1$s: अपंजीकृत यूआरएल पैरामीटर निकाला गया। %2$s देखें"
+
+#. translators: 1: Link start tag to the Permalinks settings page, 2: Link
+#. closing tag.
+#: src/integrations/admin/crawl-settings-integration.php:286
+msgid "This feature is disabled when your site is not using %1$spretty permalinks%2$s."
+msgstr "जब आपकी साइट %1$spretty permalinks%2$s का उपयोग नहीं कर रही हो तो यह सुविधा अक्षम हो जाती है।"
+
+#: src/integrations/admin/crawl-settings-integration.php:292
+msgid "This feature is disabled when your site is not using pretty permalinks."
+msgstr "जब आपकी साइट सुंदर परमालिंक का उपयोग नहीं कर रही हो तो यह सुविधा अक्षम हो जाती है।"
+
+#: src/presenters/admin/indexing-notification-presenter.php:93
+msgid "It looks like you've enabled media pages. We recommend that you help us to re-analyze your site by running the SEO data optimization."
+msgstr "ऐसा लगता है कि आपने मीडिया पेजों को सक्षम कर दिया है। हम अनुशंसा करते हैं कि आप एसईओ डेटा ऑप्टिमाइज़ेशन चलाकर अपनी साइट का पुनर्विश्लेषण करने में हमारी सहायता करें।"
+
+#. translators: CTA to finish the first time configuration. %s: Either
+#. first-time SEO configuration or SEO configuration.
+#: admin/class-admin.php:235
+msgid "Finish your %s"
+msgstr "अपना %s समाप्त करें"
+
+#: inc/class-wpseo-rank.php:156 inc/class-wpseo-rank.php:245
+#: js/dist/block-editor.js:476 js/dist/editor-modules.js:115
+#: js/dist/editor-modules.js:369 js/dist/elementor.js:6
+#: js/dist/externals-components.js:122 js/dist/externals-components.js:421
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:1
+#: js/dist/term-edit.js:1
+msgid "Potentially non-inclusive"
+msgstr "संभावित रूप से गैर समावेशी"
+
+#: inc/class-wpseo-admin-bar-menu.php:231
+msgid "not set"
+msgstr "सेट नहीं"
+
+#: inc/class-wpseo-admin-bar-menu.php:237
+msgid "Focus keyphrase: "
+msgstr "फोकस कीफ्रेज: "
+
+#: inc/class-wpseo-admin-bar-menu.php:472
+msgid "SEO Tools"
+msgstr "एसईओ उपकरण"
+
+#: inc/class-wpseo-admin-bar-menu.php:517
+#: inc/class-wpseo-admin-bar-menu.php:576
+msgid "Learn more SEO"
+msgstr "अधिक एसईओ जानें"
+
+#: inc/class-wpseo-admin-bar-menu.php:522
+msgid "Improve your blog post"
+msgstr "अपने ब्लॉग पोस्ट में सुधार करें"
+
+#: inc/class-wpseo-admin-bar-menu.php:527
+msgid "Write better content"
+msgstr "बेहतर सामग्री लिखें"
+
+#: inc/class-wpseo-admin-bar-menu.php:546
+msgid "Help"
+msgstr "मदद"
+
+#: inc/class-wpseo-admin-bar-menu.php:561
+msgid "Yoast.com help section"
+msgstr "Yoast.com सहायता अनुभाग"
+
+#: inc/class-wpseo-admin-bar-menu.php:566
+msgid "Yoast Premium support"
+msgstr "योस्ट प्रीमियम समर्थन"
+
+#: inc/class-wpseo-admin-bar-menu.php:571
+msgid "WordPress.org support forums"
+msgstr "WordPress.org सपोर्ट फ़ोरम"
+
+#: src/commands/cleanup-command.php:81
+msgid "The value for 'interval' must be a positive integer."
+msgstr "'अंतराल' का मान धनात्मक पूर्णांक होना चाहिए।"
+
+#: src/commands/cleanup-command.php:84
+msgid "The value for 'batch-size' must be a positive integer higher than equal to 1."
+msgstr "'बैच-आकार' के लिए मान 1 के बराबर से अधिक धनात्मक पूर्णांक होना चाहिए।"
+
+#. translators: %1$d is the number of records that are removed.
+#: src/commands/cleanup-command.php:97
+msgid "Cleaned up %1$d record."
+msgid_plural "Cleaned up %1$d records."
+msgstr[0] "%1$d रिकॉर्ड साफ़ किया गया।"
+msgstr[1] "%1$d रिकॉर्ड साफ़ किए गए।"
+
+#. translators: %1$s is the site url of the site that is skipped. %2$s is Yoast
+#. SEO.
+#: src/commands/cleanup-command.php:146
+msgid "Skipping %1$s. %2$s is not active on this site."
+msgstr "%1$s छोड़ा जा रहा है। %2$s इस साइट पर सक्रिय नहीं है।"
+
+#. translators: %1$s is the site url of the site that is cleaned up. %2$s is
+#. the name of the cleanup task that is currently running.
+#: src/commands/cleanup-command.php:159
+msgid "Cleaning up %1$s [%2$s]"
+msgstr "%1$s [%2$s] की सफ़ाई की जा रही है"
+
+#. translators: %1$d is the number of records that were removed. %2$s is the
+#. site url.
+#: src/commands/cleanup-command.php:183
+msgid "Cleaned up %1$d record from %2$s."
+msgid_plural "Cleaned up %1$d records from %2$s."
+msgstr[0] "%2$s से %1$d रिकॉर्ड साफ़ किया गया।"
+msgstr[1] "%2$s से %1$d रिकॉर्ड साफ़ किए गए।"
+
+#. translators: %s: expands to the post id
+#: src/exceptions/indexable/post-not-built-exception.php:20
+msgid "The post %s could not be indexed because it does not meet indexing requirements."
+msgstr "पोस्ट %s को अनुक्रमित नहीं किया जा सका क्योंकि यह अनुक्रमण आवश्यकताओं को पूरा नहीं करता।"
+
+#. translators: %s: expands to the post id
+#: src/exceptions/indexable/post-not-built-exception.php:32
+msgid "The post %s could not be indexed because it's post type is excluded from indexing."
+msgstr "पोस्ट %s को अनुक्रमित नहीं किया जा सका क्योंकि इसके पोस्ट प्रकार को अनुक्रमण से बाहर रखा गया है।"
+
+#. translators: %s: expands to the term id
+#: src/exceptions/indexable/term-not-built-exception.php:20
+msgid "The term %s could not be built because it's not indexable."
+msgstr "शब्द %s नहीं बनाया जा सका क्योंकि यह अनुक्रमणीय नहीं है।"
+
+#: src/presenters/admin/indexing-notification-presenter.php:87
+msgid "We need to re-analyze some of your SEO data because of a change in the visibility of your post types. Please help us do that by running the SEO data optimization."
+msgstr "आपके पोस्ट प्रकारों की दृश्यता में परिवर्तन के कारण हमें आपके कुछ एसईओ डेटा का पुनः विश्लेषण करने की आवश्यकता है। कृपया एसईओ डेटा ऑप्टिमाइज़ेशन चलाकर ऐसा करने में हमारी सहायता करें।"
+
+#: src/presenters/admin/indexing-notification-presenter.php:90
+msgid "We need to re-analyze some of your SEO data because of a change in the visibility of your taxonomies. Please help us do that by running the SEO data optimization."
+msgstr "आपकी टैक्सोनॉमीज़ की दृश्यता में बदलाव के कारण हमें आपके कुछ एसईओ डेटा का फिर से विश्लेषण करने की आवश्यकता है। कृपया एसईओ डेटा ऑप्टिमाइज़ेशन चलाकर ऐसा करने में हमारी सहायता करें।"
+
+#: src/presenters/admin/sidebar-presenter.php:21 js/dist/block-editor.js:227
+#: js/dist/classic-editor.js:210 js/dist/editor-modules.js:111
+#: js/dist/elementor.js:3 js/dist/externals-components.js:118
+#: js/dist/general-page.js:8 js/dist/new-settings.js:8 js/dist/support.js:7
+msgid "BLACK FRIDAY | 30% OFF"
+msgstr "ब्लैक फ्राइडे - 30% की छूट"
+
+#: admin/views/class-yoast-feature-toggles.php:210 js/dist/general-page.js:13
+#: js/dist/general-page.js:25 js/dist/integrations-page.js:3
+#: js/dist/integrations-page.js:6 js/dist/integrations-page.js:18
+#: js/dist/integrations-page.js:29 js/dist/new-settings.js:323
+#: js/dist/plans.js:2 js/dist/plans.js:7 js/dist/post-edit.js:4
+msgid "Learn more"
+msgstr "और अधिक जानें"
+
+#: src/integrations/admin/crawl-settings-integration.php:157
+msgid "Redirect pretty URLs for search pages to raw format"
+msgstr "खोज पृष्ठों के लिए कच्चे प्रारूप में सुंदर यूआरएल पुनर्निर्देशित करें"
+
+#. Translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Yoast SEO page of the Permalink Cleanup features, %2$s expands to a closing
+#. anchor tag.
+#: src/integrations/admin/crawl-settings-integration.php:204
+msgid "These are expert features, so make sure you know what you're doing before removing the parameters. %1$sRead more about how your site can be affected%2$s."
+msgstr "ये विशेषज्ञ विशेषताएं हैं, इसलिए मापदंडों को हटाने से पहले सुनिश्चित करें कि आप जानते हैं कि आप क्या कर रहे हैं। %1$sइस बारे में और पढ़ें कि आपकी साइट कैसे प्रभावित हो सकती है%2$s।"
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to the name of the
+#. class that could not be found.
+#: src/loader.php:258
+msgid "%1$s attempted to load the class %2$s but it could not be found."
+msgstr "%1$s ने %2$s क्लास को लोड करने का प्रयास किया लेकिन यह नहीं मिला।"
+
+#: src/integrations/admin/crawl-settings-integration.php:156
+msgid "Prevent search engines from crawling site search URLs"
+msgstr "खोज इंजन को साइट खोज यूआरएल क्रॉल करने से रोकें"
+
+#: src/integrations/admin/crawl-settings-integration.php:162
+msgid "Prevent search engines from crawling /wp-json/"
+msgstr "खोज इंजन को क्रॉल करने से रोकें /wp-json/"
+
+#: src/integrations/admin/crawl-settings-integration.php:189
+#: js/dist/new-settings.js:175
+msgid "Remove unused resources"
+msgstr "अप्रयुक्त संसाधनों को हटा दें"
+
+#: admin/views/class-yoast-feature-toggles.php:94
+msgid "The inclusive language analysis offers suggestions to write more inclusive copy."
+msgstr "समावेशी भाषा विश्लेषण अधिक समावेशी प्रतिलिपि लिखने के लिए सुझाव प्रदान करता है।"
+
+#: admin/views/class-yoast-feature-toggles.php:91 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:323
+msgid "Inclusive language analysis"
+msgstr "समावेशी भाषा विश्लेषण"
+
+#: admin/metabox/class-metabox-section-inclusive-language.php:30
+#: js/dist/externals-components.js:423
+msgid "Inclusive language"
+msgstr "समावेशी भाषा"
+
+#: admin/views/class-yoast-feature-toggles.php:95
+msgid "Discover why inclusive language is important for SEO."
+msgstr "डिस्कवर करें कि एसईओ के लिए समावेशी भाषा क्यों महत्वपूर्ण है।"
+
+#: src/user-meta/framework/custom-meta/inclusive-language-analysis-disable.php:109
+msgid "Disable inclusive language analysis"
+msgstr "समावेशी भाषा विश्लेषण अक्षम करें"
+
+#: src/user-meta/framework/custom-meta/inclusive-language-analysis-disable.php:115
+msgid "Removes the inclusive language analysis section from the metabox and disables all inclusive language-related suggestions."
+msgstr "मेटाबॉक्स से समावेशी भाषा विश्लेषण अनुभाग को हटाता है और सभी समावेशी भाषा-संबंधी सुझावों को अक्षम करता है।"
+
+#. translators: Hidden accessibility text.
+#: src/alerts/application/ping-other-admins/ping-other-admins-alert.php:185
+#: js/dist/ai-generator.js:258 js/dist/block-editor.js:476
+#: js/dist/classic-editor.js:459 js/dist/editor-modules.js:365
+#: js/dist/elementor.js:5 js/dist/externals-components.js:376
+#: js/dist/externals/aiFrontend.js:229 js/dist/general-page.js:27
+#: js/dist/general-page.js:48 js/dist/new-settings.js:17
+#: js/dist/new-settings.js:40
+msgid "Dismiss"
+msgstr "खारिज"
+
+#: inc/class-wpseo-admin-bar-menu.php:270
+msgid "Front-end SEO inspector"
+msgstr "फ्रंट-एंड एसईओ इंस्पेक्टर"
+
+#: admin/class-yoast-form.php:933
+msgid "Unlock with Premium!"
+msgstr "प्रीमियम के साथ अनलॉक करें!"
+
+#. translators: 1: Yoast SEO Premium 2: Link start tag to activate premium, 3:
+#. Link closing tag.
+#: src/integrations/admin/deactivated-premium-integration.php:86
+msgid "You've installed %1$s but it's not activated yet. %2$sActivate %1$s now!%3$s"
+msgstr "आपने %1$s स्थापित किया है लेकिन यह अभी तक सक्रिय नहीं हुआ है। %2$sअभी %1$s सक्रिय करें!%3$s"
+
+#: src/integrations/admin/crawl-settings-integration.php:149
+msgid "Unregistered URL parameters"
+msgstr "अपंजीकृत यूआरएल पैरामीटर"
+
+#: src/integrations/admin/crawl-settings-integration.php:198
+msgid "Search cleanup settings"
+msgstr "क्लीनअप सेटिंग खोजें"
+
+#: src/integrations/admin/crawl-settings-integration.php:212
+msgid "Permalink cleanup settings"
+msgstr "पर्मालिंक क्लीनअप सेटिंग्स"
+
+#: admin/views/class-yoast-feature-toggles.php:195 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:327
+msgid "IndexNow"
+msgstr "IndexNow"
+
+#: admin/views/class-yoast-feature-toggles.php:199
+msgid "Find out how IndexNow can help your site."
+msgstr "पता लगाएँ कि कैसे IndexNow आपकी साइट की मदद कर सकता है।"
+
+#: src/integrations/admin/crawl-settings-integration.php:154
+#: js/dist/new-settings.js:29 js/dist/new-settings.js:176
+msgid "Filter searches with emojis and other special characters"
+msgstr "इमोजी और अन्य विशेष वर्णों के साथ खोजों को फ़िल्टर करें"
+
+#: src/integrations/admin/crawl-settings-integration.php:155
+#: js/dist/new-settings.js:29 js/dist/new-settings.js:176
+msgid "Filter searches with common spam patterns"
+msgstr "खोजों को सामान्य स्पैम पैटर्न के साथ फ़िल्टर करें"
+
+#: src/integrations/admin/crawl-settings-integration.php:153
+#: js/dist/new-settings.js:29 js/dist/new-settings.js:176
+msgid "Filter search terms"
+msgstr "खोज शब्दों को फ़िल्टर करें"
+
+#: src/integrations/admin/crawl-settings-integration.php:148
+msgid "Campaign tracking URL parameters"
+msgstr "अभियान ट्रैकिंग यूआरएल पैरामीटर"
+
+#: admin/views/class-yoast-feature-toggles.php:198 js/dist/new-settings.js:327
+msgid "Automatically ping search engines like Bing and Yandex whenever you publish, update or delete a post."
+msgstr "जब भी आप किसी पोस्ट को प्रकाशित, अपडेट या डिलीट करते हैं तो स्वचालित रूप से बिंग और यांडेक्स जैसे सर्च इंजन को पिंग करते हैं।"
+
+#. translators: 1: Yoast SEO Premium
+#: src/integrations/admin/deactivated-premium-integration.php:99
+msgid "Activate %1$s!"
+msgstr "%1$s सक्रिय करें!"
+
+#: src/integrations/admin/crawl-settings-integration.php:125
+msgid "Global feed"
+msgstr "वैश्विक फ़ीड"
+
+#: src/integrations/admin/crawl-settings-integration.php:126
+msgid "Global comment feeds"
+msgstr "वैश्विक टिप्पणी फ़ीड"
+
+#: src/integrations/admin/crawl-settings-integration.php:128
+msgid "Post authors feeds"
+msgstr "पोस्ट लेखक फ़ीड"
+
+#: src/integrations/admin/crawl-settings-integration.php:129
+msgid "Post type feeds"
+msgstr "पोस्ट प्रकार फ़ीड"
+
+#: src/integrations/admin/crawl-settings-integration.php:130
+msgid "Category feeds"
+msgstr "श्रेणी फ़ीड"
+
+#: src/integrations/admin/crawl-settings-integration.php:131
+msgid "Tag feeds"
+msgstr "टैग फ़ीड"
+
+#: src/integrations/admin/crawl-settings-integration.php:132
+msgid "Custom taxonomy feeds"
+msgstr "कस्टम टैक्सोनॉमी फ़ीड"
+
+#: src/integrations/admin/crawl-settings-integration.php:133
+msgid "Search results feeds"
+msgstr "खोज परिणाम फ़ीड"
+
+#: src/integrations/admin/crawl-settings-integration.php:134
+msgid "Atom/RDF feeds"
+msgstr "एटम/आरडीएफ फ़ीड"
+
+#: src/integrations/admin/crawl-settings-integration.php:138
+msgid "Shortlinks"
+msgstr "शॉर्टलिंक"
+
+#: src/integrations/admin/crawl-settings-integration.php:139
+msgid "REST API links"
+msgstr "रेस्ट एपीआई लिंक"
+
+#: src/integrations/admin/crawl-settings-integration.php:140
+msgid "RSD / WLW links"
+msgstr "आरएसडी / डब्ल्यूएलडब्ल्यू लिंक"
+
+#: src/integrations/admin/crawl-settings-integration.php:141
+msgid "oEmbed links"
+msgstr "oEmbed लिंक"
+
+#: src/integrations/admin/crawl-settings-integration.php:142
+msgid "Generator tag"
+msgstr "जेनरेटर टैग"
+
+#: src/integrations/admin/crawl-settings-integration.php:161
+msgid "Emoji scripts"
+msgstr "इमोजी स्क्रिप्ट"
+
+#: src/integrations/admin/crawl-settings-integration.php:143
+#: js/dist/new-settings.js:29 js/dist/new-settings.js:175
+msgid "Pingback HTTP header"
+msgstr "पिंगबैक HTTP हेडर"
+
+#: src/integrations/admin/crawl-settings-integration.php:144
+msgid "Powered by HTTP header"
+msgstr "HTTP हेडर द्वारा संचालित"
+
+#: src/integrations/admin/crawl-settings-integration.php:186
+msgid "Basic crawl settings"
+msgstr "बुनियादी क्रॉल सेटिंग"
+
+#: src/integrations/admin/crawl-settings-integration.php:188
+msgid "Feed crawl settings"
+msgstr "फ़ीड क्रॉल सेटिंग"
+
+#: src/helpers/first-time-configuration-notice-helper.php:64
+msgid "SEO configuration"
+msgstr "एसईओ कॉन्फ़िगरेशन"
+
+#. translators: 1: Link start tag to the first-time configuration, 2: Link
+#. closing tag.
+#: src/integrations/admin/first-time-configuration-notice-integration.php:119
+msgid "We noticed that you haven't fully configured Yoast SEO yet. Optimize your SEO settings even further by using our improved %1$s First-time configuration%2$s."
+msgstr "हमने देखा है कि आपने अभी तक योस्ट एसईओ को पूरी तरह से कॉन्फ़िगर नहीं किया है। हमारे बेहतर %1$s पहली बार कॉन्फ़िगरेशन का उपयोग करके अपनी एसईओ सेटिंग्स को और भी अधिक अनुकूलित करें%2$s।"
+
+#. translators: %1$s opens the link to the Yoast.com article about Crawl
+#. settings, %2$s closes the link,
+#: admin/views/tabs/network/crawl-settings.php:31
+msgid "%1$sLearn more about crawl settings.%2$s"
+msgstr "%1$sक्रॉल सेटिंग के बारे में और जानें।%2$s"
+
+#: src/integrations/admin/crawl-settings-integration.php:127
+msgid "Post comments feeds"
+msgstr "पोस्ट टिप्पणी फ़ीड"
+
+#: admin/pages/network.php:25 admin/views/tabs/network/crawl-settings.php:19
+msgid "Crawl settings"
+msgstr "क्रॉल सेटिंग"
+
+#. translators: 1: Link start tag to the First time configuration tab in the
+#. General page, 2: Link closing tag.
+#: admin/views/tabs/tool/import-seo.php:106
+msgid "You should finish the %1$sfirst time configuration%2$s to make sure your SEO data has been optimized and you’ve set the essential Yoast SEO settings for your site."
+msgstr "आपको यह सुनिश्चित करने के लिए %1$sपहली बार कॉन्फ़िगरेशन%2$s समाप्त करना चाहिए कि आपका एसईओ डेटा अनुकूलित किया गया है और आपने अपनी साइट के लिए आवश्यक योस्ट एसईओ सेटिंग्स सेट की हैं।"
+
+#: src/integrations/admin/first-time-configuration-integration.php:128
+#: js/dist/general-page.js:45
+msgid "First-time configuration"
+msgstr "पहली बार कॉन्फ़िगरेशन"
+
+#: admin/views/tabs/tool/import-seo.php:100
+msgid "Step 4: Go through the first time configuration"
+msgstr "चरण 4: पहली बार कॉन्फ़िगरेशन के माध्यम से जाएं"
+
+#: src/exceptions/importing/aioseo-validation-exception.php:17
+msgid "The validation of the AIOSEO data structure has failed."
+msgstr "AIOSEO डेटा संरचना का सत्यापन विफल हो गया है।"
+
+#: src/integrations/admin/import-integration.php:214
+msgid "The AIOSEO import was cancelled because some AIOSEO data is missing. Please try and take the following steps to fix this:"
+msgstr "AIOSEO आयात रद्द कर दिया गया था क्योंकि कुछ AIOSEO डेटा गायब है। कृपया कोशिश करें और इसे ठीक करने के लिए निम्नलिखित कदम उठाएं:"
+
+#: src/integrations/admin/import-integration.php:217
+msgid "If you have never saved any AIOSEO 'Search Appearance' settings, please do that first and run the import again."
+msgstr "यदि आपने कभी कोई AIOSEO 'खोज प्रकटन' सेटिंग सहेजी नहीं है, तो कृपया पहले ऐसा करें और आयात को फिर से चलाएँ।"
+
+#: src/integrations/admin/import-integration.php:220
+msgid "If you already have saved AIOSEO 'Search Appearance' settings and the issue persists, please contact our support team so we can take a closer look."
+msgstr "यदि आपने पहले ही AIOSEO 'खोज प्रकटन' सेटिंग सहेज ली है और समस्या बनी रहती है, तो कृपया हमारी सहायता टीम से संपर्क करें ताकि हम और करीब से देख सकें।"
+
+#: src/integrations/admin/import-integration.php:97
+msgid "The cleanup can take a long time depending on your site's size."
+msgstr "आपकी साइट के आकार के आधार पर सफाई में लंबा समय लग सकता है।"
+
+#: src/integrations/admin/import-integration.php:98
+msgid "Note: "
+msgstr "नोट:"
+
+#: src/integrations/admin/import-integration.php:99
+msgid "After you've imported data from another SEO plugin, please make sure to clean up all the original data from that plugin. (step 5)"
+msgstr "आपके द्वारा किसी अन्य एसईओ प्लगइन से डेटा आयात करने के बाद, कृपया सुनिश्चित करें कि आप उस प्लगइन से सभी मूल डेटा को साफ़ कर लें। (चरण 5)"
+
+#: admin/views/tool-import-export.php:35
+#: src/integrations/admin/import-integration.php:107
+msgid "Clean up"
+msgstr "साफ - सफाई"
+
+#: src/integrations/admin/import-integration.php:108
+msgid "Please select an SEO plugin below to see what data can be imported."
+msgstr "कौन सा डेटा आयात किया जा सकता है यह देखने के लिए कृपया नीचे एक एसईओ प्लगइन चुनें।"
+
+#: src/integrations/admin/import-integration.php:109
+msgid "Once you're certain that your site is working properly with the imported data from another SEO plugin, you can clean up all the original data from that plugin."
+msgstr "एक बार जब आप सुनिश्चित हो जाते हैं कि आपकी साइट किसी अन्य एसईओ प्लगइन से आयातित डेटा के साथ ठीक से काम कर रही है, तो आप उस प्लगइन से सभी मूल डेटा को साफ़ कर सकते हैं।"
+
+#. translators: %s: expands to the name of the plugin that is selected to be
+#. imported
+#: src/integrations/admin/import-integration.php:111
+msgid "The import from %s includes:"
+msgstr "%s से आयात में शामिल हैं:"
+
+#: src/integrations/admin/import-integration.php:115
+#: src/integrations/admin/import-integration.php:125
+msgid "Post metadata (SEO titles, descriptions, etc.)"
+msgstr "मेटाडेटा पोस्ट करें (एसईओ शीर्षक, विवरण, आदि)"
+
+#: src/integrations/admin/import-integration.php:116
+#: src/integrations/admin/import-integration.php:126
+msgid "Note: This metadata will only be imported if there is no existing Yoast SEO metadata yet."
+msgstr "नोट: यह मेटाडेटा केवल तभी आयात किया जाएगा जब अभी तक कोई मौजूदा योस्ट एसईओ मेटाडेटा नहीं है।"
+
+#: src/integrations/admin/import-integration.php:120
+msgid "Note: These settings will overwrite the default settings of Yoast SEO."
+msgstr "नोट: ये सेटिंग्स योस्ट एसईओ की डिफ़ॉल्ट सेटिंग्स को ओवरराइट कर देंगी।"
+
+#: src/integrations/admin/import-integration.php:236
+msgid "Cleanup failed with the following error:"
+msgstr "क्लीनअप निम्न त्रुटि के साथ विफल रहा:"
+
+#: src/integrations/admin/import-integration.php:100
+msgid "Select SEO plugin"
+msgstr "एसईओ प्लगइन चुनें"
+
+#: src/integrations/admin/import-integration.php:101
+msgid "No data found from other SEO plugins."
+msgstr "अन्य एसईओ प्लगइन्स से कोई डेटा नहीं मिला।"
+
+#: src/integrations/admin/import-integration.php:238
+msgid "Import failed with the following error:"
+msgstr "आयात निम्न त्रुटि के साथ विफल रहा:"
+
+#: src/integrations/admin/import-integration.php:96
+msgid "The import can take a long time depending on your site's size."
+msgstr "आपकी साइट के आकार के आधार पर आयात में लंबा समय लग सकता है।"
+
+#: src/integrations/admin/installation-success-integration.php:114
+msgid "Installation Successful"
+msgstr "इंस्टॉलेशन सफल रहा"
+
+#: src/config/schema-types.php:131
+msgid "Blog Post"
+msgstr "ब्लॉग पोस्ट"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#. translators: 1: Yoast WooCommerce SEO
+#: src/integrations/admin/workouts-integration.php:315
+#: js/dist/integrations-page.js:11
+msgid "Activate %s"
+msgstr "%s सक्रिय करें"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:309
+msgid "Update %s"
+msgstr "%s अपडेट करें"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:302
+msgid "Renew %s"
+msgstr "%s नवीनीकरण करें"
+
+#: src/integrations/admin/workouts-integration.php:243
+msgid "Get help activating your subscription"
+msgstr "अपनी सदस्यता को सक्रिय करने में सहायता प्राप्त करें"
+
+#. translators: 1: expands to 'Yoast SEO Premium', 2: Link start tag to the
+#. page to update Premium, 3: Link closing tag.
+#: src/integrations/admin/workouts-integration.php:237
+msgid "It looks like you’re running an outdated and unactivated version of %1$s, please activate your subscription in %2$sMyYoast%3$s and update to the latest version (at least 17.7) to gain access to our updated workouts section."
+msgstr "ऐसा लगता है कि आप %1$s का एक पुराना और निष्क्रिय संस्करण चला रहे हैं, कृपया %2$sMyYoast%3$s में अपनी सदस्यता सक्रिय करें और हमारे अपडेट किए गए कसरत अनुभाग तक पहुंच प्राप्त करने के लिए नवीनतम संस्करण (कम से कम 17.7) में अपडेट करें।"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:233
+msgid "Activate your subscription of %s"
+msgstr "%s की अपनी सदस्यता सक्रिय करें"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:221
+msgid "Update to the latest version of %s"
+msgstr "%s के नवीनतम संस्करण में अपडेट करें"
+
+#: src/integrations/admin/workouts-integration.php:213
+msgid "Renew your subscription"
+msgstr "अपनी सदस्यता नवीनीकृत करें"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:206
+msgid "Accessing the latest workouts requires an updated version of %s (at least 17.7), but it looks like your subscription has expired. Please renew your subscription to update and gain access to all the latest features."
+msgstr "नवीनतम कसरत तक पहुँचने के लिए %s (कम से कम 17.7) के अद्यतन संस्करण की आवश्यकता होती है, लेकिन ऐसा लगता है कि आपकी सदस्यता समाप्त हो गई है। अद्यतन करने और सभी नवीनतम सुविधाओं तक पहुंच प्राप्त करने के लिए कृपया अपनी सदस्यता को नवीनीकृत करें।"
+
+#. translators: 1: expands to 'Yoast SEO Premium', 2: Link start tag to the
+#. page to update Premium, 3: Link closing tag.
+#: src/integrations/admin/workouts-integration.php:224
+msgid "It looks like you're running an outdated version of %1$s, please %2$supdate to the latest version (at least 17.7)%3$s to gain access to our updated workouts section."
+msgstr "ऐसा लगता है कि आप %1$s का पुराना संस्करण चला रहे हैं, कृपया हमारे अपडेट किए गए कसरत अनुभाग तक पहुंच प्राप्त करने के लिए %2$sनवीनतम संस्करण (कम से कम 17.7) में अपडेट%3$s करें।"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:203
+msgid "Renew your subscription of %s"
+msgstr "%s की अपनी सदस्यता का नवीनीकरण करें"
+
+#. translators: 1: Link start tag to the first-time configuration, 2: Yoast
+#. SEO, 3: Link closing tag.
+#: src/integrations/admin/first-time-configuration-notice-integration.php:110
+msgid "Get started quickly with the %1$s%2$s First-time configuration%3$s and configure Yoast SEO with the optimal SEO settings for your site!"
+msgstr "%1$s%2$s पहली बार कॉन्फ़िगरेशन%3$s के साथ जल्दी से आरंभ करें और अपनी साइट के लिए इष्टतम एसईओ सेटिंग्स के साथ योस्ट एसईओ को कॉन्फ़िगर करें!"
+
+#: inc/class-wpseo-replace-vars.php:1498
+msgid "Replaced with the post content"
+msgstr "पोस्ट सामग्री के साथ बदला गया"
+
+#: inc/class-wpseo-replace-vars.php:1497
+msgid "Replaced with the permalink"
+msgstr "परमालिंक के साथ बदला गया"
+
+#: inc/class-wpseo-replace-vars.php:1498
+msgid "Post Content"
+msgstr "पोस्ट सामग्री"
+
+#: inc/class-wpseo-replace-vars.php:1499
+msgid "Current or first category title"
+msgstr "वर्तमान या प्रथम श्रेणी का शीर्षक"
+
+#: inc/class-wpseo-replace-vars.php:1499
+msgid "Category Title"
+msgstr "श्रेणी शीर्षक"
+
+#: inc/class-wpseo-replace-vars.php:1492
+msgid "Replaced with the year the post was published"
+msgstr "पोस्ट के प्रकाशित होने के वर्ष से बदला गया"
+
+#: inc/class-wpseo-replace-vars.php:1493
+msgid "Replaced with the month the post was published"
+msgstr "पोस्ट के प्रकाशित होने के महीने से बदल दिया गया"
+
+#: inc/class-wpseo-replace-vars.php:1496
+msgid "Replaced with the last name of the author"
+msgstr "लेखक के अंतिम नाम से बदला गया"
+
+#: inc/class-wpseo-replace-vars.php:1495
+msgid "Replaced with the first name of the author"
+msgstr "लेखक के पहले नाम से बदला गया"
+
+#: inc/class-wpseo-replace-vars.php:1494
+msgid "Replaced with the day the post was published"
+msgstr "पोस्ट के प्रकाशित होने के दिन से बदल दिया गया"
+
+#: inc/class-wpseo-replace-vars.php:1492
+msgid "Post year"
+msgstr "पोस्ट वर्ष"
+
+#: inc/class-wpseo-replace-vars.php:1493
+msgid "Post month"
+msgstr "पोस्ट माह"
+
+#: inc/class-wpseo-replace-vars.php:1494
+msgid "Post day"
+msgstr "पोस्ट दिन"
+
+#: inc/class-wpseo-replace-vars.php:1490
+msgid "Current month"
+msgstr "वर्तमान माह"
+
+#: inc/class-wpseo-replace-vars.php:1491
+msgid "Current day"
+msgstr "वर्तमान दिन"
+
+#: inc/class-wpseo-replace-vars.php:1488
+msgid "Current date"
+msgstr "वर्तमान दिनांक"
+
+#: inc/class-wpseo-replace-vars.php:1496
+msgid "Author last name"
+msgstr "लेखक अंतिम नाम"
+
+#: inc/class-wpseo-replace-vars.php:1495
+msgid "Author first name"
+msgstr "लेखक का पहला नाम"
+
+#. translators: %1$s expands to an opening strong tag, %2$s expands to the
+#. dependency name, %3$s expands to a closing strong tag, %4$s expands to an
+#. opening anchor tag, %5$s expands to a closing anchor tag.
+#: admin/class-suggested-plugins.php:111
+msgid "It looks like you aren't using our %1$s%2$s addon%3$s. %4$sUpgrade today%5$s to unlock more tools and SEO features to make your products stand out in search results."
+msgstr "ऐसा लगता है कि आप हमारे %1$s%2$s ऐडऑन%3$s का उपयोग नहीं कर रहे हैं। %4$sआज ही अपग्रेड करें%5$s और अधिक टूल और एसईओ सुविधाओं को अनलॉक करने के लिए अपने उत्पादों को खोज परिणामों में विशिष्ट बनाएं।"
+
+#. translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Premium installation page, %2$s expands to a closing anchor tag.
+#: src/presenters/admin/indexing-error-presenter.php:102
+msgid "Below are the technical details for the error. See %1$sthis page%2$s for a more detailed explanation."
+msgstr "त्रुटि के लिए तकनीकी विवरण नीचे दिए गए हैं। अधिक विस्तृत स्पष्टीकरण के लिए %1$sयह पृष्ठ%2$s देखें।"
+
+#: src/integrations/admin/workouts-integration.php:93
+msgid "Workouts"
+msgstr "वर्कआउट"
+
+#: admin/views/class-yoast-integration-toggles.php:81
+msgid "Improve the quality of your site search! Automatically helps your users find your cornerstone and most important content in your internal search results. It also removes noindexed posts & pages from your site’s search results."
+msgstr "अपनी साइट खोज की गुणवत्ता में सुधार करें! आपके आंतरिक खोज परिणामों में आपके उपयोगकर्ताओं को आपकी आधारशिला और सबसे महत्वपूर्ण सामग्री खोजने में स्वचालित रूप से सहायता करता है। यह आपकी साइट के खोज परिणामों से नोइन्डेक्सेड पोस्ट और पृष्ठों को भी हटा देता है।"
+
+#. translators: %s: Algolia.
+#: admin/views/class-yoast-integration-toggles.php:83
+msgid "Find out more about our %s integration."
+msgstr "हमारे %s एकीकरण के बारे में अधिक जानें।"
+
+#: admin/views/class-yoast-feature-toggles.php:129
+msgid "Read more about how internal linking can improve your site structure."
+msgstr "आंतरिक लिंकिंग आपकी साइट संरचना को कैसे बेहतर बना सकती है, इसके बारे में और पढ़ें।"
+
+#: admin/views/class-yoast-feature-toggles.php:128
+msgid "Get relevant internal linking suggestions — while you’re writing! The link suggestions metabox shows a list of posts on your blog with similar content that might be interesting to link to. "
+msgstr "प्रासंगिक आंतरिक लिंकिंग सुझाव प्राप्त करें — जब आप लिख रहे हों! लिंक सुझाव मेटाबॉक्स आपके ब्लॉग पर समान सामग्री वाली पोस्ट की एक सूची दिखाता है जो लिंक करने के लिए दिलचस्प हो सकता है।"
+
+#: admin/views/class-yoast-feature-toggles.php:119
+msgid "Find out how Insights can help you improve your content."
+msgstr "पता लगाएं कि इनसाइट आपकी सामग्री को बेहतर बनाने में कैसे आपकी मदद कर सकता है।"
+
+#: admin/views/class-yoast-feature-toggles.php:125 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:323
+msgid "Link suggestions"
+msgstr "लिंक सुझाव"
+
+#: admin/views/class-yoast-feature-toggles.php:118
+msgid "Find relevant data about your content right in the Insights section in the Yoast SEO metabox. You’ll see what words you use most often and if they’re a match with your keywords! "
+msgstr "योस्ट एसईओ मेटाबॉक्स में इनसाइट्स सेक्शन में अपनी सामग्री के बारे में प्रासंगिक डेटा प्राप्त करें। आप देखेंगे कि आप किन शब्दों का सबसे अधिक उपयोग करते हैं और यदि वे आपके कीवर्ड से मेल खाते हैं!"
+
+#: admin/views/class-yoast-feature-toggles.php:116 js/dist/block-editor.js:227
+#: js/dist/block-editor.js:485 js/dist/classic-editor.js:210
+#: js/dist/elementor.js:32 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:323
+msgid "Insights"
+msgstr "इनसाइट"
+
+#. translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Premium installation page, %2$s expands to a closing anchor tag.
+#. Translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Premium installation page, %2$s expands to a closing anchor tag.
+#: src/presenters/admin/indexing-error-presenter.php:76
+#: src/presenters/admin/indexing-failed-notification-presenter.php:77
+msgid "Oops, something has gone wrong and we couldn't complete the optimization of your SEO data. Please make sure to activate your subscription in MyYoast by completing %1$sthese steps%2$s."
+msgstr "ओह, कुछ गलत हो गया है और हम आपके एसईओ डेटा का अनुकूलन पूरा नहीं कर सके। कृपया %1$sइन चरणों%2$s को पूरा करके MyYoast में अपनी सदस्यता को सक्रिय करना सुनिश्चित करें।"
+
+#: src/integrations/admin/addon-installation/installation-integration.php:106
+msgid "Installing and activating addons"
+msgstr "ऐडऑन को स्थापित करना और सक्रिय करना"
+
+#. translators: %1$s expands to an anchor tag to the admin premium page, %2$s
+#. expands to Yoast SEO Premium, %3$s expands to a closing anchor tag
+#: src/integrations/admin/addon-installation/installation-integration.php:129
+msgid "%1$s Continue to %2$s%3$s"
+msgstr "%1$s %2$s%3$s पर जारी रखें"
+
+#. Translators: %s expands to the name of the addon.
+#: src/integrations/admin/addon-installation/installation-integration.php:154
+msgid "Addon activated."
+msgstr "एडऑन सक्रिय।"
+
+#: src/integrations/admin/addon-installation/installation-integration.php:156
+msgid "You are not allowed to activate plugins."
+msgstr "आपको प्लगइन्स सक्रिय करने की अनुमति नहीं है।"
+
+#. Translators:%s expands to the error message.
+#: src/integrations/admin/addon-installation/installation-integration.php:160
+msgid "Addon activation failed because of an error: %s."
+msgstr "एडऑन सक्रियण एक त्रुटि के कारण विफल हुआ: %s।"
+
+#. Translators: %s expands to the name of the addon.
+#: src/integrations/admin/addon-installation/installation-integration.php:184
+msgid "Addon installed."
+msgstr "एडऑन स्थापित।"
+
+#: src/integrations/admin/addon-installation/installation-integration.php:188
+msgid "You are not allowed to install plugins."
+msgstr "आपको प्लगइन्स इंस्टॉल करने की अनुमति नहीं है।"
+
+#. Translators: %s expands to the error message.
+#: src/integrations/admin/addon-installation/installation-integration.php:192
+msgid "Addon installation failed because of an error: %s."
+msgstr "एडऑन संस्थापन एक त्रुटि के कारण विफल हुआ: %s।"
+
+#. translators: %1$s expands to Yoast SEO
+#: src/integrations/admin/addon-installation/dialog-integration.php:94
+msgid "No %1$s plugins have been installed. You don't seem to own any active subscriptions."
+msgstr "कोई %1$s प्लग इन इंस्टॉल नहीं किया गया है। ऐसा लगता है कि आप किसी सक्रिय सदस्यता के स्वामी नहीं हैं।"
+
+#. translators: %s expands to Yoast SEO Premium.
+#: admin/class-admin.php:248
+msgid "Required by %s"
+msgstr "%s द्वारा आवश्यक है"
+
+#. Translators: %1$s resolves to Yoast SEO.
+#: src/integrations/watchers/addon-update-watcher.php:85
+msgid "Auto-updates are enabled based on this setting for %1$s."
+msgstr "%1$s के लिए इस सेटिंग के आधार पर ऑटो-अपडेट सक्षम हैं।"
+
+#. Translators: %1$s resolves to Yoast SEO.
+#: src/integrations/watchers/addon-update-watcher.php:95
+msgid "Auto-updates are disabled based on this setting for %1$s."
+msgstr "%1$s के लिए इस सेटिंग के आधार पर ऑटो-अपडेट अक्षम हैं।"
+
+#: inc/class-wpseo-admin-bar-menu.php:605
+#: src/plans/user-interface/upgrade-sidebar-menu-integration.php:114
+#: src/presenters/admin/badge-presenter.php:80
+#: src/presenters/admin/badge-presenter.php:87
+#: js/dist/externals-components.js:423 js/dist/externals/componentsNew.js:1039
+#: js/dist/integrations-page.js:3 js/dist/integrations-page.js:6
+#: js/dist/integrations-page.js:18 js/dist/new-settings.js:367
+msgid "New"
+msgstr "नया"
+
+#. translators: %s is the reason given by WordPress.
+#: src/exceptions/indexable/invalid-term-exception.php:21
+msgid "The term is considered invalid. The following reason was given by WordPress: %s"
+msgstr "शब्द अमान्य माना जाता है। निम्न कारण वर्डप्रेस द्वारा दिया गया था: %s"
+
+#: src/exceptions/indexable/term-not-found-exception.php:16
+msgid "The term could not be found."
+msgstr "शब्द नहीं मिल सका।"
+
+#: src/exceptions/indexable/post-not-found-exception.php:16
+msgid "The post could not be found."
+msgstr "पोस्ट नहीं मिल सकी।"
+
+#: admin/class-yoast-form.php:1068 js/dist/general-page.js:42
+msgid "This feature has been disabled since subsites never send tracking data."
+msgstr "इस सुविधा को अक्षम कर दिया गया है क्योंकि सबसाइट कभी ट्रैकिंग डेटा नहीं भेजते हैं।"
+
+#. translators: %1$s expands to an opening anchor tag, %2$s expands to an
+#. closing anchor tag.
+#: src/integrations/third-party/wpml-wpseo-notification.php:110
+msgid "We notice that you have installed WPML. To make sure your canonical URLs are set correctly, %1$sinstall and activate the WPML SEO add-on%2$s as well!"
+msgstr "हमने देखा है कि आपने डब्लूपीएमएल स्थापित कर लिया है। यह सुनिश्चित करने के लिए कि आपके कैनोनिकल यूआरएल सही ढंग से सेट हैं, %1$sडब्लूपीएमएल एसईओ ऐड-ऑन भी इंस्टॉल और सक्रिय करें%2$s!"
+
+#: src/presenters/admin/indexing-notification-presenter.php:81
+msgid "Because of a change in your category base setting, some of your SEO data needs to be reprocessed."
+msgstr "आपकी श्रेणी की आधार सेटिंग में बदलाव के कारण, आपके कुछ एसईओ डेटा को पुन: संसाधित करने की आवश्यकता है।"
+
+#: admin/views/class-yoast-feature-toggles.php:189 js/dist/new-settings.js:323
+msgid "This adds an author byline and reading time estimate to the article’s snippet when shared on Slack."
+msgstr "जब स्लैक पर साझा किया जाता है तो यह एक लेखक को बायलाइन और पढ़ने के समय का अनुमान लगाता है।"
+
+#: admin/views/class-yoast-feature-toggles.php:190
+msgid "Find out how a rich snippet can improve visibility and click-through-rate."
+msgstr "पता करें कि एक रीच स्निपेट दृश्यता और क्लिक-थ्रू दर में कैसे सुधार कर सकता है।"
+
+#: inc/class-wpseo-admin-bar-menu.php:443
+msgid "Google Rich Results Test"
+msgstr "गूगल रिच परिणाम परीक्षण"
+
+#: src/presenters/slack/enhanced-data-presenter.php:50
+msgid "Written by"
+msgstr "द्वारा लिखित"
+
+#. translators: %s expands to the reading time number, in minutes
+#: src/presenters/slack/enhanced-data-presenter.php:55
+msgid "Est. reading time"
+msgstr "अनुमानित पढ़ने का समय"
+
+#. translators: %s expands to the reading time number, in minutes
+#: src/presenters/slack/enhanced-data-presenter.php:55
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s मिनट"
+msgstr[1] "%s मिनट"
+
+#. translators: 1: Expands to Yoast SEO
+#: src/presenters/admin/indexing-notification-presenter.php:129
+msgid "Wait for a week or so, until %1$s automatically processes most of your content in the background."
+msgstr "एक या एक सप्ताह तक प्रतीक्षा करें, जब तक कि %1$s बैकग्राउंड में आपकी अधिकांश सामग्री को स्वचालित रूप से संसाधित न कर दे।"
+
+#: admin/views/class-yoast-feature-toggles.php:187
+msgid "Enhanced Slack sharing"
+msgstr "एन्हांस्ड स्लैक शेयरिंग"
+
+#: src/presenters/admin/indexing-notification-presenter.php:84
+msgid "Because of a change in your tag base setting, some of your SEO data needs to be reprocessed."
+msgstr "आपके टैग बेस सेटिंग में बदलाव के कारण, आपके कुछ एसईओ डेटा को फिर से तैयार करने की आवश्यकता है।"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/network/integrations.php:27
+msgid "This tab allows you to selectively disable %1$s integrations with third-party products for all sites in the network. By default all integrations are enabled, which allows site admins to choose for themselves if they want to toggle an integration on or off for their site. When you disable an integration here, site admins will not be able to use that integration at all."
+msgstr "यह टैब आपको नेटवर्क में सभी साइटों के लिए तृतीय-पक्ष उत्पादों के साथ %1$s एकीकरण को चुनिंदा रूप से अक्षम करने की अनुमति देता है। डिफ़ॉल्ट रूप से सभी एकीकरण सक्षम होते हैं, जो साइट व्यवस्थापक को अपनी साइट के लिए एकीकरण को चालू या बंद करने के लिए स्वयं को चुनने की अनुमति देता है। जब आप यहां एकीकरण को अक्षम करते हैं, तो साइट व्यवस्थापक उस एकीकरण का उपयोग करने में सक्षम नहीं होंगे।"
+
+#. translators: %s: 'Semrush'
+#: admin/views/class-yoast-integration-toggles.php:71
+msgid "The %s integration offers suggestions and insights for keywords related to the entered focus keyphrase."
+msgstr "%s एकीकरण दर्ज किए गए फ़ोकस कीफ्रेज़ से संबंधित कीवर्ड के लिए सुझाव और जानकारी प्रदान करता है।"
+
+#: src/presenters/admin/indexing-error-presenter.php:64
+msgid "Oops, something has gone wrong and we couldn't complete the optimization of your SEO data. Please click the button again to re-start the process. "
+msgstr "ओह, कुछ गड़बड़ हो गई है और हम आपके एसईओ डेटा के अनुकूलन को पूरा नहीं कर सके। प्रक्रिया को फिर से शुरू करने के लिए कृपया फिर से बटन पर क्लिक करें।."
+
+#: admin/class-admin.php:259
+msgid "Activate your subscription"
+msgstr "अपनी सदस्यता को सक्रिय करें"
+
+#: src/presenters/admin/indexing-list-item-presenter.php:42
+msgid "Learn more about the benefits of optimized SEO data."
+msgstr "अनुकूलित एसईओ डेटा के लाभों के बारे में अधिक जानें।"
+
+#: src/presenters/admin/indexing-notification-presenter.php:59
+#: js/dist/general-page.js:38 js/dist/indexation.js:8
+msgid "Start SEO data optimization"
+msgstr "एसईओ डेटा अनुकूलन शुरू करें"
+
+#: src/integrations/watchers/indexable-homeurl-watcher.php:97
+msgid "All permalinks were successfully reset"
+msgstr "सभी पर्मालिंक सफलतापूर्वक रीसेट कर दिए गए थे"
+
+#: src/presenters/admin/indexing-list-item-presenter.php:40
+msgid "You can speed up your site and get insight into your internal linking structure by letting us perform a few optimizations to the way SEO data is stored. If you have a lot of content it might take a while, but trust us, it's worth it."
+msgstr "आप अपनी साइट को गति दे सकते हैं और अपने आंतरिक लिंकिंग ढांचे में अंतर्दृष्टि प्राप्त कर सकते हैं, जिससे हमें एसईओ डेटा संग्रहीत करने के लिए कुछ अनुकूलन करने होंगे। यदि आपके पास बहुत अधिक सामग्री है, तो इसमें कुछ समय लग सकता है, लेकिन हम पर विश्वास करें, यह इसके लायक है।"
+
+#: src/presenters/admin/indexing-notification-presenter.php:96
+msgid "You can speed up your site and get insight into your internal linking structure by letting us perform a few optimizations to the way SEO data is stored."
+msgstr "आप अपनी साइट को गति दे सकते हैं और अपने आंतरिक लिंकिंग ढांचे में अंतर्दृष्टि प्राप्त कर सकते हैं, जिससे हमें एसईओ डेटा संग्रहीत करने के लिए कुछ अनुकूलन करने होंगे।"
+
+#. Translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Yoast SEO tools page, %2$s expands to a closing anchor tag.
+#: src/presenters/admin/indexing-failed-notification-presenter.php:59
+msgid "Something has gone wrong and we couldn't complete the optimization of your SEO data. Please %1$sre-start the process%2$s."
+msgstr "कुछ गलत हो गया है और हम आपके एसईओ डेटा के अनुकूलन को पूरा नहीं कर सके। कृपया %1$sप्रक्रिया को पुनः आरंभ करें%2$s।"
+
+#: src/presenters/admin/indexing-error-presenter.php:71
+#: src/presenters/admin/indexing-failed-notification-presenter.php:71
+msgid "If the problem persists, please contact support."
+msgstr "यदि समस्या बनी रहती है, तो कृपया समर्थन से संपर्क करें।"
+
+#: src/presenters/admin/indexing-list-item-presenter.php:37
+msgid "Optimize SEO Data"
+msgstr "एसईओ डेटा का अनुकूलन करें"
+
+#. translators: %1$s: expands to an opening anchor tag, %2$s: expands to a
+#. closing anchor tag
+#: admin/views/class-yoast-feature-toggles.php:241
+msgid "Disabling Yoast SEO's XML sitemaps will not disable WordPress' core sitemaps. In some cases, this %1$s may result in SEO errors on your site%2$s. These may be reported in Google Search Console and other tools."
+msgstr "योस्ट एसईओ के एक्सएमएल साइटमैप को अक्षम करने से वर्डप्रेस के कोर साइटमैप अक्षम नहीं होंगे। कुछ मामलों में, यह %1$s आपकी साइट पर एसईओ त्रुटियों का परिणाम हो सकता है%2$s। इन्हें गूगल खोज कंसोल और अन्य टूल में रिपोर्ट किया जा सकता है।"
+
+#: inc/class-addon-manager.php:883
+msgid "Need support?"
+msgstr "सहयोग की आवश्यकता?"
+
+#. translators: 1: expands to <a> that refers to the help page, 2: </a> closing
+#. tag.
+#: inc/class-addon-manager.php:886
+msgid "You can probably find an answer to your question in our %1$shelp center%2$s."
+msgstr "आप शायद हमारे %1$sसहायता केंद्र%2$s में आपके प्रश्न का उत्तर पा सकते हैं।"
+
+#. translators: %s expands to a mailto support link.
+#: inc/class-addon-manager.php:889
+msgid "If you still need support and have an active subscription for this product, please email %s."
+msgstr "यदि आपको अभी भी समर्थन की आवश्यकता है और इस उत्पाद के लिए एक सक्रिय सदस्यता है, तो कृपया %s को ईमेल करें।"
+
+#. translators: 1: Yoast SEO, 2: translated version of "Off"
+#: admin/views/class-yoast-feature-toggles.php:158
+msgid "The advanced section of the %1$s meta box allows a user to remove posts from the search results or change the canonical. The settings in the schema tab allows a user to change schema meta data for a post. These are things you might not want any author to do. That's why, by default, only editors and administrators can do this. Setting to \"%2$s\" allows all users to change these settings."
+msgstr "%1$s मेटा बॉक्स का उन्नत अनुभाग उपयोगकर्ता को खोज परिणामों से पोस्ट हटाने या विहित परिवर्तन करने की अनुमति देता है। स्कीमा टैब में सेटिंग्स उपयोगकर्ता को पोस्ट के लिए स्कीमा मेटा डेटा बदलने की अनुमति देती हैं। ये ऐसी चीजें हैं जो आप नहीं चाहते कि कोई लेखक करे। इसीलिए, डिफ़ॉल्ट रूप से, केवल संपादक और व्यवस्थापक ही ऐसा कर सकते हैं। \"%2$s\" पर सेट करने से सभी उपयोगकर्ता इन सेटिंग्स को बदल सकते हैं।"
+
+#: admin/views/class-yoast-feature-toggles.php:154
+msgid "Security: no advanced or schema settings for authors"
+msgstr "सुरक्षा: लेखकों के लिए कोई उन्नत या स्कीमा सेटिंग नहीं"
+
+#: src/config/schema-types.php:151
+msgid "Scholarly Article"
+msgstr "विद्वान लेख"
+
+#: src/config/schema-types.php:60
+msgid "Web Page"
+msgstr "वेब पृष्ठ"
+
+#: src/config/schema-types.php:64 js/dist/block-editor.js:471
+#: js/dist/classic-editor.js:454 js/dist/elementor.js:299
+msgid "Item Page"
+msgstr "आइटम पृष्ठ"
+
+#: src/config/schema-types.php:68
+msgid "About Page"
+msgstr "परिचय पृष्ठ"
+
+#: src/config/schema-types.php:72
+msgid "FAQ Page"
+msgstr "सामान्य प्रश्न पृष्ठ"
+
+#: src/config/schema-types.php:76
+msgid "QA Page"
+msgstr "QA पृष्ठ"
+
+#: src/config/schema-types.php:80
+msgid "Profile Page"
+msgstr "प्रोफ़ाइल पृष्ठ"
+
+#: src/config/schema-types.php:84
+msgid "Contact Page"
+msgstr "संपर्क पृष्ठ"
+
+#: src/config/schema-types.php:88
+msgid "Medical Web Page"
+msgstr "मेडिकल वेब पृष्ठ"
+
+#: src/config/schema-types.php:92
+msgid "Collection Page"
+msgstr "संग्रह पृष्ठ"
+
+#: src/config/schema-types.php:96
+msgid "Checkout Page"
+msgstr "चेकआउट पृष्ठ"
+
+#: src/config/schema-types.php:100
+msgid "Real Estate Listing"
+msgstr "रियल एस्टेट लिस्टिंग"
+
+#: src/config/schema-types.php:104
+msgid "Search Results Page"
+msgstr "खोज परिणाम पृष्ठ"
+
+#: src/config/schema-types.php:127
+msgid "Article"
+msgstr "लेख"
+
+#: src/config/schema-types.php:135
+msgid "Social Media Posting"
+msgstr "सोशल मीडिया पोस्टिंग"
+
+#: src/config/schema-types.php:139
+msgid "News Article"
+msgstr "समाचार लेख"
+
+#: src/config/schema-types.php:143
+msgid "Advertiser Content Article"
+msgstr "विज्ञापनदाता सामग्री अनुच्छेद"
+
+#: src/config/schema-types.php:147
+msgid "Satirical Article"
+msgstr "व्यंग्यात्मक लेख"
+
+#: src/config/schema-types.php:155
+msgid "Tech Article"
+msgstr "टेक अनुच्छेद"
+
+#: src/config/schema-types.php:159
+msgid "Report"
+msgstr "रिपोर्ट"
+
+#: admin/views/class-yoast-feature-toggles.php:165
+#: admin/views/class-yoast-feature-toggles.php:166 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:320
+msgid "Usage tracking"
+msgstr "उपयोग ट्रैकिंग"
+
+#. translators: 1: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:170
+msgid "Allow us to track some data about your site to improve our plugin."
+msgstr "अपनी प्लगइन को बेहतर बनाने के लिए हमें अपनी साइट के बारे में कुछ डेटा ट्रैक करने दें।"
+
+#: src/presenters/admin/indexing-notification-presenter.php:78
+msgid "Because of a change in your home URL setting, some of your SEO data needs to be reprocessed."
+msgstr "आपकी श्रेणी यूआरएल सेटिंग में बदलाव के कारण, आपके कुछ एसईओ डेटा को पुन: संसाधित करने की आवश्यकता है।"
+
+#: src/presenters/admin/indexing-notification-presenter.php:75
+msgid "Because of a change in your permalink structure, some of your SEO data needs to be reprocessed."
+msgstr "आपके पर्मालिंक संरचना में बदलाव के कारण, आपके कुछ एसईओ डेटा को पुन: व्यवस्थित करने की आवश्यकता है।"
+
+#. translators: %1$s expands to Yoast.
+#: src/integrations/blocks/block-categories.php:45
+msgid "%1$s Internal Linking Blocks"
+msgstr "%1$s आंतरिक लिंकिंग ब्लॉक"
+
+#. translators: %1$s: Link to article about text links, %2$s: Anchor closing
+#. tag, %3$s: Emphasis open tag, %4$s: Emphasis close tag
+#: admin/class-yoast-columns.php:52
+msgid "The links columns show the number of articles on this site linking %3$sto%4$s this article and the number of URLs linked %3$sfrom%4$s this article. Learn more about %1$show to use these features to improve your internal linking%2$s, which greatly enhances your SEO."
+msgstr "लिंक कॉलम इस साइट पर इस लेख %3$sसे%4$s लिंक करने वाले लेखों की संख्या और इस लेख %3$sसे%4$s जुड़े यूआरएल की संख्या को दर्शाता है। %1$sअपनी आंतरिक लिंकिंग को बेहतर बनाने के लिए इन सुविधाओं का उपयोग करने के तरीके%2$s के बारे में अधिक जानें, जो आपके एसईओ को बढ़ाता है।"
+
+#: src/services/health-check/links-table-reports.php:45
+msgid "The text link counter is working as expected"
+msgstr "पाठ लिंक काउंटर अपेक्षित रूप से काम कर रहा है"
+
+#. translators: 1: Link to the Yoast SEO blog, 2: Link closing tag.
+#: src/services/health-check/links-table-reports.php:73
+msgid "The text link counter helps you improve your site structure. %1$sFind out how the text link counter can enhance your SEO%2$s."
+msgstr "पाठ लिंक काउंटर आपको अपनी साइट संरचना को बेहतर बनाने में मदद करता है। %1$sपता करें कि टेक्स्ट लिंक काउंटर आपके एसईओ को कैसे बढ़ा सकता है%2$s।"
+
+#: src/services/health-check/links-table-reports.php:58
+msgid "The text link counter feature is not working as expected"
+msgstr "पाठ लिंक काउंटर सुविधा अपेक्षा के अनुरूप काम नहीं कर रही है"
+
+#. translators: 1: Link to the Yoast help center, 2: Link closing tag.
+#: src/services/health-check/links-table-reports.php:100
+msgid "%1$sFind out how to solve this problem on our help center%2$s."
+msgstr "%1$sहमारे ज्ञान के आधार पर इस समस्या को हल करने का तरीका जानें%2$s।"
+
+#: src/presenters/admin/indexing-notification-presenter.php:121
+msgid " We estimate this will take a couple of minutes."
+msgstr "हमारा अनुमान है कि इसमें कुछ मिनट लगेंगे।"
+
+#: src/presenters/admin/indexing-notification-presenter.php:117
+msgid " We estimate this will take less than a minute."
+msgstr "हमारा अनुमान है कि इसमें एक मिनट से भी कम समय लगेगा।"
+
+#. translators: %s: Yoast SEO.
+#: src/presenters/admin/migration-error-presenter.php:47
+msgid "%s had problems creating the database tables needed to speed up your site."
+msgstr "आपकी साइट को गति देने के लिए आवश्यक डेटाबेस टेबल बनाने में %s की समस्याएँ थीं।"
+
+#. translators: %s: Yoast SEO.
+#: src/presenters/admin/migration-error-presenter.php:58
+msgid "Your site will continue to work normally, but won't take full advantage of %s."
+msgstr "आपकी साइट सामान्य रूप से काम करना जारी रखेगी, लेकिन %s का पूर्ण लाभ नहीं लेगी।"
+
+#: src/presenters/admin/migration-error-presenter.php:64
+msgid "Show debug information"
+msgstr "डिबग जानकारी दिखाएँ"
+
+#. translators: 1: Link start tag to the WordPress Reading Settings page, 2:
+#. Link closing tag.
+#: src/presenters/admin/search-engines-discouraged-presenter.php:36
+msgid "If you want search engines to show this site in their results, you must %1$sgo to your Reading Settings%2$s and uncheck the box for Search Engine Visibility."
+msgstr "यदि आप चाहते हैं कि खोज इंजन इस साइट को उनके परिणामों में दिखाए, तो आपको %1$sअपनी रीडिंग सेटिंग में जाना होगा%2$s और खोज इंजन दृश्यता के लिए बॉक्स को अनचेक करना होगा।"
+
+#: src/presenters/admin/search-engines-discouraged-presenter.php:41
+msgid "I don't want this site to show in the search results."
+msgstr "मैं नहीं चाहता कि यह साइट खोज परिणामों में दिखे।"
+
+#. translators: %1$s: Yoast SEO
+#: admin/class-yoast-columns.php:36
+msgid "%1$s adds several columns to this page."
+msgstr "%1$s इस पृष्ठ पर कई कॉलम जोड़ता है।"
+
+#. translators: %1$s: Link to article about content analysis, %2$s: Anchor
+#. closing
+#: admin/class-yoast-columns.php:43
+msgid "We've written an article about %1$show to use the SEO score and Readability score%2$s."
+msgstr "हमने %1$sएसईओ स्कोर और पठनीयता स्कोर का उपयोग कैसे करें%2$s के बारे में एक लेख लिखा है।"
+
+#: src/presenters/admin/indexing-notification-presenter.php:124
+msgid " We estimate this could take a long time, due to the size of your site. As an alternative to waiting, you could:"
+msgstr "हमारा अनुमान है कि आपकी साइट के आकार के कारण इसमें लंबा समय लग सकता है। प्रतीक्षा के विकल्प के रूप में, आप कर सकते हैं:"
+
+#. translators: 1: Link to article about indexation command, 2: Anchor closing
+#. tag, 3: Link to WP CLI.
+#: src/presenters/admin/indexing-notification-presenter.php:136
+msgid "%1$sRun the indexation process on your server%2$s using %3$sWP CLI%2$s."
+msgstr "%3$sडब्लूपी CLI%2$s का उपयोग करके %1$sअपने सर्वर पर अनुक्रमण प्रक्रिया चलाएँ%2$s"
+
+#. translators: %1$s: link to help article about solving table issue. %2$s: is
+#. anchor closing.
+#: src/presenters/admin/migration-error-presenter.php:52
+msgid "Please read %1$sthis help article%2$s to find out how to resolve this problem."
+msgstr "कृपया इस समस्या को हल करने का तरीका जानने के लिए %1$sइस सहायता लेख%2$s को पढ़ें।"
+
+#: admin/views/class-yoast-feature-toggles.php:177
+msgid "REST API: Head endpoint"
+msgstr "रेस्ट एपीआई: हेड एंडपॉइंट"
+
+#. translators: 1: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:181
+msgid "This %1$s REST API endpoint gives you all the metadata you need for a specific URL. This will make it very easy for headless WordPress sites to use %1$s for all their SEO meta output."
+msgstr "यह %1$s रेस्ट एपीआई समापन बिंदु आपको एक विशिष्ट यूआरएल के लिए आवश्यक सभी मेटाडेटा देता है। यह बिना सिर के वर्डप्रेस साइटों के लिए अपने सभी एसईओ मेटा आउटपुट के लिए %1$s का उपयोग करना बहुत आसान बना देगा।"
+
+#: inc/class-wpseo-replace-vars.php:1486
+msgid "Term hierarchy"
+msgstr "शब्द पदानुक्रम"
+
+#: inc/class-wpseo-replace-vars.php:1486
+msgid "Replaced with the term ancestors hierarchy"
+msgstr "पूर्वजों शब्द पदानुक्रम के साथ प्रतिस्थापित"
+
+#: src/services/health-check/postname-permalink-reports.php:30
+msgid "Your permalink structure includes the post name"
+msgstr "आपकी पर्मलिंक संरचना में पोस्ट नाम शामिल है"
+
+#: src/services/health-check/postname-permalink-reports.php:32
+msgid "You do have your postname in the URL of your posts and pages."
+msgstr "आपके पास अपने पोस्ट और पेज के यूआरएल में अपना पोस्टनाम है।"
+
+#: src/services/health-check/postname-permalink-reports.php:43
+msgid "You do not have your postname in the URL of your posts and pages"
+msgstr "आपके पोस्ट और पेज के यूआरएल में आपका पोस्टनाम नहीं है"
+
+#. translators: %s expands to '/%postname%/'
+#: src/services/health-check/postname-permalink-reports.php:58
+msgid "It's highly recommended to have your postname in the URL of your posts and pages. Consider setting your permalink structure to %s."
+msgstr "आपके पोस्ट और पृष्ठों के यूआरएल में आपका पोस्टनाम होना अत्यधिक अनुशंसित है। %s पर अपनी पर्मालिंक संरचना सेट करने पर विचार करें।"
+
+#: src/services/health-check/page-comments-reports.php:32
+msgid "Comments on your posts are displayed on a single page. This is just like we'd suggest it. You're doing well!"
+msgstr "आपकी पोस्ट पर टिप्पणियाँ एक ही पृष्ठ पर प्रदर्शित की जाती हैं। यह वैसा ही है जैसा हम इसे सुझाएंगे। तुम बहुत अच्छा कर रहे हो!"
+
+#: src/services/health-check/default-tagline-reports.php:30
+msgid "You changed the default WordPress tagline"
+msgstr "आपने डिफ़ॉल्ट वर्डप्रेस टैगलाइन बदल दी"
+
+#: src/services/health-check/default-tagline-reports.php:32
+msgid "You are using a custom tagline or an empty one."
+msgstr "आप एक कस्टम टैगलाइन या एक खाली का उपयोग कर रहे हैं।"
+
+#: src/services/health-check/default-tagline-reports.php:43
+msgid "You should change the default WordPress tagline"
+msgstr "आपको डिफ़ॉल्ट वर्डप्रेस टैगलाइन बदलनी चाहिए"
+
+#: src/services/health-check/default-tagline-reports.php:45
+msgid "You still have the default WordPress tagline. Even an empty one is probably better."
+msgstr "आपके पास अभी भी डिफ़ॉल्ट वर्डप्रेस टैगलाइन है। एक खाली भी शायद बेहतर है।"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: src/services/health-check/default-tagline-reports.php:63
+msgid "%1$sYou can change the tagline in the customizer%2$s."
+msgstr "%1$sआप कस्टमाइज़र में टैगलाइन बदल सकते हैं%2$s।"
+
+#: src/services/health-check/page-comments-reports.php:45
+msgid "Comments on your posts break into multiple pages. As this is not needed in 999 out of 1000 cases, we recommend you disable it. To fix this, uncheck \"Break comments into pages...\" on the Discussion Settings page."
+msgstr "आपकी पोस्ट्स की टिप्पणियाँ कई पृष्ठों में विभाजित होती हैं। जैसा कि 1000 मामलों में से 999 में इसकी आवश्यकता नहीं है, हम आपको इसे अक्षम करने की सलाह देते हैं। इसे ठीक करने के लिए, चर्चा सेटिंग्स पृष्ठ पर \"टिप्पणियों को पृष्ठों में तोड़ें...\" को अनचेक करें।"
+
+#: src/helpers/post-helper.php:112
+msgid "No title"
+msgstr "कोई शीर्षक नहीं"
+
+#: src/services/health-check/page-comments-reports.php:30
+msgid "Comments are displayed on a single page"
+msgstr "टिप्पणियाँ एक ही पृष्ठ पर प्रदर्शित की जाती हैं"
+
+#: src/services/health-check/page-comments-reports.php:43
+msgid "Comments break into multiple pages"
+msgstr "टिप्पणियाँ कई पृष्ठों में टूटती हैं"
+
+#. translators: 1: Opening tag of the link to the discussion settings page, 2:
+#. Link closing tag.
+#: src/services/health-check/page-comments-reports.php:58
+msgid "%1$sGo to the Discussion Settings page%2$s"
+msgstr "%1$sचर्चा सेटिंग पृष्ठ पर जाएँ%2$s"
+
+#. translators: 1: Start of a paragraph beginning with the Yoast icon, 2:
+#. Expands to 'Yoast SEO', 3: Paragraph closing tag.
+#: src/services/health-check/report-builder.php:201
+msgid "%1$sThis was reported by the %2$s plugin%3$s"
+msgstr "%1$sयह %2$s प्लगइन द्वारा रिपोर्ट किया गया था%3$s"
+
+#. translators: 1: Link start tag to the Firefox website, 2: Link start tag to
+#. the Chrome website, 3: Link start tag to the Edge website, 4: Link closing
+#. tag.
+#: admin/metabox/class-metabox.php:147 admin/taxonomy/class-taxonomy.php:113
+msgid "The browser you are currently using is unfortunately rather dated. Since we strive to give you the best experience possible, we no longer support this browser. Instead, please use %1$sFirefox%4$s, %2$sChrome%4$s or %3$sMicrosoft Edge%4$s."
+msgstr "वर्तमान में आप जिस ब्राउज़र का उपयोग कर रहे हैं वह दुर्भाग्य से दिनांकित है। चूंकि हम आपको सर्वोत्तम अनुभव देने का प्रयास करते हैं, इसलिए अब हम इस ब्राउज़र का समर्थन नहीं करते हैं। इसके बजाय, कृपया %1$sफ़ायरफ़ॉक्स%4$s, %2$sक्रोम%4$s या %3$sमाइक्रोसॉफ्ट एज%4$s का उपयोग करें।"
+
+#: admin/metabox/class-metabox.php:191
+msgid "If you want to apply advanced <code>meta</code> robots settings for this page, please define them in the following field."
+msgstr "यदि आप इस पृष्ठ के लिए उन्नत <code>मेटा</code> रोबोट सेटिंग लागू करना चाहते हैं, तो कृपया उन्हें निम्न फ़ील्ड में परिभाषित करें।"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-export.php:72
+msgid "Your %1$s settings:"
+msgstr "आपकी %1$s सेटिंग:"
+
+#. translators: 1: expands to Yoast SEO, 2: expands to Import settings.
+#: admin/views/tabs/tool/wpseo-import.php:23
+msgid "Import settings from another %1$s installation by pasting them here and clicking \"%2$s\"."
+msgstr "उन्हें यहां पेस्ट करके और \"%2$s\" पर क्लिक करके अन्य %1$s इंस्टॉलेशन से आयात करें।"
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-import.php:39
+msgid "%s settings to import:"
+msgstr "आयात करने के लिए %s सेटिंग:"
+
+#: src/presenters/admin/sidebar-presenter.php:136 js/dist/general-page.js:2
+#: js/dist/new-settings.js:2 js/dist/support.js:2
+msgid "Learn SEO"
+msgstr "एसईओ सीखें"
+
+#. translators: %1$s expands to Yoast SEO academy, which is a clickable link.
+#. translators: %1$s expands to "Yoast SEO" academy, which is a clickable link.
+#: src/presenters/admin/sidebar-presenter.php:144 js/dist/general-page.js:2
+#: js/dist/new-settings.js:2 js/dist/support.js:2
+msgid "Want to learn SEO from Team Yoast? Check out our %1$s!"
+msgstr "टीम योस्ट से एसईओ सीखना चाहते हैं? हमारे %1$s को देखें!"
+
+#: src/presenters/admin/sidebar-presenter.php:146 js/dist/general-page.js:2
+#: js/dist/new-settings.js:2 js/dist/support.js:2
+msgid "We have both free and premium online courses to learn everything you need to know about SEO."
+msgstr "हमारे पास एसईओ के बारे में जानने के लिए आवश्यक सब कुछ सीखने के लिए नि: शुल्क और प्रीमियम दोनों ऑनलाइन पाठ्यक्रम हैं।"
+
+#. translators: %1$s expands to Yoast SEO academy
+#. translators: %1$s expands to "Yoast SEO academy".
+#: src/presenters/admin/sidebar-presenter.php:153 js/dist/general-page.js:3
+#: js/dist/new-settings.js:3 js/dist/support.js:3
+msgid "Check out %1$s"
+msgstr "%1$s देखें"
+
+#: admin/metabox/class-metabox.php:424 js/dist/block-editor.js:510
+#: js/dist/elementor.js:473 js/dist/new-settings.js:24
+#: js/dist/new-settings.js:31 js/dist/new-settings.js:35
+#: js/dist/new-settings.js:65 js/dist/new-settings.js:265
+msgid "Schema"
+msgstr "स्कीमा"
+
+#: admin/admin-settings-changed-listener.php:85
+msgid "Settings saved."
+msgstr "सेटिंग्स को सहेजा गया।"
+
+#. translators: %d expands the amount of hidden notifications.
+#: admin/views/partial-notifications-errors.php:25
+#: admin/views/partial-notifications-warnings.php:25
+msgid "You have %d hidden notification:"
+msgid_plural "You have %d hidden notifications:"
+msgstr[0] "आपके पास %d छिपी हुई सूचना है:"
+msgstr[1] "आपके पास %d छिपी हुई सूचनाएं है:"
+
+#. translators: Hidden accessibility text.
+#: admin/views/partial-notifications-template.php:39
+msgid "Hide this item."
+msgstr "इस आइटम को छुपाएं।"
+
+#. translators: Hidden accessibility text.
+#: admin/views/partial-notifications-template.php:47
+msgid "Show this item."
+msgstr "यह आइटम दिखाएं।"
+
+#: src/helpers/score-icon-helper.php:84
+msgid "Focus keyphrase not set"
+msgstr "फ़ोकस कीफ़्रेज़ सेट नहीं है"
+
+#. translators: %1$s: amount of errors, %2$s: the admin page title
+#: admin/class-yoast-input-validation.php:65
+msgid "The form contains %1$s error. %2$s"
+msgid_plural "The form contains %1$s errors. %2$s"
+msgstr[0] "फ़ॉर्म में %1$s त्रुटि है। %2$s"
+msgstr[1] "फ़ॉर्म में %1$s त्रुटियां है। %2$s"
+
+#. translators: %s expands to the score
+#: admin/statistics/class-statistics-service.php:216
+#: admin/statistics/class-statistics-service.php:221
+#: admin/statistics/class-statistics-service.php:226
+msgid "Posts with the SEO score: %s"
+msgstr "एसईओ स्कोर के साथ पोस्ट: %s"
+
+#. translators: %s expands to the SEO score
+#: inc/class-wpseo-rank.php:170 inc/class-wpseo-rank.php:175
+#: inc/class-wpseo-rank.php:180 inc/class-wpseo-rank.php:185
+#: inc/class-wpseo-rank.php:190
+msgid "SEO: %s"
+msgstr "एसईओ: %s"
+
+#: inc/class-wpseo-rank.php:171
+msgid "No Focus Keyphrase"
+msgstr "कोई फोकस कीफ्रेज नहीं"
+
+#: inc/class-wpseo-rank.php:191
+msgid "Post Noindexed"
+msgstr "पोस्ट नोइंडेक्स"
+
+#. translators: %s: expends to Yoast SEO
+#: admin/class-admin.php:354
+msgid "%s video tutorial"
+msgstr "%s वीडियो ट्यूटोरियल"
+
+#. Translators: %1$s: expands to opening anchor tag, %2$s expands to closing
+#. anchor tag.
+#: admin/google_search_console/views/gsc-display.php:32
+msgid "Google has discontinued its Crawl Errors API. Therefore, any possible crawl errors you might have cannot be displayed here anymore. %1$sRead our statement on this for further information%2$s."
+msgstr "गूगल ने अपनी क्रॉल त्रुटियां एपीआई को बंद कर दिया है। इसलिए, आपके द्वारा किए गए किसी भी संभावित क्रॉल त्रुटियों को अब यहां प्रदर्शित नहीं किया जा सकता है। %1$sअधिक जानकारी के लिए इस पर हमारा वक्तव्य पढ़ें%2$s।"
+
+#. Translators: %1$s: expands to opening anchor tag, %2$s expands to closing
+#. anchor tag.
+#: admin/google_search_console/views/gsc-display.php:39
+msgid "To view your current crawl errors, %1$splease visit Google Search Console%2$s."
+msgstr "अपनी वर्तमान क्रॉल त्रुटियों को देखने के लिए, %1$sकृपया गूगल खोज कंसोल पर जाएँ%2$s।"
+
+#: src/integrations/admin/first-time-configuration-integration.php:480
+#: src/integrations/admin/first-time-configuration-integration.php:493
+#: js/dist/new-settings.js:335
+msgid "Organization"
+msgstr "संगठन"
+
+#. translators: %1$s is a link start tag to the Search Appearance settings,
+#. %2$s is the link closing tag.
+#: admin/class-schema-person-upgrade-notification.php:66
+msgid "You have previously set your site to represent a person. We’ve improved our functionality around Schema and the Knowledge Graph, so you should go in and %1$scomplete those settings%2$s."
+msgstr "आपने पहले किसी व्यक्ति का प्रतिनिधित्व करने के लिए अपनी साइट निर्धारित की है। हमने स्कीमा और नॉलेज ग्राफ़ के आसपास अपनी कार्यक्षमता में सुधार किया है, इसलिए आपको %1$sउन सेटिंग्स को पूरा करना%2$s चाहिए।"
+
+#: src/generators/schema/article.php:141
+msgid "Uncategorized"
+msgstr "अवर्गीकृत"
+
+#: admin/class-admin.php:311
+#: src/user-meta/framework/additional-contactmethods/myspace.php:28
+msgid "MySpace profile URL"
+msgstr "माइस्पेस प्रोफ़ाइल यूआरएल"
+
+#: admin/class-admin.php:313
+#: src/user-meta/framework/additional-contactmethods/soundcloud.php:28
+msgid "SoundCloud profile URL"
+msgstr "साउंडक्लाउड प्रोफ़ाइल यूआरएल"
+
+#: admin/class-admin.php:314
+#: src/user-meta/framework/additional-contactmethods/tumblr.php:28
+msgid "Tumblr profile URL"
+msgstr "टम्बलर प्रोफ़ाइल यूआरएल"
+
+#: admin/class-admin.php:316
+#: src/user-meta/framework/additional-contactmethods/youtube.php:28
+msgid "YouTube profile URL"
+msgstr "यूट्यूब प्रोफ़ाइल यूआरएल"
+
+#: admin/class-admin.php:317
+#: src/user-meta/framework/additional-contactmethods/wikipedia.php:28
+msgid "Wikipedia page about you"
+msgstr "आपके बारे में विकिपीडिया पृष्ठ"
+
+#: admin/class-admin.php:317
+#: src/user-meta/framework/additional-contactmethods/wikipedia.php:28
+msgid "(if one exists)"
+msgstr "(यदि कोई मौजूद है)"
+
+#: admin/class-admin.php:309
+#: src/user-meta/framework/additional-contactmethods/instagram.php:28
+msgid "Instagram profile URL"
+msgstr "इंस्टाग्राम प्रोफ़ाइल यूआरएल"
+
+#: admin/class-admin.php:310
+#: src/user-meta/framework/additional-contactmethods/linkedin.php:28
+msgid "LinkedIn profile URL"
+msgstr "लिंक्डइन प्रोफ़ाइल यूआरएल"
+
+#: admin/class-admin.php:312
+#: src/user-meta/framework/additional-contactmethods/pinterest.php:28
+msgid "Pinterest profile URL"
+msgstr "पिंटरेस्ट प्रोफ़ाइल यूआरएल"
+
+#: inc/class-my-yoast-api-request.php:140
+msgid "No JSON object was returned."
+msgstr "कोई JSON ऑब्जेक्ट वापस नहीं किया गया था।"
+
+#. translators: Hidden accessibility text.
+#: src/integrations/admin/link-count-columns-integration.php:141
+msgid "Outgoing internal links"
+msgstr "बाहर जाने वाले आंतरिक लिंक"
+
+#. translators: Hidden accessibility text.
+#: src/integrations/admin/link-count-columns-integration.php:149
+msgid "Received internal links"
+msgstr "आंतरिक लिंक प्राप्त किए"
+
+#: admin/class-meta-columns.php:132 js/dist/block-editor.js:105
+#: js/dist/classic-editor.js:88 js/dist/elementor.js:397
+#: js/dist/wincher-dashboard-widget.js:117
+msgid "Keyphrase"
+msgstr "कीफ्रेज"
+
+#. translators: 1: Yoast SEO.
+#: src/services/health-check/links-table-reports.php:87
+msgid "For this feature to work, %1$s needs to create a table in your database. We were unable to create this table automatically."
+msgstr "इस सुविधा के कार्य करने के लिए, आपके डेटाबेस में %1$s को एक तालिका बनाने की आवश्यकता है। हम स्वचालित रूप से इस तालिका को बनाने में असमर्थ थे।"
+
+#. translators: %1$s expands to the requested url
+#: admin/exceptions/class-file-size-exception.php:23
+msgid "Cannot get the size of %1$s because it is hosted externally."
+msgstr "%1$s का आकार नहीं मिल सकता क्योंकि इसे बाहरी रूप से होस्ट किया गया है।"
+
+#. translators: %1$s expands to the requested url
+#: admin/exceptions/class-file-size-exception.php:40
+msgid "Cannot get the size of %1$s because of unknown reasons."
+msgstr "अज्ञात कारणों से %1$s का आकार नहीं मिल सकता है।"
+
+#. translators: %s expands to the current page number
+#: src/generators/breadcrumbs-generator.php:424
+msgid "Page %s"
+msgstr "पृष्ठ %s"
+
+#. translators: %1$s expands to the method name. %2$s expands to the class name
+#: src/exceptions/missing-method.php:24
+msgid "Method %1$s() does not exist in class %2$s"
+msgstr "विधि %1$s() क्लास %2$s में मौजूद नहीं है"
+
+#: admin/class-export.php:54
+msgid "You do not have the required rights to export settings."
+msgstr "आपके पास सेटिंग्स को निर्यात करने के लिए आवश्यक अधिकार नहीं हैं।"
+
+#. translators: %1$s expands to Import settings
+#: admin/class-export.php:61
+msgid "Copy all these settings to another site's %1$s tab and click \"%1$s\" there."
+msgstr "इन सभी सेटिंग्स को किसी अन्य साइट के %1$s टैब पर कॉपी करें और वहां \"%1$s\" पर क्लिक करें।"
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to Yoast.com
+#: admin/class-export.php:97
+msgid "These are settings for the %1$s plugin by %2$s"
+msgstr "ये %2$s द्वारा %1$s प्लगइन के लिए सेटिंग हैं"
+
+#: admin/import/class-import-settings.php:85
+msgid "No settings found."
+msgstr "कोई सेटिंग नहीं मिली।"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-export.php:26
+msgid "Export your %1$s settings here, to copy them on another site."
+msgstr "अपनी %1$s सेटिंग यहां निर्यात करें, उन्हें किसी अन्य साइट पर कॉपी करने के लिए।"
+
+#: admin/views/tabs/tool/wpseo-import.php:15
+msgid "Import of settings is only supported on servers that run PHP 5.3 or higher."
+msgstr "सेटिंग्स का आयात केवल पीएचपी 5.3 या उच्चतर चलाने वाले सर्वरों पर समर्थित है।"
+
+#. translators: %s expands to Yoast SEO Premium
+#: admin/watchers/class-slug-change-watcher.php:226
+msgid "With %s, you can easily create such redirects."
+msgstr "%s के साथ, आप आसानी से ऐसे रीडायरेक्ट बना सकते हैं।"
+
+#: admin/class-admin-init.php:345
+msgid "WARNING:"
+msgstr "चेतावनी:"
+
+#. translators: %1$s and %2$s expand to <em> items to emphasize the word in the
+#. middle.
+#: admin/class-admin-init.php:348
+msgid "Changing your permalinks settings can seriously impact your search engine visibility. It should almost %1$s never %2$s be done on a live website."
+msgstr "आपकी पेरीलिंक्स सेटिंग्स बदलने से आपके खोज इंजन दृश्यता पर गंभीर प्रभाव पड़ सकता है। यह एक लाइव वेबसाइट पर लगभग %1$s कभी भी %2$s नहीं होना चाहिए।"
+
+#: admin/class-admin-init.php:354
+msgid "Learn about why permalinks are important for SEO."
+msgstr "जानें कि एसईओ के लिए पर्मालिंक क्यों महत्वपूर्ण हैं।"
+
+#. translators: %s expands to Yoast WooCommerce SEO
+#. translators: %s expands to Yoast SEO Premium
+#. translators: %s expands to "Yoast SEO" Premium
+#: admin/class-premium-upsell-admin-block.php:181
+#: admin/class-premium-upsell-admin-block.php:192 js/dist/general-page.js:11
+#: js/dist/general-page.js:12 js/dist/new-settings.js:11
+#: js/dist/new-settings.js:12
+msgid "Upgrade to %s"
+msgstr "%s पर अपग्रेड करें"
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/network/crawl-settings.php:24
+#: admin/views/tabs/network/features.php:27
+msgid "This tab allows you to selectively disable %s features for all sites in the network. By default all features are enabled, which allows site admins to choose for themselves if they want to toggle a feature on or off for their site. When you disable a feature here, site admins will not be able to use that feature at all."
+msgstr "यह टैब आपको नेटवर्क की सभी साइटों के लिए चुनिंदा %s सुविधाओं को अक्षम करने की अनुमति देता है। डिफ़ॉल्ट रूप से सभी सुविधाएँ सक्षम होती हैं, जो साइट व्यवस्थापक को अपनी साइट के लिए किसी सुविधा को चालू या बंद करने के लिए स्वयं का चयन करने की अनुमति देता है। जब आप किसी विशेषता को यहां अक्षम करते हैं, तो साइट व्यवस्थापक उस सुविधा का उपयोग करने में सक्षम नहीं होंगे।"
+
+#: admin/views/tabs/network/features.php:94
+#: admin/views/tabs/network/integrations.php:81
+#: src/integrations/admin/crawl-settings-integration.php:249
+msgid "Allow Control"
+msgstr "नियंत्रण की अनुमति दें"
+
+#: admin/views/tabs/network/features.php:95
+#: admin/views/tabs/network/integrations.php:82
+#: src/integrations/admin/crawl-settings-integration.php:251
+msgid "Disable"
+msgstr "बंद करना"
+
+#. translators: %s: argument name
+#: admin/views/class-yoast-feature-toggle.php:161
+msgid "%s is a required feature toggle argument."
+msgstr "%s तर्क को टॉगल करने के लिए एक आवश्यक विशेषता है।"
+
+#. translators: Hidden accessibility text.
+#: admin/class-meta-columns.php:197
+msgid "Focus keyphrase not set."
+msgstr "फोकस कीफ्रेज़ सेट नहीं है।"
+
+#: admin/class-yoast-form.php:1064 js/dist/general-page.js:42
+msgid "This feature has been disabled by the network admin."
+msgstr "इस सुविधा को नेटवर्क व्यवस्थापक द्वारा अक्षम कर दिया गया है।"
+
+#. translators: %s expands to Yoast SEO Premium
+#. translators: WooCommerce SEO
+#: admin/class-premium-popup.php:81
+#: admin/watchers/class-slug-change-watcher.php:230
+#: js/dist/externals-components.js:396
+msgid "Get %s"
+msgstr "%s प्राप्त करें"
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'SEO' plugin name of possibly
+#. conflicting plugin with regard to the creation of duplicate SEO meta.
+#: admin/class-plugin-conflict.php:90
+msgid "Both %1$s and %2$s manage the SEO of your site. Running two SEO plugins at the same time is detrimental."
+msgstr "%1$s और %2$s दोनों आपकी साइट के एसईओ को प्रबंधित करते हैं। एक ही समय में दो एसईओ प्लग इन करना हानिकारक है।"
+
+#: inc/options/class-wpseo-option-titles.php:949
+msgid "Colon"
+msgstr "कॉलन"
+
+#: inc/class-wpseo-admin-bar-menu.php:898
+msgid "There is a new notification."
+msgid_plural "There are new notifications."
+msgstr[0] "एक नई सूचना है।"
+msgstr[1] "नई सूचनाएं हैं।"
+
+#. translators: %1$s expands to Yoast.
+#: src/integrations/blocks/block-categories.php:37
+msgid "%1$s Structured Data Blocks"
+msgstr "%1$s संरचित डेटा ब्लॉक"
+
+#. translators: %d expands to the number of day/days.
+#. translators: %d expands to the number of days.
+#: src/integrations/blocks/structured-data-blocks.php:132
+#: js/dist/block-editor.js:84 js/dist/classic-editor.js:67
+#: js/dist/elementor.js:376 js/dist/how-to-block.js:6
+#: js/dist/how-to-block.js:12 js/dist/wincher-dashboard-widget.js:59
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d दिन"
+msgstr[1] "%d दिन"
+
+#. translators: %d expands to the number of hour/hours.
+#. translators: %d expands to the number of hours.
+#: src/integrations/blocks/structured-data-blocks.php:139
+#: js/dist/how-to-block.js:7 js/dist/how-to-block.js:13
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d घंटा"
+msgstr[1] "%d घंटे"
+
+#. translators: %d expands to the number of minute/minutes.
+#. translators: %d expands to the number of minutes.
+#: src/integrations/blocks/structured-data-blocks.php:146
+#: js/dist/how-to-block.js:8 js/dist/how-to-block.js:14
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d मिनट"
+msgstr[1] "%d मिनट"
+
+#: blocks/structured-data-blocks/how-to/block.json
+msgctxt "block description"
+msgid "Create a How-to guide in an SEO-friendly way. You can only use one How-to block per post."
+msgstr "एसईओ-अनुकूल तरीके से कैसे करें मार्गदर्शिका बनाएं। आप प्रति पोस्ट केवल एक हाउ-टू ब्लॉक का उपयोग कर सकते हैं।"
+
+#: inc/class-wpseo-admin-bar-menu.php:438
+msgid "Check links to this URL"
+msgstr "इस यूआरएल के लिंक की जाँच करें"
+
+#: src/integrations/blocks/structured-data-blocks.php:197
+#: js/dist/how-to-block.js:5 js/dist/how-to-block.js:16
+msgid "Time needed:"
+msgstr "समय की आवश्यकता:"
+
+#: admin/class-yoast-network-admin.php:81
+msgid "deleted"
+msgstr "हटाए गए"
+
+#: admin/class-yoast-network-admin.php:120
+msgid "You are not allowed to modify unregistered network settings."
+msgstr "आपको अपंजीकृत नेटवर्क सेटिंग्स को संशोधित करने की अनुमति नहीं है।"
+
+#: admin/class-yoast-network-admin.php:159
+msgid "No site has been selected to restore."
+msgstr "पुनर्स्थापित करने के लिए किसी भी साइट का चयन नहीं किया गया है।"
+
+#. translators: %s expands to the ID of a site within a multisite network.
+#: admin/class-yoast-network-admin.php:168
+msgid "Site with ID %d not found."
+msgstr "आईडी %d वाली साइट नहीं मिली।"
+
+#. translators: %s: success message
+#: admin/class-yoast-network-admin.php:206
+msgid "Success: %s"
+msgstr "सफलता: %s"
+
+#. translators: %s: error message
+#: admin/class-yoast-network-admin.php:208
+msgid "Error: %s"
+msgstr "त्रुटि: %s"
+
+#: admin/class-yoast-network-admin.php:276
+msgid "You are not allowed to perform this action."
+msgstr "आपको यह क्रिया करने की अनुमति नहीं है।"
+
+#: admin/menu/class-network-admin-menu.php:34
+msgid "Network Settings"
+msgstr "नेटवर्क सेटिंग्स"
+
+#: admin/pages/network.php:31
+msgid "Restore Site"
+msgstr "साइट को पुनर्स्थापित करें"
+
+#: inc/class-wpseo-admin-bar-menu.php:509
+msgid "How to"
+msgstr "कैसे"
+
+#: inc/class-wpseo-replace-vars.php:1475
+msgid "The site's tagline"
+msgstr "साइट की टैगलाइन"
+
+#. translators: %1$s expands to the missing field name.
+#: admin/menu/class-replacevar-editor.php:152
+msgid "Not all required fields are given. Missing field %1$s"
+msgstr "सभी आवश्यक फ़ील्ड नहीं दिए गए हैं। फील्ड %1$s गायब है"
+
+#: inc/class-wpseo-replace-vars.php:1489 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Current year"
+msgstr "वर्तमान साल"
+
+#: inc/class-wpseo-replace-vars.php:1525
+msgid "Term404"
+msgstr "Term404"
+
+#. translators: %1$s expands to the translated name of the post type.
+#: admin/watchers/class-slug-change-watcher.php:67
+msgid "You just trashed a %1$s."
+msgstr "आपने अभी %1$s को ट्रैश किया है।"
+
+#. translators: %1$s expands to the translated name of the post type.
+#. translators: %1$s expands to the translated name of the term.
+#: admin/watchers/class-slug-change-watcher.php:89
+#: admin/watchers/class-slug-change-watcher.php:112
+msgid "You just deleted a %1$s."
+msgstr "आपने अभी %1$s हटा दिया है।"
+
+#: admin/watchers/class-slug-change-watcher.php:220
+msgid "Make sure you don't miss out on traffic!"
+msgstr "सुनिश्चित करें कि आप ट्रैफ़िक को याद नहीं करते हैं!"
+
+#: admin/watchers/class-slug-change-watcher.php:224
+msgid "You should create a redirect to ensure your visitors do not get a 404 error when they click on the no longer working URL."
+msgstr "जब आप अब काम नहीं कर रहे यूआरएल पर क्लिक करते हैं, तो आपको अपने आगंतुकों को 404 त्रुटि न मिले यह सुनिश्चित करने के लिए एक रीडायरेक्ट बनाना चाहिए।"
+
+#: inc/class-wpseo-replace-vars.php:1470 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Date"
+msgstr "दिनांक"
+
+#: inc/class-wpseo-replace-vars.php:1472 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Parent title"
+msgstr "मूल शीर्षक"
+
+#: inc/class-wpseo-replace-vars.php:1473
+msgid "Archive title"
+msgstr "आर्काइव शीर्षक"
+
+#: inc/class-wpseo-replace-vars.php:1474 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Site title"
+msgstr "साइट शीर्षक"
+
+#: inc/class-wpseo-replace-vars.php:1476 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Excerpt"
+msgstr "अंश"
+
+#: inc/class-wpseo-replace-vars.php:1477 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Excerpt only"
+msgstr "केवल अंश"
+
+#: inc/class-wpseo-replace-vars.php:1478
+msgid "Tag"
+msgstr "टैग"
+
+#: inc/class-wpseo-replace-vars.php:1479 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Category"
+msgstr "श्रेणी"
+
+#: inc/class-wpseo-replace-vars.php:1480 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Primary category"
+msgstr "प्राथमिक श्रेणी"
+
+#: inc/class-wpseo-replace-vars.php:1481 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Category description"
+msgstr "श्रेणी का विवरण"
+
+#: inc/class-wpseo-replace-vars.php:1482 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Tag description"
+msgstr "टैग विवरण"
+
+#: inc/class-wpseo-replace-vars.php:1483 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Term description"
+msgstr "शब्द का विवरण"
+
+#: inc/class-wpseo-replace-vars.php:1484
+msgid "Term title"
+msgstr "शब्द का शीर्षक"
+
+#: inc/class-wpseo-replace-vars.php:1485 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Search phrase"
+msgstr "वाक्यांश खोजें"
+
+#: inc/class-wpseo-replace-vars.php:1487 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1 js/dist/new-settings.js:31
+msgid "Separator"
+msgstr "विभाजक"
+
+#: inc/class-wpseo-replace-vars.php:1514
+msgid "Post type (singular)"
+msgstr "पोस्ट प्रकार (एकवचन)"
+
+#: inc/class-wpseo-replace-vars.php:1515
+msgid "Post type (plural)"
+msgstr "पोस्ट प्रकार (बहुवचन)"
+
+#: inc/class-wpseo-replace-vars.php:1516
+msgid "Modified"
+msgstr "संशोधित"
+
+#: inc/class-wpseo-replace-vars.php:1517 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "ID"
+msgstr "आईडी"
+
+#: inc/class-wpseo-replace-vars.php:1519
+msgid "User description"
+msgstr "उपयोगकर्ता का विवरण"
+
+#: inc/class-wpseo-replace-vars.php:1521
+msgid "Pagetotal"
+msgstr "पृष्ठ कुल"
+
+#: inc/class-wpseo-replace-vars.php:1522
+msgid "Pagenumber"
+msgstr "पृष्ठ संख्या"
+
+#: inc/class-wpseo-replace-vars.php:1523
+msgid "Caption"
+msgstr "शीर्षक"
+
+#: inc/class-wpseo-replace-vars.php:1526
+msgid "(custom field)"
+msgstr "(कस्टम फील्ड)"
+
+#: inc/class-wpseo-replace-vars.php:1527
+msgid "(custom taxonomy)"
+msgstr "(कस्टम टेक्सोनोमी)"
+
+#: inc/class-wpseo-replace-vars.php:1528
+msgid "description (custom taxonomy)"
+msgstr "विवरण (कस्टम टेक्सोनोमी)"
+
+#: inc/class-wpseo-replace-vars.php:1520 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1
+msgid "Page"
+msgstr "पृष्ठ"
+
+#: inc/class-wpseo-replace-vars.php:1475 js/dist/elementor.js:473
+#: js/dist/externals-redux.js:1 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:317
+msgid "Tagline"
+msgstr "टैगलाइन"
+
+#: admin/watchers/class-slug-change-watcher.php:90
+#: admin/watchers/class-slug-change-watcher.php:113
+msgid "Search engines and other websites can still send traffic to your deleted content."
+msgstr "खोज इंजन और अन्य वेबसाइटें अभी भी आपकी हटाई गई सामग्री पर ट्रैफ़िक भेज सकती हैं।"
+
+#: admin/class-bulk-editor-list-table.php:411
+msgid "Show All Content Types"
+msgstr "सभी सामग्री प्रकार दिखाएं"
+
+#. translators: Hidden accessibility text.
+#: admin/class-bulk-editor-list-table.php:429
+msgid "Filter by content type"
+msgstr "सामग्री प्रकार से फ़िल्टर करें"
+
+#: admin/class-bulk-editor-list-table.php:1037
+msgid "Content Type"
+msgstr "सामग्री प्रकार"
+
+#. translators: %s is replaced with the plugin's name.
+#: admin/import/plugins/class-abstract-plugin-importer.php:132
+msgid "Cleanup of %s data failed."
+msgstr "%s डेटा की सफाई विफल रही।"
+
+#. translators: %s is replaced with Yoast SEO.
+#: admin/import/plugins/class-abstract-plugin-importer.php:259
+msgid "The %s importer functionality uses temporary database tables. It seems your WordPress install does not have the capability to do this, please consult your hosting provider."
+msgstr "%s आयातक कार्यक्षमता अस्थायी डेटाबेस तालिकाओं का उपयोग करती है। ऐसा लगता है कि आपके वर्डप्रेस इंस्टॉल में ऐसा करने की क्षमता नहीं है, कृपया अपने होस्टिंग प्रदाता से परामर्श करें।"
+
+#: inc/class-wpseo-replace-vars.php:1473
+msgid "Replaced with the normal title for an archive generated by WordPress"
+msgstr "वर्डप्रेस द्वारा उत्पन्न एक आर्काइव के लिए सामान्य शीर्षक के साथ प्रतिस्थापित"
+
+#. translators: %s is replaced with the name of the plugin we're trying to find
+#. data from.
+#: admin/import/class-import-status.php:61
+msgid "%s data not found."
+msgstr "%s डेटा नहीं मिला।"
+
+#. translators: %s is replaced with the name of the plugin we're importing data
+#. from.
+#: admin/import/class-import-status.php:121
+msgid "%s data successfully imported."
+msgstr "%s डेटा सफलतापूर्वक आयात किया गया।"
+
+#. translators: %s is replaced with the name of the plugin we're removing data
+#. from.
+#: admin/import/class-import-status.php:124
+msgid "%s data successfully removed."
+msgstr "%s डेटा सफलतापूर्वक निकाला गया।"
+
+#. translators: %s is replaced with the name of the plugin we've found data
+#. from.
+#: admin/import/class-import-status.php:128
+msgid "%s data found."
+msgstr "%s डेटा मिला।"
+
+#: admin/statistics/class-statistics-service.php:229
+msgid "Posts that should not show up in search results"
+msgstr "वे पोस्ट जिन्हें खोज परिणामों में नहीं दिखाना चाहिए"
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/tool/import-seo.php:22
+msgid "%s did not detect any plugin data from plugins it can import from."
+msgstr "%s प्लगइन्स से किसी भी प्लगइन डेटा का पता नहीं लगा सकता है जिसे वह आयात कर सकता है।"
+
+#: admin/views/tabs/tool/import-seo.php:39
+msgid "Plugin: "
+msgstr "प्लगइन:"
+
+#: admin/views/tabs/tool/import-seo.php:51
+msgid "We've detected data from one or more SEO plugins on your site. Please follow the following steps to import that data:"
+msgstr "हमने आपकी साइट पर एक या अधिक एसईओ प्लगइन के डेटा का पता लगाया है। कृपया उस डेटा को आयात करने के लिए निम्नलिखित चरणों का पालन करें:"
+
+#: admin/views/tabs/tool/import-seo.php:55
+msgid "Step 1: Create a backup"
+msgstr "चरण 1: एक बैकअप बनाएं"
+
+#: admin/views/tabs/tool/import-seo.php:57
+msgid "Please make a backup of your database before starting this process."
+msgstr "कृपया इस प्रक्रिया को शुरू करने से पहले अपने डेटाबेस का बैकअप बना लें।"
+
+#: admin/views/tabs/tool/import-seo.php:62
+msgid "Step 2: Import"
+msgstr "चरण 2: आयात करें"
+
+#. translators: 1: expands to Yoast SEO
+#: admin/views/tabs/tool/import-seo.php:67
+msgid "This will import the post metadata like SEO titles and descriptions into your %1$s metadata. It will only do this when there is no existing %1$s metadata yet. The original data will remain in place."
+msgstr "यह पोस्ट मेटाडेटा जैसे एसईओ शीर्षक और विवरण आपके %1$s मेटाडेटा में आयात करेगा। यह केवल तब करेगा जब अभी तक कोई मौजूदा %1$s मेटाडेटा नहीं है। मूल डेटा यथावत रहेगा।"
+
+#: admin/views/tabs/tool/import-seo.php:93
+msgid "Step 3: Check your data"
+msgstr "चरण 3: अपना डेटा जांचें"
+
+#: admin/views/tabs/tool/import-seo.php:95
+msgid "Please check your posts and pages and see if the metadata was successfully imported."
+msgstr "कृपया अपने पोस्ट और पेज देखें और देखें कि क्या मेटाडेटा सफलतापूर्वक आयात किया गया था।"
+
+#: admin/views/tabs/tool/import-seo.php:115
+msgid "Step 5: Clean up"
+msgstr "चरण 5: सफाई करें"
+
+#: admin/views/tabs/tool/import-seo.php:117
+msgid "Once you're certain your site is OK, you can clean up. This will remove all the original data."
+msgstr "एक बार जब आप निश्चित हो जाते हैं कि आपकी साइट ठीक है, तो आप सफाई कर सकते हैं। यह सभी मूल डेटा को हटा देगा।"
+
+#: admin/views/tabs/tool/import-seo.php:126
+msgid "Clean"
+msgstr "साफ़"
+
+#: admin/class-yoast-form.php:961 admin/class-yoast-form.php:1001
+#: admin/views/class-yoast-feature-toggles.php:160
+#: js/dist/externals/componentsNew.js:724
+msgid "Off"
+msgstr "बंद"
+
+#. translators: Hidden accessibility text; %s expands to a feature's name.
+#. translators: Hidden accessibility text; %s expands to an integration's name.
+#: admin/views/tabs/network/features.php:62
+#: admin/views/tabs/network/integrations.php:50
+msgid "Help on: %s"
+msgstr "पर मदद: %s"
+
+#: admin/class-yoast-form.php:960 admin/class-yoast-form.php:1000
+#: js/dist/externals/componentsNew.js:724
+msgid "On"
+msgstr "पर"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/dashboard/dashboard.php:19
+msgid "See who contributed to %1$s."
+msgstr "देखें कि किसने %1$s में योगदान दिया है।"
+
+#: admin/views/class-yoast-feature-toggles.php:70
+msgid "See the XML sitemap."
+msgstr "एक्सएमएल साइटमैप देखें।"
+
+#. translators: %s: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:139
+msgid "Enable the XML sitemaps that %s generates."
+msgstr "एक्सएमएल साइटमैप को सक्षम करें जो %s उत्पन्न करता है।"
+
+#: admin/views/class-yoast-feature-toggles.php:140
+msgid "Read why XML Sitemaps are important for your site."
+msgstr "पढ़ें कि आपकी साइट के लिए एक्सएमएल साइटमैप क्यों महत्वपूर्ण हैं"
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/class-plugin-conflict.php:82
+msgid "Toggle %1$s's XML Sitemap"
+msgstr "%1$s के एक्सएमएल साइटमैप को टॉगल करें"
+
+#. translators: %s expands to an indexable object's name, like a post type or
+#. taxonomy
+#: admin/class-yoast-form.php:971
+msgid "Show %s in search results?"
+msgstr "खोज परिणामों में %s दिखाएं?"
+
+#. translators: %s expands to the post type name.
+#: admin/metabox/class-metabox.php:176
+msgid "Allow search engines to show this %s in search results?"
+msgstr "खोज परिणामों में खोज इंजन को इस %s को दिखाने की अनुमति दें?"
+
+#. translators: %1$s expands to Yes or No,  %2$s expands to the post type name.
+#: admin/metabox/class-metabox.php:181
+msgid "Default for %2$s, currently: %1$s"
+msgstr "%2$s के लिए डिफ़ॉल्ट, वर्तमान में: %1$s"
+
+#. translators: %1$s expands to the post type name.
+#: admin/metabox/class-metabox.php:186
+msgid "Should search engines follow links on this %1$s?"
+msgstr "क्या खोज इंजनों को इस %1$s के लिंक का अनुसरण करना चाहिए?"
+
+#: admin/views/class-yoast-feature-toggles.php:75
+#: js/dist/externals-components.js:403 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:323
+msgid "SEO analysis"
+msgstr "एसईओ विश्लेषण"
+
+#: admin/views/class-yoast-feature-toggles.php:77
+msgid "The SEO analysis offers suggestions to improve the SEO of your text."
+msgstr "एसईओ विश्लेषण आपके पाठ के एसईओ को बेहतर बनाने के लिए सुझाव देता है।"
+
+#: admin/views/class-yoast-feature-toggles.php:78
+msgid "Learn how the SEO analysis can help you rank."
+msgstr "जानें कि कैसे एसईओ विश्लेषण आपको रैंक करने में मदद कर सकता है।"
+
+#: admin/views/class-yoast-feature-toggles.php:85 js/dist/new-settings.js:323
+msgid "The readability analysis offers suggestions to improve the structure and style of your text."
+msgstr "पठनीयता विश्लेषण आपके पाठ की संरचना और शैली को बेहतर बनाने के लिए सुझाव देता है।"
+
+#: admin/views/class-yoast-feature-toggles.php:86
+msgid "Discover why readability is important for SEO."
+msgstr "पता करें क्यों एसईओ के लिए पठनीयता महत्वपूर्ण है।"
+
+#: admin/views/class-yoast-feature-toggles.php:102
+msgid "The cornerstone content feature lets you to mark and filter cornerstone content on your website."
+msgstr "आधारशिला सामग्री सुविधा आपको अपनी वेबसाइट पर आधारशिला सामग्री को चिह्नित करने और फ़िल्टर करने की सुविधा देती है।"
+
+#: admin/views/class-yoast-feature-toggles.php:103
+msgid "Find out how cornerstone content can help you improve your site structure."
+msgstr "पता लगाएं कि आधारशिला सामग्री आपकी साइट संरचना को बेहतर बनाने में आपकी मदद कर सकती है।"
+
+#: admin/views/class-yoast-feature-toggles.php:110
+msgid "The text link counter helps you improve your site structure."
+msgstr "पाठ लिंक काउंटर आपको अपनी साइट संरचना को बेहतर बनाने में मदद करता है।"
+
+#: admin/views/class-yoast-feature-toggles.php:111
+msgid "Find out how the text link counter can enhance your SEO."
+msgstr "पता करें कि टेक्स्ट लिंक काउंटर आपके एसईओ को कैसे बढ़ा सकता है।"
+
+#. translators: %s: 'Semrush'
+#. translators: %s: Algolia.
+#: admin/views/class-yoast-integration-toggles.php:67
+#: admin/views/class-yoast-integration-toggles.php:78
+msgid "%s integration"
+msgstr "%s एकीकरण"
+
+#. Plugin URI of the plugin
+#: wp-seo.php
+msgid "https://yoa.st/1uj"
+msgstr "https://yoa.st/1uj"
+
+#. Author URI of the plugin
+#: wp-seo.php
+msgid "https://yoa.st/1uk"
+msgstr "https://yoa.st/1uk"
+
+#. translators: %1$s resolves to Yoast.com
+#: admin/class-yoast-dashboard-widget.php:130
+msgid "Latest blog posts on %1$s"
+msgstr "%1$s पर नवीनतम ब्लॉग पोस्ट"
+
+#: src/helpers/first-time-configuration-notice-helper.php:64
+msgid "First-time SEO configuration"
+msgstr "पहली बार एसईओ कॉन्फ़िगरेशन"
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:28
+msgid "You cannot create a %s file."
+msgstr "आप %s फ़ाइल नहीं बना सकते।"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:49 admin/views/tool-file-editor.php:76
+msgid "You cannot edit the %s file."
+msgstr "आप %s फ़ाइल को संपादित नहीं कर सकते।"
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:65
+msgid "Updated %s"
+msgstr "अद्यतित %s"
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:125
+msgid "Create %s file"
+msgstr "%s फ़ाइल बनाएँ"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:165 admin/views/tool-file-editor.php:215
+msgid "Edit the content of your %s:"
+msgstr "अपने %s की सामग्री संपादित करें:"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:174 admin/views/tool-file-editor.php:224
+msgid "Save changes to %s"
+msgstr "%s में परिवर्तन सहेजें"
+
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:186
+msgid "%s file"
+msgstr "%s फाइल"
+
+#. translators: Hidden accessibility text; %1$s expands to the dependency name
+#: admin/class-suggested-plugins.php:137
+msgid "More information about %1$s"
+msgstr "%1$s के बारे में अधिक जानकारी"
+
+#: src/integrations/admin/old-configuration-integration.php:38
+msgid "Old Configuration Wizard"
+msgstr "पुराना कॉन्फ़िगरेशन विज़ार्ड"
+
+#. translators: Hidden accessibility text.
+#: admin/class-admin-utils.php:79 admin/class-premium-popup.php:83
+#: admin/class-premium-upsell-admin-block.php:76 admin/class-yoast-form.php:935
+#: admin/watchers/class-slug-change-watcher.php:232
+#: src/integrations/admin/workouts-integration.php:215
+#: src/integrations/admin/workouts-integration.php:245
+#: src/presenters/admin/help-link-presenter.php:76
+#: src/presenters/admin/sidebar-presenter.php:158 js/dist/academy.js:9
+#: js/dist/ai-consent.js:2 js/dist/ai-generator.js:2 js/dist/ai-generator.js:46
+#: js/dist/ai-generator.js:261 js/dist/block-editor.js:477
+#: js/dist/block-editor.js:478 js/dist/editor-modules.js:116
+#: js/dist/editor-modules.js:368 js/dist/externals-components.js:21
+#: js/dist/externals-components.js:126 js/dist/externals-components.js:127
+#: js/dist/externals-components.js:379 js/dist/externals/componentsNew.js:1002
+#: js/dist/externals/helpers.js:6
+#: js/dist/externals/relatedKeyphraseSuggestions.js:3
+#: js/dist/externals/relatedKeyphraseSuggestions.js:7 js/dist/general-page.js:4
+#: js/dist/general-page.js:5 js/dist/general-page.js:13
+#: js/dist/general-page.js:26 js/dist/installation-success.js:5
+#: js/dist/integrations-page.js:3 js/dist/integrations-page.js:4
+#: js/dist/integrations-page.js:5 js/dist/integrations-page.js:6
+#: js/dist/integrations-page.js:7 js/dist/integrations-page.js:8
+#: js/dist/integrations-page.js:13 js/dist/integrations-page.js:18
+#: js/dist/integrations-page.js:19 js/dist/integrations-page.js:20
+#: js/dist/integrations-page.js:28 js/dist/introductions.js:3
+#: js/dist/introductions.js:7 js/dist/new-settings.js:4
+#: js/dist/new-settings.js:5 js/dist/new-settings.js:13 js/dist/plans.js:2
+#: js/dist/redirects.js:6 js/dist/support.js:4 js/dist/support.js:8
+msgid "(Opens in a new browser tab)"
+msgstr "(नए ब्राउज़र टैब में खुलता है)"
+
+#. translators: %1$s expands to the posttype label, %2$s expands anchor to blog
+#. post about cornerstone content, %3$s expands to </a>
+#: admin/filters/class-cornerstone-filter.php:104
+msgid "Mark the most important %1$s as 'cornerstone content' to improve your site structure. %2$sLearn more about cornerstone content%3$s."
+msgstr "अपनी साइट संरचना को बेहतर बनाने के लिए सबसे महत्वपूर्ण %1$s को 'आधारशिला सामग्री' के रूप में चिह्नित करें। %2$sआधारशिला सामग्री के बारे में अधिक जानें%3$s।"
+
+#: admin/statistics/class-statistics-service.php:73
+msgid "You don't have any published posts, your SEO scores will appear here once you make your first post!"
+msgstr "आपके पास कोई प्रकाशित पोस्ट नहीं है, आपका पहला पोस्ट बनाते ही आपका एसईओ स्कोर यहाँ दिखाई देगा!"
+
+#: admin/statistics/class-statistics-service.php:77
+msgid "Hey, your SEO is doing pretty well! Check out the stats:"
+msgstr "अरे, आपका एसईओ बहुत अच्छा कर रहा है! आँकड़े देखें:"
+
+#. translators: %1$s expands to an opening strong tag, %2$s expands to a
+#. closing strong tag
+#: admin/statistics/class-statistics-service.php:210
+msgid "Posts %1$swithout%2$s a focus keyphrase"
+msgstr "फ़ोकस कीफ़्रेस के %1$sबिना%2$s पोस्ट"
+
+#: admin/class-yoast-dashboard-widget.php:133
+msgid "Read more like this on our SEO blog"
+msgstr "हमारे एसईओ ब्लॉग पर इसे और पढ़ें"
+
+#. translators: %1$s expands to Yoast
+#: src/presenters/admin/sidebar-presenter.php:34
+msgid "%1$s recommendations for you"
+msgstr "आपके लिए %1$s सिफारिशें"
+
+#. translators: Hidden accessibility text.
+#: admin/class-meta-columns.php:298
+msgid "Filter by Readability Score"
+msgstr "पठनीयता स्कोर द्वारा फ़िल्टर"
+
+#: admin/class-meta-columns.php:302
+msgid "All Readability Scores"
+msgstr "सभी पठनीयता स्कोर"
+
+#. translators: %s expands to the readability score
+#: inc/class-wpseo-rank.php:207 inc/class-wpseo-rank.php:212
+#: inc/class-wpseo-rank.php:217 inc/class-wpseo-rank.php:222
+msgid "Readability: %s"
+msgstr "पठनीयता: %s"
+
+#. translators: %1$s expands to the request method
+#: admin/class-remote-request.php:97
+msgid "Request method %1$s is not valid."
+msgstr "अनुरोध विधि %1$s मान्य नहीं है।"
+
+#: admin/views/class-yoast-feature-toggles.php:108 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:323
+msgid "Text link counter"
+msgstr "पाठ लिंक काउंटर"
+
+#: admin/class-meta-columns.php:122 admin/class-meta-columns.php:124
+#: admin/taxonomy/class-taxonomy-columns.php:92
+#: admin/taxonomy/class-taxonomy-columns.php:93
+msgid "Readability score"
+msgstr "पठनीयता स्कोर"
+
+#. translators: %s expands to Yoast
+#: admin/class-yoast-columns.php:64
+msgid "%s Columns"
+msgstr "%s कॉलम"
+
+#: admin/filters/class-cornerstone-filter.php:87
+#: admin/views/class-yoast-feature-toggles.php:100
+#: js/dist/externals-components.js:20 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:323
+msgid "Cornerstone content"
+msgstr "आधारशिला सामग्री"
+
+#. translators: %2$s expands to 'RS Head Cleaner' plugin name of possibly
+#. conflicting plugin with regard to differentiating output between search
+#. engines and normal users.
+#: admin/class-plugin-conflict.php:87
+msgid "The plugin %2$s changes your site's output and in doing that differentiates between search engines and normal users, a process that's called cloaking. We highly recommend that you disable it."
+msgstr "प्लगइन %2$s आपकी साइट के आउटपुट को बदल देता है और यह करने में खोज इंजन और सामान्य उपयोगकर्ताओं के बीच अंतर करता है, एक प्रक्रिया जिसे क्लोकिंग कहा जाता है। हम अनुशंसा करते हैं कि आप इसे अक्षम करें।"
+
+#: admin/class-premium-popup.php:89
+msgid "1 year free support and updates included!"
+msgstr "1 साल का मुफ्त समर्थन और अद्यतन शामिल!"
+
+#: admin/class-yoast-form.php:149 admin/class-yoast-form.php:154
+#: js/dist/general-page.js:38 js/dist/new-settings.js:13
+msgid "Save changes"
+msgstr "बदलाव सहेजें"
+
+#: src/presenters/admin/sidebar-presenter.php:79 js/dist/ai-consent.js:3
+#: js/dist/ai-generator.js:3 js/dist/block-editor.js:19
+#: js/dist/classic-editor.js:2 js/dist/editor-modules.js:117
+#: js/dist/elementor.js:3 js/dist/externals-components.js:128
+#: js/dist/general-page.js:6 js/dist/integrations-page.js:29
+#: js/dist/new-settings.js:6 js/dist/redirects.js:2 js/dist/support.js:5
+msgid "24/7 support"
+msgstr "دعم على مدار الساعة 24/7"
+
+#: admin/class-admin.php:355
+msgid "Scroll to see the table content."
+msgstr "तालिका सामग्री देखने के लिए स्क्रॉल करें।"
+
+#: admin/class-bulk-editor-list-table.php:921
+msgid "Save"
+msgstr "सहेजें"
+
+#: admin/class-bulk-editor-list-table.php:922
+msgid "Save all"
+msgstr "सभी को सहेजें"
+
+#: admin/views/partial-notifications-warnings.php:22 js/dist/general-page.js:26
+msgid "No new notifications."
+msgstr "कोई नए संदेश नहीं।"
+
+#. translators: 1: Author name; 2: Site name.
+#: inc/options/class-wpseo-option-titles.php:272
+msgid "%1$s, Author at %2$s"
+msgstr "%1$s, %2$s पर लेखक"
+
+#: admin/views/tool-import-export.php:89
+msgid "Export settings"
+msgstr "निर्यात सेटिंग्स"
+
+#: inc/class-wpseo-replace-vars.php:1518 js/dist/general-page.js:38
+msgid "Name"
+msgstr "नाम"
+
+#. translators: %1$s expands to Yoast SEO, %2$s is a link start tag to the
+#. plugin page on WordPress.org, %3$s is the link closing tag.
+#: admin/class-product-upsell-notice.php:166
+msgid "We've noticed you've been using %1$s for some time now; we hope you love it! We'd be thrilled if you could %2$sgive us a 5 stars rating on WordPress.org%3$s!"
+msgstr "हमने देखा है कि आप पिछले कुछ समय से %1$s का उपयोग कर रहे हैं; हमें उम्मीद है कि आप इसे प्यार करेंगे! यदि आप %2$sहमें WordPress.org पर 5 स्टार रेटिंग दे सकते हैं%3$s तो हम रोमांचित होंगे!"
+
+#. translators: %1$s is a link start tag to the bugreport guidelines on the
+#. Yoast help center, %2$s is the link closing tag.
+#: admin/class-product-upsell-notice.php:174
+msgid "If you are experiencing issues, %1$splease file a bug report%2$s and we'll do our best to help you out."
+msgstr "यदि आप समस्याओं का सामना कर रहे हैं, तो %1$sकृपया बग रिपोर्ट दर्ज करें%2$s और हम आपकी सहायता करने की पूरी कोशिश करेंगे।"
+
+#: admin/class-product-upsell-notice.php:181
+msgid "Please don't show me this notification anymore"
+msgstr "कृपया मुझे यह सूचना अब न दिखाएं"
+
+#. translators: %1$s: '%%term_title%%' variable used in titles and meta's
+#. template that's not compatible with the given template, %2$s: expands to
+#. 'HelpScout beacon'
+#: admin/class-admin.php:349
+msgid "Warning: the variable %1$s cannot be used in this template. See the %2$s for more info."
+msgstr "चेतावनी: इस टेम्पलेट में परिवर्तनशील %1$s का उपयोग नहीं किया जा सकता है। अधिक जानकारी के लिए %2$s देखें।"
+
+#: admin/class-bulk-editor-list-table.php:829
+msgid "(no title)"
+msgstr "(कोई शीर्षक नही)"
+
+#. translators: %1$s expands anchor to premium plugin page, %2$s expands to
+#. </a>
+#: admin/class-product-upsell-notice.php:149
+msgid "By the way, did you know we also have a %1$sPremium plugin%2$s? It offers advanced features, like a redirect manager and support for multiple keyphrases. It also comes with 24/7 personal support."
+msgstr "वैसे, क्या आप जानते हैं कि हमारे पास एक %1$sप्रीमियम प्लगइन%2$s भी है? यह उन्नत सुविधाओं की पेशकश करता है, एक रीडायरेक्ट प्रबंधक की तरह और कई कीफ़्रेज़ के लिए समर्थन करता है। यह 24/7 व्यक्तिगत समर्थन के साथ भी आता है।"
+
+#: admin/views/class-yoast-feature-toggles.php:147 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:323 js/dist/new-settings.js:325
+msgid "Admin bar menu"
+msgstr "व्यवस्थापक बार मेनू"
+
+#. translators: 1: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:150
+msgid "The %1$s admin bar menu contains useful links to third-party tools for analyzing pages and makes it easy to see if you have new notifications."
+msgstr "%1$s के व्यवस्थापक बार मेनू में पृष्ठों के विश्लेषण के लिए तृतीय-पक्ष टूल के लिए उपयोगी लिंक शामिल हैं और यह देखना आसान बनाता है कि क्या आपके पास नई सूचनाएं हैं या नहीं।"
+
+#: admin/metabox/class-metabox.php:172
+#: js/dist/externals/replacementVariableEditor.js:27
+#: js/dist/externals/searchMetadataPreviews.js:62 js/dist/new-settings.js:22
+#: js/dist/new-settings.js:26 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:31 js/dist/new-settings.js:35
+#: js/dist/new-settings.js:62 js/dist/new-settings.js:76
+#: js/dist/new-settings.js:106 js/dist/new-settings.js:135
+#: js/dist/new-settings.js:200 js/dist/new-settings.js:217
+#: js/dist/new-settings.js:226 js/dist/new-settings.js:265
+msgid "SEO title"
+msgstr "एसईओ शीर्षक"
+
+#: admin/pages/network.php:19 admin/views/tabs/network/features.php:22
+msgid "Features"
+msgstr "विशेषताएं"
+
+#: admin/metabox/class-metabox.php:182 admin/metabox/class-metabox.php:187
+#: js/dist/block-editor.js:229 js/dist/classic-editor.js:212
+#: js/dist/elementor.js:304
+msgid "Yes"
+msgstr "हाँ"
+
+#: admin/metabox/class-metabox.php:183 admin/metabox/class-metabox.php:188
+#: js/dist/block-editor.js:229 js/dist/classic-editor.js:212
+#: js/dist/elementor.js:304
+msgid "No"
+msgstr "नहीं"
+
+#: inc/options/class-wpseo-option-titles.php:937
+msgid "Dash"
+msgstr "डैश"
+
+#: inc/options/class-wpseo-option-titles.php:941
+msgid "En dash"
+msgstr "En डैश"
+
+#: inc/options/class-wpseo-option-titles.php:945
+msgid "Em dash"
+msgstr "Em डैश"
+
+#: inc/options/class-wpseo-option-titles.php:953
+msgid "Middle dot"
+msgstr "मध्य बिंदु"
+
+#: inc/options/class-wpseo-option-titles.php:957
+msgid "Bullet"
+msgstr "बुलेट"
+
+#: inc/options/class-wpseo-option-titles.php:961
+msgid "Asterisk"
+msgstr "तारांकन"
+
+#: inc/options/class-wpseo-option-titles.php:965
+msgid "Low asterisk"
+msgstr "कम तारांकन"
+
+#: inc/options/class-wpseo-option-titles.php:969
+msgid "Vertical bar"
+msgstr "लंबवत बार"
+
+#: inc/options/class-wpseo-option-titles.php:973
+msgid "Small tilde"
+msgstr "छोटा टिल्ड"
+
+#: inc/options/class-wpseo-option-titles.php:977
+msgid "Left angle quotation mark"
+msgstr "बायां कोना अवतरण चिन्ह"
+
+#: inc/options/class-wpseo-option-titles.php:981
+msgid "Right angle quotation mark"
+msgstr "दायां कोना अवतरण चिन्ह"
+
+#: inc/options/class-wpseo-option-titles.php:985
+msgid "Less than sign"
+msgstr "संकेत से कम"
+
+#: inc/options/class-wpseo-option-titles.php:989
+msgid "Greater than sign"
+msgstr "संकेत से बड़ा"
+
+#: admin/views/tool-bulk-editor.php:61
+msgid "Filter posts list"
+msgstr "फ़िल्टर पोस्ट सूची"
+
+#: admin/views/tool-bulk-editor.php:62
+msgid "Posts list navigation"
+msgstr "पोस्ट सूची नेविगेशन"
+
+#: admin/views/tool-bulk-editor.php:63
+msgid "Posts list"
+msgstr "पोस्ट सूची"
+
+#: admin/class-admin.php:266
+msgid "Get Premium"
+msgstr "प्रीमियम प्राप्त करना"
+
+#: src/integrations/admin/menu-badge-integration.php:35 js/dist/academy.js:8
+msgid "Premium"
+msgstr "प्रीमियम"
+
+#. translators: Hidden accessibility text; %s: post title.
+#: admin/class-bulk-editor-list-table.php:843
+msgid "Edit &#8220;%s&#8221;"
+msgstr "संपादन करना &#8220;%s&#8221;"
+
+#: admin/views/partial-notifications-warnings.php:20
+#: inc/class-wpseo-admin-bar-menu.php:399 js/dist/general-page.js:26
+msgid "Notifications"
+msgstr "सूचनाये"
+
+#: src/user-meta/framework/custom-meta/keyword-analysis-disable.php:109
+msgid "Disable SEO analysis"
+msgstr "एसईओ विश्लेषण अक्षम करें"
+
+#: src/user-meta/framework/custom-meta/keyword-analysis-disable.php:115
+msgid "Removes the focus keyphrase section from the metabox and disables all SEO-related suggestions."
+msgstr "मेटाबोक्स से फ़ोकस कीफ़्रेस अनुभाग को हटाता है और सभी एसईओ-संबंधित सुझावों को निष्क्रिय कर देता है।"
+
+#. translators: Hidden accessibility text; %s: number of notifications.
+#: admin/menu/class-admin-menu.php:118 inc/class-wpseo-admin-bar-menu.php:873
+#: js/dist/general-page.js:46
+msgid "%s notification"
+msgid_plural "%s notifications"
+msgstr[0] "%s सूचना"
+msgstr[1] "%s सूचनाएँ"
+
+#: admin/views/js-templates-primary-term.php:28
+msgid "Make primary"
+msgstr "प्राथमिक बनाएं"
+
+#: admin/metabox/class-metabox-section-readability.php:30
+#: inc/class-wpseo-admin-bar-menu.php:257
+msgid "Readability"
+msgstr "पठनीयता"
+
+#: admin/statistics/class-statistics-service.php:217
+#: inc/class-wpseo-rank.php:140 inc/class-wpseo-rank.php:176
+#: inc/class-wpseo-rank.php:208 inc/class-wpseo-rank.php:240
+#: js/dist/block-editor.js:476 js/dist/editor-modules.js:115
+#: js/dist/editor-modules.js:369 js/dist/elementor.js:6
+#: js/dist/externals-components.js:122 js/dist/externals/analysis.js:15
+#: js/dist/externals/dashboardFrontend.js:4
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:1
+#: js/dist/term-edit.js:1
+msgid "Needs improvement"
+msgstr "सुधार की जरुरत"
+
+#: admin/views/class-yoast-feature-toggles.php:83
+#: js/dist/externals-components.js:395 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:323
+msgid "Readability analysis"
+msgstr "पठनीयता विश्लेषण"
+
+#: src/user-meta/framework/custom-meta/content-analysis-disable.php:115
+msgid "Removes the readability analysis section from the metabox and disables all readability-related suggestions."
+msgstr "मेटाबोक्स से पठनीयता विश्लेषण अनुभाग निकालता है और सभी पठनीयता संबंधी सुझावों को अक्षम करता है।"
+
+#: src/user-meta/framework/custom-meta/content-analysis-disable.php:109
+msgid "Disable readability analysis"
+msgstr "पठनीयता विश्लेषण अक्षम करें"
+
+#: admin/menu/class-admin-menu.php:56 js/dist/general-page.js:45
+msgid "Dashboard"
+msgstr "डैशबोर्ड"
+
+#: admin/views/partial-notifications-errors.php:22 js/dist/general-page.js:26
+msgid "Good job! We could detect no serious SEO problems."
+msgstr "अच्छा काम ! हमें कोई भी गंभीर एसईओ समस्या नही मिली |"
+
+#: admin/views/partial-notifications-errors.php:20
+#: js/dist/editor-modules.js:115 js/dist/externals-components.js:122
+#: js/dist/externals/analysisReport.js:38 js/dist/general-page.js:26
+msgid "Problems"
+msgstr "समस्याएं"
+
+#: inc/class-wpseo-rank.php:138 js/dist/block-editor.js:476
+#: js/dist/editor-modules.js:115 js/dist/editor-modules.js:369
+#: js/dist/elementor.js:6 js/dist/externals-components.js:122
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:1
+#: js/dist/term-edit.js:1
+msgid "Not available"
+msgstr "उपलब्ध नही है |"
+
+#. translators: %1$s is a link start tag to the permalink settings page, %2$s
+#. is the link closing tag.
+#: src/services/health-check/postname-permalink-reports.php:71
+msgid "You can fix this on the %1$sPermalink settings page%2$s."
+msgstr "आप इसे %1$sपर्मालिंक सेटिंग पृष्ठ%2$s पर ठीक कर सकते हैं।"
+
+#. translators: Hidden accessibility text.
+#: admin/class-meta-columns.php:181
+msgid "Meta description not set."
+msgstr "मेटा विवरण सेट नहीं है।"
+
+#. translators: Hidden accessibility text.
+#: admin/class-meta-columns.php:269
+msgid "Filter by SEO Score"
+msgstr "फ़िल्टर एसईओ स्कोर द्वारा"
+
+#: admin/views/partial-notifications-errors.php:21 js/dist/general-page.js:26
+msgid "We have detected the following issues that affect the SEO of your site."
+msgstr "हमने निम्नलिखित मुद्दों का पता लगाया है जो आपकी साइट के एसईओ को प्रभावित करते हैं।"
+
+#: inc/class-wpseo-replace-vars.php:1480
+msgid "Replaced with the primary category of the post/page"
+msgstr "पोस्ट/पृष्ठ की प्राथमिक श्रेणी के साथ प्रतिस्थापित"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-bulk-title-editor-list-table.php:48
+msgid "Existing %1$s Title"
+msgstr "मौजूदा %1$s शीर्षक"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-bulk-title-editor-list-table.php:50
+msgid "New %1$s Title"
+msgstr "नया %1$s शीर्षक"
+
+#: src/integrations/admin/redirects-page-integration.php:100
+#: js/dist/redirects.js:3 js/dist/redirects.js:16
+msgid "Redirects"
+msgstr "रीडाइरेक्ट्स "
+
+#: inc/sitemaps/class-sitemaps-cache-validator.php:111
+msgid "Trying to build the sitemap cache key, but the postfix and prefix combination leaves too little room to do this. You are probably requesting a page that is way out of the expected range."
+msgstr "साइटमैप कैश कुंजी बनाने की कोशिश कर रहा है, लेकिन पोस्टफिक्स और उपसर्ग संयोजन ऐसा करने के लिए बहुत कम जगह छोड़ता है। आप शायद एक पृष्ठ का अनुरोध कर रहे हैं जो अपेक्षित सीमा से बाहर है।"
+
+#: inc/sitemaps/class-sitemaps-cache-validator.php:301
+msgid "Expected an integer as input."
+msgstr "इनपुट के रूप में एक पूर्णांक की अपेक्षा की।"
+
+#: src/integrations/admin/crawl-settings-integration.php:242
+#: js/dist/externals/relatedKeyphraseSuggestions.js:1
+msgid "Remove"
+msgstr "हटायें"
+
+#: src/integrations/admin/crawl-settings-integration.php:241
+msgid "Keep"
+msgstr "रखना"
+
+#: admin/taxonomy/class-taxonomy-columns.php:170
+msgid "Term is set to noindex."
+msgstr "शब्द नोइन्डेक्स पर सेट है।"
+
+#: admin/pages/network.php:20 admin/views/tabs/network/integrations.php:22
+#: src/integrations/admin/integrations-page.php:131
+#: js/dist/integrations-page.js:45
+msgid "Integrations"
+msgstr "एकीकरण"
+
+#. translators: Hidden accessibility text; %1$s expands to the term title, %2$s
+#. to the taxonomy title.
+#: admin/views/js-templates-primary-term.php:18
+msgid "Make %1$s primary %2$s"
+msgstr "%1$s को प्राथमिक %2$s बनाओ"
+
+#: admin/views/js-templates-primary-term.php:32
+msgid "Primary"
+msgstr "प्राथमिक"
+
+#. translators: %s is the taxonomy title. This will be shown to screenreaders
+#: admin/views/js-templates-primary-term.php:38
+msgid "Primary %s"
+msgstr "प्राथमिक %s"
+
+#: src/integrations/admin/crawl-settings-integration.php:195
+#: src/presenters/admin/light-switch-presenter.php:120
+msgid "Enabled"
+msgstr "सक्षम "
+
+#: src/integrations/admin/crawl-settings-integration.php:194
+#: src/presenters/admin/light-switch-presenter.php:120
+#: js/dist/externals/dashboardFrontend.js:4
+msgid "Disabled"
+msgstr "अक्षम "
+
+#: inc/class-wpseo-rank.php:139
+msgid "No index"
+msgstr "कोई सूचकांक नहीं"
+
+#. translators: %s: wp_title() function.
+#: inc/class-wpseo-replace-vars.php:1462
+msgid "The separator defined in your theme's %s tag."
+msgstr "विभाजक को आपके थीम के %s टैग में परिभाषित किया गया है।"
+
+#: admin/class-meta-columns.php:114 admin/class-meta-columns.php:116
+#: admin/taxonomy/class-taxonomy-columns.php:87
+#: admin/taxonomy/class-taxonomy-columns.php:88
+#: inc/class-wpseo-admin-bar-menu.php:245
+#: js/dist/externals/dashboardFrontend.js:4
+msgid "SEO score"
+msgstr "एसईओ स्कोर"
+
+#: admin/statistics/class-statistics-service.php:227
+#: inc/class-wpseo-rank.php:142 inc/class-wpseo-rank.php:186
+#: inc/class-wpseo-rank.php:218 inc/class-wpseo-rank.php:250
+#: js/dist/block-editor.js:476 js/dist/editor-modules.js:115
+#: js/dist/editor-modules.js:369 js/dist/elementor.js:6
+#: js/dist/externals-components.js:122 js/dist/externals/analysis.js:15
+#: js/dist/externals/dashboardFrontend.js:4
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:1
+#: js/dist/term-edit.js:1
+msgid "Good"
+msgstr "अच्छा"
+
+#: inc/options/class-wpseo-option-titles.php:279
+msgid "Error 404: Page not found"
+msgstr "त्रुटि 404: पृष्ठ नहीं मिला"
+
+#: inc/options/class-wpseo-option-ms.php:243
+msgid "No numeric value was received."
+msgstr "सांख्यिक मान नहीं मिला।"
+
+#: inc/class-wpseo-admin-bar-menu.php:429
+msgid "Analyze this page"
+msgstr "इस पन्ने का विश्लेषण"
+
+#: inc/class-wpseo-admin-bar-menu.php:647
+#: inc/class-wpseo-admin-bar-menu.php:695
+msgid "SEO Settings"
+msgstr "एसईओ सेटिंग्स"
+
+#. Plugin Name of the plugin
+#: wp-seo.php admin/capabilities/class-capability-manager-integration.php:74
+#: src/presenters/meta-description-presenter.php:36 js/dist/block-editor.js:546
+msgid "Yoast SEO"
+msgstr "योस्ट SEO"
+
+#: inc/options/class-wpseo-option-titles.php:281
+msgid "Home"
+msgstr "मुख्यपृष्ठ"
+
+#: inc/options/class-wpseo-option-titles.php:282
+msgid "You searched for"
+msgstr "आपने खोज किया"
+
+#: inc/options/class-wpseo-option-titles.php:280
+msgid "Archives for"
+msgstr "के लिये अभिलेखागार"
+
+#. translators: %1$s expands to the option name and %2$sexpands to Yoast SEO
+#: inc/options/class-wpseo-option-ms.php:208
+msgid "%1$s is not a valid choice for who should be allowed access to the %2$s settings. Value reset to the default."
+msgstr "%1$s वैध विकल्प नहीं है, जिन्हें %2$s सेटिंग तक पहुंचने की अनुमति दी जानी चाहिए। डिफ़ॉल्ट पर रीसेट करें।"
+
+#. translators: %s expands to a post type.
+#: inc/options/class-wpseo-option-titles.php:545
+msgid "Please select a valid taxonomy for post type \"%s\""
+msgstr "कृपया पोस्ट प्रकार \"%s\" के लिए एक वैध टेक्सोनोमी का चयन करें"
+
+#. translators: %s expands to a taxonomy slug.
+#: inc/options/class-wpseo-option-titles.php:583
+msgid "Please select a valid post type for taxonomy \"%s\""
+msgstr "कृपया टेक्सोनोमी \"%s\" के लिए एक वैध पोस्ट का चयन करें"
+
+#: inc/options/class-wpseo-option-ms.php:227
+#: inc/options/class-wpseo-option-ms.php:243
+msgid "The default blog setting must be the numeric blog id of the blog you want to use as default."
+msgstr "डिफ़ॉल्ट ब्लॉग सेटिंग उस ब्लॉग की सांख्यिक ब्लॉग आईडी होनी चाहिए जिसे आप डिफ़ॉल्ट के रूप में उपयोग करना चाहते हैं।"
+
+#. translators: %s is the ID number of a blog.
+#: inc/options/class-wpseo-option-ms.php:231
+msgid "This must be an existing blog. Blog %s does not exist or has been marked as deleted."
+msgstr "यह एक मौजूदा ब्लॉग होना चाहिए। ब्लॉग %s मौजूद नहीं है या हटाए गए के रूप में चिह्नित किया गया है।"
+
+#. translators: 1: link to post; 2: link to blog.
+#: inc/options/class-wpseo-option-titles.php:277
+msgid "The post %1$s appeared first on %2$s."
+msgstr "पोस्ट %1$s पहले %2$s पर दिखाई दिया।"
+
+#. translators: %s expands to the search phrase.
+#: inc/options/class-wpseo-option-titles.php:274
+msgid "You searched for %s"
+msgstr "आपने %s की खोज की"
+
+#. translators: %s expands to the name of a post type (plural).
+#: inc/class-upgrade.php:1557 inc/options/class-wpseo-option-titles.php:309
+msgid "%s Archive"
+msgstr "%s आर्काइव"
+
+#: inc/class-wpseo-admin-bar-menu.php:448
+msgid "Facebook Debugger"
+msgstr "फेसबुक डिबगर"
+
+#: inc/class-wpseo-admin-bar-menu.php:453
+msgid "Google Page Speed Test"
+msgstr "गूगल पृष्ठ गति परीक्षण"
+
+#: wp-seo-main.php:514
+msgid "The Standard PHP Library (SPL) extension seem to be unavailable. Please ask your web host to enable it."
+msgstr "मानक पीएचपी लाइब्रेरी (SPL) एक्सटेंशन अनुपलब्ध लगता है। कृपया इसे सक्षम करने के लिए अपने वेब होस्ट से पूछें।"
+
+#. translators: %1$s expands to Yoast SEO, %2$s / %3$s: links to the
+#. installation manual in the Readme for the Yoast SEO code repository on
+#. GitHub
+#: wp-seo-main.php:538
+msgid "The %1$s plugin installation is incomplete. Please refer to %2$sinstallation instructions%3$s."
+msgstr "%1$sप्लगइन इंस्टॉलेशन अधूरा है। कृपया %2$sइंस्टॉलेशन निर्देश%3$s को देखें।"
+
+#. Description of the plugin
+#: wp-seo.php
+msgid "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more."
+msgstr "वर्डप्रेस के लिए पहला सच्चा ऑल-इन-वन एसईओ समाधान, जिसमें ऑन-पेज सामग्री विश्लेषण, एक्सएमएल साइटमैप और बहुत कुछ शामिल है।"
+
+#. Author of the plugin
+#: wp-seo.php
+msgid "Team Yoast"
+msgstr "टीम योस्ट"
+
+#: admin/views/tool-bulk-editor.php:113 js/dist/new-settings.js:267
+msgid "Description"
+msgstr "विवरण"
+
+#: src/integrations/admin/import-integration.php:119
+msgid "Default settings"
+msgstr "मूल व्यवस्था"
+
+#: admin/pages/tools.php:36
+msgid "File editor"
+msgstr "फ़ाइल संपादक"
+
+#: admin/views/tabs/dashboard/dashboard.php:40
+msgid "Credits"
+msgstr "श्रेय"
+
+#: admin/views/tabs/tool/import-seo.php:88
+#: admin/views/tool-import-export.php:24
+msgid "Import"
+msgstr "आयात"
+
+#: admin/class-export.php:65 admin/views/tabs/tool/wpseo-import.php:25
+#: admin/views/tabs/tool/wpseo-import.php:45
+#: admin/views/tool-import-export.php:86
+msgid "Import settings"
+msgstr "आयत व्यवस्था"
+
+#: inc/options/class-wpseo-option-titles.php:275
+msgid "Page not found"
+msgstr "पृष्ठ नहीं मिला"
+
+#: src/user-meta/framework/custom-meta/author-title.php:97
+msgid "Title to use for Author page"
+msgstr "लेखक पृष्ठ पर उपयोग हेतु शीर्षक"
+
+#: src/user-meta/framework/custom-meta/author-metadesc.php:97
+msgid "Meta description to use for Author page"
+msgstr "लेखक पृष्ठ पर उपयोग हेतु मेटा विवरण"
+
+#: admin/pages/tools.php:30
+msgid "Import and Export"
+msgstr "आयात और निर्यात"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-export.php:15
+msgid "Export your %1$s settings"
+msgstr "आपके %1$s सेटिंग एक्सपोर्ट करे"
+
+#. translators: %1$s expands to Yoast SEO
+#: src/user-meta/user-interface/custom-meta-integration.php:100
+msgid "%1$s settings"
+msgstr "%1$s सेटिंग "
+
+#: inc/class-wpseo-replace-vars.php:1485
+msgid "Replaced with the current search phrase"
+msgstr "Diganti dengan frase pencarian saat ini"
+
+#: inc/class-wpseo-replace-vars.php:1489
+msgid "Replaced with the current year"
+msgstr "चालू वर्ष के साथ बदला गया"
+
+#: inc/class-wpseo-replace-vars.php:1490
+msgid "Replaced with the current month"
+msgstr "चालू माह से बदला गया"
+
+#: inc/class-wpseo-replace-vars.php:1491
+msgid "Replaced with the current day"
+msgstr "वर्तमान दिन के साथ बदला गया"
+
+#: inc/class-wpseo-replace-vars.php:1488
+msgid "Replaced with the current date"
+msgstr "वर्तमान तिथि से बदला गया"
+
+#: admin/pages/tools.php:31
+msgid "Import settings from other SEO plugins and export your settings for re-use on (another) site."
+msgstr "अन्य एसईओ प्लगइन्स से सेटिंग्स आयात करें और (अन्य) साइट पर पुन: उपयोग के लिए अपनी सेटिंग्स निर्यात करें।"
+
+#: admin/pages/tools.php:42
+msgid "Bulk editor"
+msgstr "थोक संपादक"
+
+#: admin/pages/tools.php:43
+msgid "This tool allows you to quickly change titles and descriptions of your posts and pages without having to go into the editor for each page."
+msgstr "यह टूल आपको प्रत्येक पृष्ठ के लिए संपादक में जाने के बिना जल्दी से अपने पोस्ट और पृष्ठों के शीर्षक और विवरण बदलने की अनुमति देता है।"
+
+#: admin/pages/tools.php:37
+msgid "This tool allows you to quickly change important files for your SEO, like your robots.txt and, if you have one, your .htaccess file."
+msgstr "यह टूल आपके एसईओ के लिए महत्वपूर्ण फाइलों को जल्दी से बदलने की अनुमति देता है, जैसे आपके robots.txt और, यदि आपके पास एक, आपकी .htaccess फाइल है।"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/pages/tools.php:49
+msgid "%1$s comes with some very powerful built-in tools:"
+msgstr "%1$s कुछ बहुत शक्तिशाली अंतर्निहित उपकरणों के साथ आता है:"
+
+#: admin/pages/tools.php:77
+msgid "&laquo; Back to Tools page"
+msgstr "&laquo; टूल पेज पर वापस जाएं"
+
+#: admin/statistics/class-statistics-service.php:80
+msgid "Below are your published posts' SEO scores. Now is as good a time as any to start improving some of your posts!"
+msgstr "नीचे आपके प्रकाशित पोस्ट 'एसईओ स्कोर' हैं। अब किसी भी समय के रूप में अच्छा है के रूप में किसी भी अपने पोस्ट में सुधार शुरू करने के लिए!"
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:116
+msgid "You don't have a %s file, create one here:"
+msgstr "आपके पास %s फ़ाइल नहीं है, यहाँ एक बनाएँ:"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:153 admin/views/tool-file-editor.php:203
+msgid "If your %s were writable, you could edit it from here."
+msgstr "यदि आपका %s लेखन योग्य था, तो आप इसे यहाँ से संपादित कर सकते हैं।"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:135 admin/views/tool-file-editor.php:235
+msgid "If you had a %s file and it was editable, you could edit it from here."
+msgstr "यदि आपके पास %s फ़ाइल थी और यह संपादन योग्य था, तो आप इसे यहाँ से संपादित कर सकते हैं।"
+
+#: admin/views/tabs/tool/import-seo.php:18
+#: admin/views/tabs/tool/import-seo.php:49
+#: admin/views/tool-import-export.php:92
+msgid "Import from other SEO plugins"
+msgstr "अन्य एसईओ प्लगइन्स से आयात करें"
+
+#. translators: %s expands to the variable used for term title.
+#: inc/class-upgrade.php:1560 inc/options/class-wpseo-option-titles.php:345
+#: src/editors/framework/seo/terms/title-data-provider.php:27
+msgid "%s Archives"
+msgstr "%s आर्काइव"
+
+#. translators: %1$s resolves to Yoast SEO, %2$s resolves to the Settings
+#. submenu item.
+#: src/presenters/meta-description-presenter.php:35
+msgid "Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [%1$s - %2$s] menu and set up a template."
+msgstr "केवल सूचना दें: यह पृष्ठ मेटा विवरण नहीं दिखाता है क्योंकि इसमें एक नहीं है, या तो इस पृष्ठ के लिए विशेष रूप से लिखें या [%1$s - %2$s] मेनू में जाएं और एक टेम्पलेट सेट करें।"
+
+#: inc/class-wpseo-replace-vars.php:107
+msgid "A replacement variable can only contain alphanumeric characters, an underscore or a dash. Try renaming your variable."
+msgstr "एक प्रतिस्थापन चर में केवल अल्फ़ान्यूमेरिक वर्ण, एक अंडरस्कोर या डैश हो सकता है। अपने चर का नाम बदलने का प्रयास करें।"
+
+#: inc/class-wpseo-replace-vars.php:120
+msgid "A replacement variable with the same name has already been registered. Try making your variable name unique."
+msgstr "एक ही नाम के साथ एक प्रतिस्थापन चर पहले ही पंजीकृत किया गया है। अपना चर नाम अद्वितीय बनाने का प्रयास करें।"
+
+#: inc/class-wpseo-replace-vars.php:124
+msgid "You cannot overrule a WPSEO standard variable replacement by registering a variable with the same name. Use the \"wpseo_replacements\" filter instead to adjust the replacement value."
+msgstr "आप एक ही नाम के साथ एक चर रजिस्टर करके एक डब्लूपीएसईओ मानक चर प्रतिस्थापन को खत्म नहीं कर सकते। प्रतिस्थापन मूल्य को समायोजित करने के बजाय \"wpseo_replacements\" फ़िल्टर का उपयोग करें।"
+
+#. translators: 1: current page number, 2: total number of pages.
+#: inc/class-wpseo-replace-vars.php:1029
+msgid "Page %1$d of %2$d"
+msgstr "%2$d का पृष्ठ %1$d"
+
+#: inc/class-wpseo-replace-vars.php:110
+msgid "A replacement variable can not start with \"%%cf_\" or \"%%ct_\" as these are reserved for the WPSEO standard variable variables for custom fields and custom taxonomies. Try making your variable name unique."
+msgstr "एक प्रतिस्थापन चर \"%%cf_\" या \"%%ct_\" से शुरू नहीं हो सकता क्योंकि ये कस्टम फ़ील्ड और कस्टम टैक्सोनॉमी के लिए WPSEO मानक चर चर के लिए आरक्षित हैं। अपने परिवर्तनीय नाम को अद्वितीय बनाने का प्रयास करें।"
+
+#: inc/class-wpseo-replace-vars.php:1470
+msgid "Replaced with the date of the post/page"
+msgstr "पोस्ट/पृष्ठ की तारीख के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1471
+msgid "Replaced with the title of the post/page"
+msgstr "पोस्ट/पृष्ठ के शीर्षक के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1472
+msgid "Replaced with the title of the parent page of the current page"
+msgstr "वर्तमान पृष्ठ के मूल पृष्ठ के शीर्षक के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1474
+msgid "The site's name"
+msgstr "साइट का नाम"
+
+#: inc/class-wpseo-replace-vars.php:1476
+msgid "Replaced with the post/page excerpt (or auto-generated if it does not exist)"
+msgstr "पोस्ट/पृष्ठ अंश के साथ प्रतिस्थापित (या मौजूद नहीं होने पर स्वतः-जनरेट किया गया)"
+
+#: inc/class-wpseo-replace-vars.php:1477
+msgid "Replaced with the post/page excerpt (without auto-generation)"
+msgstr "पोस्ट/पृष्ठ अंश (ऑटो-पीढ़ी के बिना) के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1478
+msgid "Replaced with the current tag/tags"
+msgstr "वर्तमान टैग/टैगो के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1479
+msgid "Replaced with the post categories (comma separated)"
+msgstr "पोस्ट श्रेणियों के साथ प्रतिस्थापित (अल्पविराम से अलग)"
+
+#: inc/class-wpseo-replace-vars.php:1481
+msgid "Replaced with the category description"
+msgstr "श्रेणी विवरण के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1482
+msgid "Replaced with the tag description"
+msgstr "टैग विवरण के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1483
+msgid "Replaced with the term description"
+msgstr "शब्द विवरण के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1484
+msgid "Replaced with the term name"
+msgstr "शब्द नाम के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1514
+msgid "Replaced with the content type single label"
+msgstr "सामग्री प्रकार एकल लेबल के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1515
+msgid "Replaced with the content type plural label"
+msgstr "सामग्री प्रकार बहुवचन लेबल के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1516
+msgid "Replaced with the post/page modified time"
+msgstr "पोस्ट/पृष्ठ संशोधित समय के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1517
+msgid "Replaced with the post/page ID"
+msgstr "पोस्ट/पृष्ठ आईडी के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1518
+msgid "Replaced with the post/page author's 'nicename'"
+msgstr "पोस्ट/पृष्ठ लेखक के 'उपनाम' के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1519
+msgid "Replaced with the post/page author's 'Biographical Info'"
+msgstr "पोस्ट/पृष्ठ लेखक की 'भौगोलिक जानकारी' के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1520
+msgid "Replaced with the current page number with context (i.e. page 2 of 4)"
+msgstr "संदर्भ के साथ वर्तमान पृष्ठ संख्या (यानी 4 के पृष्ठ 2) के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1521
+msgid "Replaced with the current page total"
+msgstr "कुल पृष्ठ के साथ बदल दिया"
+
+#: inc/class-wpseo-replace-vars.php:1522
+msgid "Replaced with the current page number"
+msgstr "वर्तमान पृष्ठ संख्या के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1523
+msgid "Attachment caption"
+msgstr "अनुलग्नक कैप्शन"
+
+#: inc/class-wpseo-replace-vars.php:1524
+msgid "Replaced with the posts focus keyphrase"
+msgstr "पोस्ट केंद्रित कीफ़्रेस के साथ बदल दिया"
+
+#: inc/class-wpseo-replace-vars.php:1525
+msgid "Replaced with the slug which caused the 404"
+msgstr "404 का कारण बना स्लग के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1526
+msgid "Replaced with a posts custom field value"
+msgstr "एक पोस्ट कस्टम फ़ील्ड मान के साथ प्रतिस्थापित"
+
+#: inc/class-wpseo-replace-vars.php:1527
+msgid "Replaced with a posts custom taxonomies, comma separated."
+msgstr "कस्टम टैक्सोनॉमी के पोस्ट के साथ प्रतिस्थापित, अल्पविराम अलग हो गया।"
+
+#: inc/class-wpseo-replace-vars.php:1528
+msgid "Replaced with a custom taxonomies description"
+msgstr "एक कस्टम टैक्सोनॉमी विवरण के साथ प्रतिस्थापित"
+
+#: admin/views/tool-bulk-editor.php:111 inc/class-wpseo-replace-vars.php:1471
+#: js/dist/elementor.js:473 js/dist/externals-redux.js:1
+msgid "Title"
+msgstr "शीर्षक"
+
+#: src/integrations/admin/first-time-configuration-integration.php:485
+#: js/dist/new-settings.js:335
+msgid "Person"
+msgstr "व्यक्ति "
+
+#. Translators: %s: expands to Yoast SEO Premium
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:15
+msgid "Creating redirects is a %s feature"
+msgstr "पुनर्निर्देश बनाना एक %s सुविधा है"
+
+#: inc/class-wpseo-replace-vars.php:1497
+msgid "Permalink"
+msgstr "स्थायी-लिंक"
+
+#. Translators: %1$s: expands to 'Yoast SEO Premium', %2$s: links to Yoast SEO
+#. Premium plugin page.
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:22
+msgid "To be able to create a redirect and fix this issue, you need %1$s. You can buy the plugin, including one year of support and updates, on %2$s."
+msgstr "रीडायरेक्ट बनाने और इस समस्या को हल करने में सक्षम होने के लिए, आपको %1$s की आवश्यकता है। आप %2$s पर एक वर्ष के समर्थन और अपडेट सहित प्लगइन खरीद सकते हैं।"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-plugin-availability.php:45
+msgid "The premium version of %1$s with more features & support."
+msgstr "अधिक सुविधाओं और समर्थन के साथ %1$s का प्रीमियम संस्करण।"
+
+#: admin/class-plugin-availability.php:57
+msgid "Optimize your videos to show them off in search results and get more clicks!"
+msgstr "खोज परिणामों में उन्हें दिखाने और अधिक क्लिक प्राप्त करने के लिए अपने वीडियो का अनुकूलन करें!"
+
+#: admin/class-plugin-availability.php:67
+msgid "Are you in Google News? Increase your traffic from Google News by optimizing for it!"
+msgstr "क्या आप गूगल समाचार में हैं? इसके लिए अनुकूलन करके गूगल समाचार से अपना ट्रैफ़िक बढ़ाएं!"
+
+#: admin/class-plugin-availability.php:77
+msgid "Rank better locally and in Google Maps, without breaking a sweat!"
+msgstr "एक पसीने को तोड़ने के बिना, स्थानीय और गूगल मानचित्र में बेहतर रैंक करें!"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-plugin-availability.php:89
+msgid "Seamlessly integrate WooCommerce with %1$s and get extra features!"
+msgstr "सहजता से वूकॉमर्स को %1$s के साथ एकीकृत करें और अतिरिक्त सुविधाएँ प्राप्त करें!"
+
+#: admin/views/tabs/network/general.php:54
+msgid "Take note:"
+msgstr "नोट करें:"
+
+#: admin/class-yoast-network-admin.php:140
+msgid "Settings Updated."
+msgstr "सेटिंग को अद्यतन किया गया है।"
+
+#. translators: %s expands to the name of a site within a multisite network.
+#: admin/class-yoast-network-admin.php:174
+msgid "%s restored to default SEO settings."
+msgstr "डिफ़ॉल्ट सेटिंग्स में %s को पुनर्स्थापित किया गया।"
+
+#: admin/class-yoast-network-admin.php:77
+msgid "public"
+msgstr "सार्वजनिक"
+
+#: admin/class-yoast-network-admin.php:78
+msgid "archived"
+msgstr "आर्काइव"
+
+#: admin/class-yoast-network-admin.php:79
+msgid "mature"
+msgstr "परिपक्व"
+
+#: admin/class-yoast-network-admin.php:80
+msgid "spam"
+msgstr "स्पैम"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/network/general.php:25
+msgid "Who should have access to the %1$s settings"
+msgstr "%1$s सेटिंग में किसकी पहुंच होनी चाहिए"
+
+#: admin/views/tabs/network/general.php:27
+msgid "Site Admins (default)"
+msgstr "साइट व्यवस्थापक (डिफ़ॉल्ट)"
+
+#: admin/views/tabs/network/general.php:28
+msgid "Super Admins only"
+msgstr "केवल सुपर व्यवस्थापक"
+
+#: admin/views/tabs/network/general.php:37
+#: admin/views/tabs/network/general.php:43
+msgid "New sites in the network inherit their SEO settings from this site"
+msgstr "नेटवर्क में नई साइटें इस साइट से अपनी एसईओ सेटिंग्स प्राप्त करती हैं"
+
+#: admin/views/tabs/network/general.php:40
+msgid "Choose the site whose settings you want to use as default for all sites that are added to your network. If you choose 'None', the normal plugin defaults will be used."
+msgstr "वह साइट चुनें जिसकी सेटिंग्स आप उन सभी साइटों के लिए डिफ़ॉल्ट रूप से उपयोग करना चाहते हैं जो आपके नेटवर्क में जोड़ी गई हैं। यदि आप 'कोई नहीं' चुनते हैं, तो सामान्य प्लगइन चूक का उपयोग किया जाएगा।"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/views/tabs/network/general.php:47
+msgid "Enter the %1$sSite ID%2$s for the site whose settings you want to use as default for all sites that are added to your network. Leave empty for none (i.e. the normal plugin defaults will be used)."
+msgstr "उस साइट के लिए %1$sसाइट आईडी%2$s दर्ज करें जिसकी सेटिंग आप उन सभी साइटों के लिए डिफ़ॉल्ट रूप से उपयोग करना चाहते हैं जो आपके नेटवर्क में जोड़ी गई हैं। किसी के लिए भी खाली छोड़ दें (यानी सामान्य प्लगइन चूक का उपयोग किया जाएगा)।"
+
+#: admin/views/tabs/network/general.php:54
+msgid "Privacy sensitive (FB admins and such), theme specific (title rewrite) and a few very site specific settings will not be imported to new sites."
+msgstr "गोपनीयता संवेदनशील (फेसबुक व्यवस्थापक और ऐसे), विषय विशिष्ट (शीर्षक फिर से लिखना) और कुछ बहुत ही साइट विशिष्ट सेटिंग्स को नई साइटों पर आयात नहीं किया जाएगा।"
+
+#: admin/views/tabs/network/restore-site.php:16
+msgid "Using this form you can reset a site to the default SEO settings."
+msgstr "इस फ़ॉर्म का उपयोग करके आप किसी साइट को डिफ़ॉल्ट एसईओ सेटिंग्स पर रीसेट कर सकते हैं।"
+
+#: admin/views/tabs/network/restore-site.php:23
+#: admin/views/tabs/network/restore-site.php:28
+msgid "Site ID"
+msgstr "साइट आईडी"
+
+#: admin/views/tabs/network/restore-site.php:32
+msgid "Restore site to defaults"
+msgstr "डिफ़ॉल्ट पर साइट को पुनर्स्थापित करें"
+
+#. translators: %s: 'Facebook' plugin name of possibly conflicting plugin
+#: admin/class-yoast-plugin-conflict.php:186
+msgid "Deactivate %s"
+msgstr "%s निष्क्रिय करें "
+
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:27
+#: js/dist/ai-consent.js:6 js/dist/ai-generator.js:7 js/dist/ai-generator.js:16
+#: js/dist/ai-generator.js:25 js/dist/ai-generator.js:40
+#: js/dist/ai-generator.js:46 js/dist/ai-generator.js:257
+#: js/dist/ai-generator.js:259 js/dist/ai-generator.js:261
+#: js/dist/editor-modules.js:117 js/dist/editor-modules.js:121
+#: js/dist/editor-modules.js:130 js/dist/editor-modules.js:139
+#: js/dist/editor-modules.js:154 js/dist/editor-modules.js:364
+#: js/dist/editor-modules.js:366 js/dist/editor-modules.js:368
+#: js/dist/externals-components.js:126 js/dist/externals-components.js:132
+#: js/dist/externals-components.js:141 js/dist/externals-components.js:150
+#: js/dist/externals-components.js:165 js/dist/externals-components.js:375
+#: js/dist/externals-components.js:377 js/dist/externals-components.js:379
+#: js/dist/externals/componentsNew.js:748 js/dist/general-page.js:13
+#: js/dist/general-page.js:26 js/dist/integrations-page.js:29
+#: js/dist/introductions.js:3 js/dist/introductions.js:7
+#: js/dist/introductions.js:11 js/dist/new-settings.js:13
+#: js/dist/new-settings.js:38
+msgid "Close"
+msgstr "पास"
+
+#. translators: %s is the plugin name
+#: admin/class-yoast-dashboard-widget.php:79
+msgid "%s Posts Overview"
+msgstr "%s पोस्ट अवलोकन"
+
+#: admin/class-meta-columns.php:273
+msgid "All SEO Scores"
+msgstr "सभी एसईओ स्कोर"
+
+#: admin/class-meta-columns.php:129
+msgid "Meta Desc."
+msgstr "मेटा विवरण"
+
+#: admin/statistics/class-statistics-service.php:222
+#: inc/class-wpseo-rank.php:141 inc/class-wpseo-rank.php:181
+#: inc/class-wpseo-rank.php:213 js/dist/block-editor.js:476
+#: js/dist/editor-modules.js:115 js/dist/editor-modules.js:369
+#: js/dist/elementor.js:6 js/dist/externals-components.js:122
+#: js/dist/externals/analysis.js:15 js/dist/externals/dashboardFrontend.js:4
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:1
+#: js/dist/term-edit.js:1
+msgid "OK"
+msgstr "ठीक है"
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/class-plugin-conflict.php:71
+msgid "Configure %1$s's Open Graph settings"
+msgstr "%1$s की ओपन ग्राफ़ सेटिंग्स कॉन्फ़िगर करें"
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'Google XML Sitemaps' plugin
+#. name of possibly conflicting plugin with regard to the creation of sitemaps.
+#: admin/class-plugin-conflict.php:78
+msgid "Both %1$s and %2$s can create XML sitemaps. Having two XML sitemaps is not beneficial for search engines and might slow down your site."
+msgstr "दोनों %1$s और %2$s एक्सएमएल साइटमैप बना सकते हैं। दो एक्सएमएल साइटमैप खोज इंजन के लिए फायदेमंद नहीं है और आपकी साइट को धीमा कर सकता है।"
+
+#. translators: %1$s: 'Facebook & Open Graph' plugin name(s) of possibly
+#. conflicting plugin(s), %2$s to Yoast SEO
+#: admin/class-yoast-plugin-conflict.php:182
+msgid "The %1$s plugin might cause issues when used in conjunction with %2$s."
+msgstr "जब %2$s के साथ संयोजन में उपयोग किया जाता है तो %1$s प्लगइन मुद्दों का कारण हो सकता है।"
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'Facebook' plugin name of
+#. possibly conflicting plugin with regard to creating OpenGraph output.
+#: admin/class-plugin-conflict.php:67
+msgid "Both %1$s and %2$s create Open Graph output, which might make Facebook, X, LinkedIn and other social networks use the wrong texts and images when your pages are being shared."
+msgstr "%1$s और %2$s दोनों ओपन ग्राफ़ आउटपुट बनाते हैं, जिससे फेसबुक, एक्स, लिंक्डइन और अन्य सोशल नेटवर्क आपके पृष्ठ साझा करते समय गलत टेक्स्ट और छवियों का उपयोग कर सकते हैं।"
+
+#: admin/class-admin.php:229 js/dist/externals-components.js:423
+msgid "FAQ"
+msgstr "सामान्य प्रश्न"
+
+#: admin/class-admin.php:224 src/integrations/settings-integration.php:358
+#: src/presenters/meta-description-presenter.php:37 js/dist/how-to-block.js:11
+msgid "Settings"
+msgstr "सेटिंग"
+
+#: admin/metabox/class-metabox.php:432
+#: admin/taxonomy/class-taxonomy-metabox.php:159 js/dist/new-settings.js:35
+msgid "Social"
+msgstr "सामाजिक"
+
+#: admin/class-meta-columns.php:128
+msgid "SEO Title"
+msgstr "SEO शीर्षक "
+
+#: admin/class-bulk-editor-list-table.php:844
+#: js/dist/externals/dashboardFrontend.js:4 js/dist/general-page.js:37
+#: js/dist/general-page.js:45
+msgid "Edit"
+msgstr "एडिट करें \t"
+
+#: admin/class-yoast-network-admin.php:43 src/config/schema-types.php:163
+#: src/integrations/settings-integration.php:622 js/dist/new-settings.js:13
+#: js/dist/new-settings.js:369
+msgid "None"
+msgstr "इनमे से कोई नहीं "
+
+#: admin/metabox/class-metabox.php:407
+#: admin/taxonomy/class-taxonomy-metabox.php:141
+#: inc/class-wpseo-admin-bar-menu.php:726
+#: src/services/health-check/report-builder.php:168
+msgid "SEO"
+msgstr "एसईओ"
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to the installed
+#. version, %3$s expands to Gutenberg
+#: admin/class-admin-gutenberg-compatibility-notification.php:88
+msgid "%1$s detected you are using version %2$s of %3$s, please update to the latest version to prevent compatibility issues."
+msgstr "%1$s पता चला कि आप %3$s का %2$s संस्करण उपयोग कर रहे हैं, संगतता मुद्दों को रोकने के लिए नवीनतम संस्करण में अद्यतन करें।"
+
+#: admin/menu/class-admin-menu.php:92
+msgid "Search Console"
+msgstr "खोज पट्टिका "
+
+#: admin/metabox/class-metabox.php:199 js/dist/block-editor.js:235
+#: js/dist/classic-editor.js:218 js/dist/elementor.js:310
+msgid "Canonical URL"
+msgstr "वैधानिक URL"
+
+#: admin/ajax.php:206
+msgid "You have used HTML in your value which is not allowed."
+msgstr "आपने इसमें HTML का इस्तेमाल किया किया है जो की वर्जित है "
+
+#: admin/metabox/class-metabox.php:208
+msgid "301 Redirect"
+msgstr "301 अनुप्रेषण"
+
+#: admin/menu/class-network-admin-menu.php:56 admin/pages/network.php:18
+#: src/general/user-interface/general-page-integration.php:191
+#: js/dist/new-settings.js:367
+msgid "General"
+msgstr "सामान्य"
+
+#: admin/metabox/class-metabox.php:209
+msgid "The URL that this page should redirect to."
+msgstr "वह URL जहाँ यह पृष्ठ अनुप्रेषित हो"
+
+#. translators: %s expands to the number of posts in localized format.
+#: admin/class-bulk-editor-list-table.php:308
+msgctxt "posts"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "सभी <span class=\"count\">(%s)</span>"
+msgstr[1] "सभी <span class=\"count\">(%s)</span>"
+
+#. translators: %s expands to the number of trashed posts in localized format.
+#: admin/class-bulk-editor-list-table.php:357
+msgctxt "posts"
+msgid "Trash <span class=\"count\">(%s)</span>"
+msgid_plural "Trash <span class=\"count\">(%s)</span>"
+msgstr[0] "ट्रैश <span class=\"count\">(%s)</span>"
+msgstr[1] "ट्रैश <span class=\"count\">(%s)</span>"
+
+#: admin/ajax.php:162
+msgid "Post doesn't exist."
+msgstr "पोस्ट मौजूद नहीं है।"
+
+#. translators: %s expands to post type.
+#: admin/ajax.php:173
+msgid "Post has an invalid Content Type: %s."
+msgstr "पोस्ट में एक अमान्य सामग्री प्रकार है: %s।"
+
+#. translators: %s expands to post type name.
+#: admin/ajax.php:185
+msgid "You can't edit %s."
+msgstr "आप %s को संपादित नहीं कर सकते।"
+
+#. translators: %s expands to the name of a post type (plural).
+#: admin/ajax.php:197
+msgid "You can't edit %s that aren't yours."
+msgstr "आप %s को संपादित नहीं कर सकते जो आपका नहीं है।"
+
+#: src/services/health-check/default-tagline-runner.php:32
+msgid "Just another WordPress site"
+msgstr "एक और वर्डप्रेस साइट"
+
+#: admin/views/class-yoast-feature-toggles.php:136 js/dist/new-settings.js:29
+#: js/dist/new-settings.js:325 js/dist/new-settings.js:327
+msgid "XML sitemaps"
+msgstr "एक्सएमएल साइटमैप"
+
+#: admin/menu/class-admin-menu.php:96 js/dist/new-settings.js:323
+msgid "Tools"
+msgstr "उपकरण"
+
+#: admin/menu/class-network-admin-menu.php:63
+msgid "Edit Files"
+msgstr "फ़ाइलें संपादित करें"
+
+#: admin/class-admin.php:182
+msgid "Posts"
+msgstr "पोस्ट"
+
+#: src/presenters/admin/search-engines-discouraged-presenter.php:33
+msgid "Huge SEO Issue: You're blocking access to robots."
+msgstr "विशाल एसईओ मुद्दा: आप रोबोट तक पहुंच को रोक रहे हैं।"
+
+#: admin/class-admin.php:308
+#: src/user-meta/framework/additional-contactmethods/facebook.php:28
+msgid "Facebook profile URL"
+msgstr "फेसबुक प्रोफाइल यूआरएल"
+
+#: admin/class-bulk-description-editor-list-table.php:46
+msgid "Existing Yoast Meta Description"
+msgstr "मौजूदा योस्ट मेटा विवरण"
+
+#: admin/class-bulk-description-editor-list-table.php:47
+msgid "New Yoast Meta Description"
+msgstr "नया योस्ट मेटा विवरण"
+
+#: admin/class-bulk-editor-list-table.php:438
+msgid "Filter"
+msgstr "फ़िल्टर"
+
+#. translators: Hidden accessibility text; %s: post title.
+#: admin/class-bulk-editor-list-table.php:855
+msgid "Preview &#8220;%s&#8221;"
+msgstr "पूर्वावलोकन &#8220;%s&#8221;"
+
+#: admin/class-bulk-editor-list-table.php:856
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#. translators: Hidden accessibility text; %s: post title.
+#: admin/class-bulk-editor-list-table.php:865
+msgid "View &#8220;%s&#8221;"
+msgstr "देखना &#8220;%s&#8221;"
+
+#: admin/class-bulk-editor-list-table.php:866 js/dist/block-editor.js:84
+#: js/dist/classic-editor.js:67 js/dist/elementor.js:376
+#: js/dist/externals/dashboardFrontend.js:5
+#: js/dist/wincher-dashboard-widget.js:112
+msgid "View"
+msgstr "देखना"
+
+#: admin/class-bulk-editor-list-table.php:1036
+msgid "WP Page Title"
+msgstr "डब्लूपी पृष्ठ शीर्षक"
+
+#: admin/class-bulk-editor-list-table.php:1038
+msgid "Post Status"
+msgstr "पोस्ट की स्थिति"
+
+#: admin/class-bulk-editor-list-table.php:1039
+msgid "Publication date"
+msgstr "प्रकाशन तिथि"
+
+#: admin/class-bulk-editor-list-table.php:1040
+msgid "Page URL/Slug"
+msgstr "पृष्ठ यूआरएल/स्लग"
+
+#: admin/class-bulk-editor-list-table.php:1045
+msgid "Action"
+msgstr "कार्य"
+
+#: admin/import/class-import-settings.php:85
+msgid "Settings could not be imported:"
+msgstr "सेटिंग्स आयात नहीं की जा सकीं:"
+
+#: admin/import/class-import-settings.php:121
+msgid "Settings successfully imported."
+msgstr "सेटिंग्स सफलतापूर्वक आयात की गईं।"
+
+#: inc/class-wpseo-replace-vars.php:1524
+msgid "Focus keyword"
+msgstr "फोकस कीवर्ड"
+
+#: admin/metabox/class-metabox.php:173
+#: js/dist/externals/replacementVariableEditor.js:27
+#: js/dist/externals/searchMetadataPreviews.js:62 js/dist/new-settings.js:22
+#: js/dist/new-settings.js:26 js/dist/new-settings.js:31
+#: js/dist/new-settings.js:35 js/dist/new-settings.js:62
+#: js/dist/new-settings.js:76 js/dist/new-settings.js:106
+#: js/dist/new-settings.js:135 js/dist/new-settings.js:200
+#: js/dist/new-settings.js:217 js/dist/new-settings.js:226
+#: js/dist/new-settings.js:265
+msgid "Meta description"
+msgstr "मेटा विवरण"
+
+#: admin/metabox/class-metabox.php:178
+msgid "Warning: even though you can set the meta robots setting here, the entire site is set to noindex in the sitewide privacy settings, so these settings won't have an effect."
+msgstr "चेतावनी: भले ही आप मेटा रोबोट को यहां सेट कर सकते हैं, लेकिन पूरी साइट साइटवाइड गोपनीयता सेटिंग्स में नोइन्डेक्स पर सेट है, इसलिए इन सेटिंग्स का प्रभाव नहीं होगा।"
+
+#: admin/metabox/class-metabox.php:190 js/dist/block-editor.js:233
+#: js/dist/classic-editor.js:216 js/dist/elementor.js:308
+msgid "Meta robots advanced"
+msgstr "मेटा रोबोट उन्नत"
+
+#: admin/metabox/class-metabox.php:192 js/dist/block-editor.js:233
+#: js/dist/classic-editor.js:216 js/dist/elementor.js:308
+msgid "No Image Index"
+msgstr "कोई छवि सूचकांक नहीं"
+
+#: admin/metabox/class-metabox.php:193 js/dist/block-editor.js:233
+#: js/dist/classic-editor.js:216 js/dist/elementor.js:308
+msgid "No Archive"
+msgstr "कोई आर्काइव नहीं"
+
+#: admin/metabox/class-metabox.php:194 js/dist/block-editor.js:233
+#: js/dist/classic-editor.js:216 js/dist/elementor.js:308
+msgid "No Snippet"
+msgstr "कोई स्निपेट नहीं"
+
+#: admin/metabox/class-metabox.php:196 js/dist/block-editor.js:234
+#: js/dist/classic-editor.js:217 js/dist/elementor.js:309
+msgid "Breadcrumbs Title"
+msgstr "ब्रेडक्रंब शीर्षक"
+
+#: admin/metabox/class-metabox.php:197
+msgid "Title to use for this page in breadcrumb paths"
+msgstr "ब्रेडक्रंब पथ में इस पृष्ठ के लिए उपयोग करने के लिए शीर्षक"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/metabox/class-metabox.php:203
+msgid "The canonical URL that this page should point to. Leave empty to default to permalink. %1$sCross domain canonical%2$s supported too."
+msgstr "यह पेज जो कैनोनिकल यूआरएल इंगित करता है। पर्मालिंक पर डिफ़ॉल्ट करने के लिए खाली छोड़ दें। %1$sक्रॉस डोमेन कैनोनिकल%2$s भी समर्थित है"
+
+#: admin/class-meta-columns.php:828
+msgid "Post is set to noindex."
+msgstr "पोस्ट को नोइन्डेक्स पर सेट किया गया है।"
