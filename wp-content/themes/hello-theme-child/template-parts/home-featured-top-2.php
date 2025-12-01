@@ -47,7 +47,7 @@
                 </h3>
                 <div class="flex gap-2 items-center">
                     <?php if (!empty($single_cat)): ?>
-                    <span class="text-xs bg-brand text-white px-2 py-0.5 uppercase font-medium">
+                    <span class="bg-rose-500 text-white inline-flex px-2 pt-1 pb-0.5 leading-none uppercase text-xs font-medium whitespace-nowrap">
                         <?= esc_html($single_cat) ?>
                     </span>
                     <?php endif; ?>

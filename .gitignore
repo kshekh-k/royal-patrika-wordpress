@@ -13,6 +13,7 @@ readme.html
 # WordPress Uploads & User Content
 # ------------------------------------------------------------
 wp-content/uploads/
+wp-content/uploads.zip
 wp-content/cache/
 wp-content/upgrade/
 wp-content/updraft/

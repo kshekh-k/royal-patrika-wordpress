@@ -1129,41 +1129,44 @@ function hs_add_category_featured_image_field($term)
     $image_id = get_term_meta($term->term_id, 'category_image_id', true);
     $image_url = $image_id ? wp_get_attachment_url($image_id) : '';
     ?>
-    <div class="form-field pb-5">
-        <div scope="row" valign="top"><label for="category_image">Category Image</label></div>
-        <div class="flex gap-3 items-center">
-            <input type="hidden" name="category_image_id" id="category_image_id" value="<?php echo esc_attr($image_id); ?>">
-            <img id="category_image_preview" src="<?php echo esc_url($image_url); ?>" style="max-width:150px; display:block; margin-bottom:10px;">
-            <button type="button" class="button upload_category_image">Upload Image</button>
-            <button type="button" class="button remove_category_image">Remove</button>
+<div class="form-field pb-5">
+    <div scope="row" valign="top"><label for="category_image">Category Image</label></div>
+    <div class="flex gap-3 items-center">
+        <input type="hidden" name="category_image_id" id="category_image_id" value="<?php echo esc_attr($image_id); ?>">
+        <img id="category_image_preview" src="<?php echo esc_url($image_url); ?>"
+            style="max-width:150px; display:block; margin-bottom:10px;">
+        <button type="button" class="button upload_category_image">Upload Image</button>
+        <button type="button" class="button remove_category_image">Remove</button>
+    </div>
 </div>
-</div>
-    <script>
-        jQuery(function($){
-            let frame;
-            $('.upload_category_image').click(function(e){
-                e.preventDefault();
-                if(frame) frame.open();
-                frame = wp.media({
-                    title: 'Select or Upload Category Image',
-                    button: { text: 'Use this image' },
-                    multiple: false
-                });
-                frame.on('select', function(){
-                    const attachment = frame.state().get('selection').first().toJSON();
-                    $('#category_image_id').val(attachment.id);
-                    $('#category_image_preview').attr('src', attachment.url);
-                });
-                frame.open();
-            });
-
-            $('.remove_category_image').click(function() {
-                $('#category_image_id').val('');
-                $('#category_image_preview').attr('src', '');
-            });
+<script>
+jQuery(function($) {
+    let frame;
+    $('.upload_category_image').click(function(e) {
+        e.preventDefault();
+        if (frame) frame.open();
+        frame = wp.media({
+            title: 'Select or Upload Category Image',
+            button: {
+                text: 'Use this image'
+            },
+            multiple: false
         });
-    </script>
-    <?php
+        frame.on('select', function() {
+            const attachment = frame.state().get('selection').first().toJSON();
+            $('#category_image_id').val(attachment.id);
+            $('#category_image_preview').attr('src', attachment.url);
+        });
+        frame.open();
+    });
+
+    $('.remove_category_image').click(function() {
+        $('#category_image_id').val('');
+        $('#category_image_preview').attr('src', '');
+    });
+});
+</script>
+<?php
 }
 
 add_action('category_add_form_fields', 'hs_add_category_featured_image_field');
@@ -1227,16 +1230,22 @@ function hs_get_youtube_video_stats($api_key, $video_id)
    SHORTCODE: Display YouTube Videos Anywhere
    Usage: [youtube_videos count="6"]
 -------------------------------------------------------- */
+
 function hs_youtube_videos_shortcode($atts)
 {
     $atts = shortcode_atts([
-        'count' => 6,
+        'count'  => 6,
+        'filter' => 'latest', // latest | most_viewed | most_liked | reviews | search | recent
+        'layout' => 'grid', // ← NEW PARAM  
+        'q'      => '',        // keyword for search
+        'days'   => 7,         // for recent filter
     ], $atts);
 
-    $api_key = 'AIzaSyB0SHwrWPm9VmU4k1E4EddJnnUMMScUCOQ';
-    $channel_id = 'UCOGGkMTKIeRAFl_iht0Z-cQ';
+    $api_key     = 'AIzaSyB0SHwrWPm9VmU4k1E4EddJnnUMMScUCOQ';
+    $channel_id  = 'UCOGGkMTKIeRAFl_iht0Z-cQ';
 
-    $videos = hs_get_youtube_videos($api_key, $channel_id, $atts['count']);
+    // Get videos based on filter
+    $videos = hs_get_filtered_youtube_videos($api_key, $channel_id, $atts);
 
     if (empty($videos['items'])) {
         return '<p>No videos found.</p>';
@@ -1244,49 +1253,188 @@ function hs_youtube_videos_shortcode($atts)
 
     ob_start();
     ?>
+<?php
+    foreach ($videos['items'] as $video):
 
- 
+    if ($video['id']['kind'] !== 'youtube#video') continue;
 
-        <?php
-        foreach ($videos['items'] as $video):
-            // Ignore non-video items
-            if ($video['id']['kind'] !== 'youtube#video')
-                continue;
+    $video_id = $video['id']['videoId'];
+    $title    = $video['snippet']['title'];
+    $thumb    = $video['snippet']['thumbnails']['medium']['url'];
 
-            $video_id = $video['id']['videoId'];
-            $title = $video['snippet']['title'];
-            $thumb = $video['snippet']['thumbnails']['medium']['url'];
-            $date = date('M d, Y', strtotime($video['snippet']['publishedAt']));
+    // Get stats (views, likes)
+    $stats = hs_get_youtube_video_stats($api_key, $video_id);
 
-            // Get video stats
-            $stats = hs_get_youtube_video_stats($api_key, $video_id);
+    // Now switch layouts
+    switch ($atts['layout']) {
+
+        /** ------------------------------------------------------------------
+         *  LAYOUT 1 — GRID CARD
+         *  Thumbnail Top, Title Below
+         * ------------------------------------------------------------------*/
+        case 'grid':
             ?>
-
-        <div class="bg-white overflow-hidden">
-            <div class="relative">
-            <img src="<?php echo esc_url($thumb); ?>" alt="Video-id=<?php echo $video_id; ?>" class="w-full">
-             <div class="absolute inset-0 bg-black/50 group hover:bg-brand/80 flex items-stretch">
-                <a href="https://www.youtube.com/watch?v=<?php echo $video_id; ?>" 
-                   class="flex justify-center items-center text-white no-underline! flex-1"
-                   target="_blank">
-                        <i class="fa-brands fa-youtube text-4xl"></i>
-                </a>
-             </div>
-         </div>
-            <h3 class="text-sm font-semibold pt-2">
-                <a href="text-sm font-semibold" class="no-underline! text-neutral-900 hover:text-brand transition line-clamp-2 leading-snug max-h-10.5 overflow-hidden pt-1">
-                    <?php echo esc_html($title); ?>
-                </a>
-            </h3>
-             
+<a href="https://www.youtube.com/watch?v=<?php echo $video_id; ?>" class="block no-underline! transition group " target="_blank">
+    <div class="bg-white overflow-hidden space-y-2">
+        <div class="relative">
+            <img src="<?php echo $thumb; ?>" class="object-cover" alt="<?php echo $title; ?>">
+            <div class="flex justify-center items-center text-white flex-1 absolute inset-0 bg-black/70 group-hover:bg-brand/80 transition" > <i
+                    class="fa-brands fa-youtube text-4xl text-rose-500 group-hover:text-white transition"></i>
+            </div>
         </div>
+        <h3 class="text-sm font-semibold line-clamp-2 max-h-12 pt-1 group-hover:text-brand text-neutral-900 transition"><?php echo $title; ?></h3>
+    </div>
+</a>
+<?php
+        break;
 
-        <?php endforeach; ?>
+        /** ------------------------------------------------------------------
+         *  LAYOUT 2 — LIST
+         *  Small thumbnail left, text right
+         * ------------------------------------------------------------------*/
+        case 'list':
+            ?>
+<a href="https://www.youtube.com/watch?v=<?php echo $video_id; ?>" class="block no-underline! transition group " target="_blank">
+    <div class="flex gap-3 items-start">
+         <div class="relative w-32 h-20 flex justify-center items-center overflow-hidden shrink-0">
+            <img src="<?php echo $thumb; ?>" class="object-cover max-w-40" alt="<?php echo $title; ?>">
+            <div class="flex justify-center items-center text-white flex-1 absolute inset-0 bg-black/70 group-hover:bg-brand/80 transition" > <i
+                    class="fa-brands fa-youtube text-2xl text-rose-500 group-hover:text-white transition"></i>
+            </div>
+        </div>        
+        <div class="flex-1 space-y-2">
+            <h3 class="text-xs font-semibold line-clamp-3 max-h-16 pt-1 group-hover:text-brand text-neutral-900 transition"><?php echo $title; ?></h3>
+            <p class="text-xs text-neutral-600">
+               <span><i class="fa-regular fa-eye"></i> <?php echo number_format($stats['viewCount']); ?> </span> <span class="w-5 text-center inline-block">|</span>
+                <span><i class="fa-regular fa-thumbs-up"></i> <?php echo number_format($stats['likeCount']); ?></span>
+            </p>
+        </div>
+    </div>
+</a>
+<?php
+        break;
 
-   
+        /** ------------------------------------------------------------------
+         *  LAYOUT 3 — HORIZONTAL LARGE
+         *  Big thumbnail left, full details right
+         * ------------------------------------------------------------------*/
+        case 'horizontal':
+            ?>
+<a href="https://www.youtube.com/watch?v=<?php echo $video_id; ?>" class="block">
+    <div class="flex gap-4 items-start p-4 bg-gray-50 border rounded">
+        <div class="w-1/2">
+            <img src="<?php echo $thumb; ?>" class="w-full rounded">
+        </div>
+        <div class="w-1/2">
+            <h3 class="text-sm font-semibold line-clamp-2 max-h-10"><?php echo $title; ?></h3>
+            <p class="text-sm mb-2">
+                <strong>Views:</strong> <?php echo number_format($stats['viewCount']); ?><br>
+                <strong>Likes:</strong> <?php echo number_format($stats['likeCount']); ?>
+            </p>
+        </div>
+    </div>
+</a>
+<?php
+        break;
 
-    <?php
+        /** ------------------------------------------------------------------
+         *  LAYOUT 4 — STATS (No thumbnail)
+         * ------------------------------------------------------------------*/
+        case 'stats':
+            ?>
+<div class="p-4 border rounded bg-white">
+    <a href="https://www.youtube.com/watch?v=<?php echo $video_id; ?>" class="block">
+        <h3 class="text-sm font-semibold line-clamp-2 max-h-10"><?php echo $title; ?></h3>
+        <p class="text-xs">
+            ⭐ Rating: <?php echo round(($stats['likeCount'] / max($stats['viewCount'],1)) * 5, 1); ?> / 5<br>
+            👁 Views: <?php echo number_format($stats['viewCount']); ?><br>
+            👍 Likes: <?php echo number_format($stats['likeCount']); ?>
+        </p>
+    </a>
+</div>
+<?php
+        break;
+
+        /** ------------------------------------------------------------------
+         *  LAYOUT 5 — MINIMAL
+         * ------------------------------------------------------------------*/
+        case 'minimal':
+            ?>
+<a href="https://www.youtube.com/watch?v=<?php echo $video_id; ?>" class="block">
+    <?php echo esc_html($title); ?>
+</a>
+<?php
+        break;
+
+        /** ------------------------------------------------------------------
+         *  DEFAULT LAYOUT
+         * ------------------------------------------------------------------*/
+        default:
+            ?>
+<div class="bg-white overflow-hidden">
+    <img src="<?php echo $thumb; ?>" class="w-full">
+    <h3 class="text-sm font-semibold line-clamp-2 max-h-10"><?php echo $title; ?></h3>
+</div>
+<?php
+        break;
+    }
+
+endforeach; ?>
+
+
+<?php
     return ob_get_clean();
 }
-
 add_shortcode('youtube_videos', 'hs_youtube_videos_shortcode');
+
+function hs_get_filtered_youtube_videos($api_key, $channel_id, $atts)
+{
+    $base_url = "https://www.googleapis.com/youtube/v3/search";
+
+    $params = [
+        'key'        => $api_key,
+        'channelId'  => $channel_id,
+        'part'       => 'snippet',
+        'type'       => 'video',
+        'maxResults' => $atts['count'],
+        'order'      => 'date', // default latest
+    ];
+
+    switch ($atts['filter']) {
+
+        case 'most_viewed':
+            $params['order'] = 'viewCount';
+            break;
+
+        case 'most_liked':
+            $params['order'] = 'rating';
+            break;
+
+        case 'reviews':
+            $params['q'] = 'review';
+            break;
+
+        case 'search':
+            if (!empty($atts['q'])) {
+                $params['q'] = sanitize_text_field($atts['q']);
+            }
+            break;
+
+        case 'recent':
+            $date = date(DATE_RFC3339, strtotime('-' . intval($atts['days']) . ' days'));
+            $params['publishedAfter'] = $date;
+            break;
+
+        default:
+            $params['order'] = 'date';
+            break;
+    }
+
+    // Final API URL
+    $url = $base_url . '?' . http_build_query($params);
+
+    $response = wp_remote_get($url);
+    if (is_wp_error($response)) return [];
+
+    return json_decode(wp_remote_retrieve_body($response), true);
+}
