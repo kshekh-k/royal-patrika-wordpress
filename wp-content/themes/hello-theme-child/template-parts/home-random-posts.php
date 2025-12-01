@@ -1,7 +1,7 @@
 <?php
 // =================== CONFIG ===================
 $date_filter = [
-    'after' => '3 days ago',
+    'after' => '30 days ago',
     'inclusive' => true,
 ];
 
@@ -29,14 +29,23 @@ $merged_query = new WP_Query([
     <div class="pb-7">
         <div class="flex gap-4 flex-col">
 
-            <?php if (has_post_thumbnail()): ?>
-                <a href="<?php the_permalink(); ?>"
+   <a href="<?php the_permalink(); ?>"
                    class="w-full max-h-96 flex justify-center items-center overflow-hidden">
-                    <?php the_post_thumbnail('large', [
-                        'class' => 'object-center object-cover size-auto min-w-full min-h-full max-w-none'
-                    ]); ?>
-                </a>
-            <?php endif; ?>
+ <?php
+                        if (has_post_thumbnail()) {
+                            the_post_thumbnail('large', [
+                                'class' => 'object-cover h-auto min-h-full w-auto min-w-full max-w-none'
+                            ]);
+                        } else {
+                            echo hs_get_default_image(
+                                'default',
+                                'object-cover h-auto min-h-full w-auto min-w-full max-w-none'
+                            );
+                        }
+                        ?>
+   </a>
+
+            
 
             <div class="space-y-3 flex-1">
 
