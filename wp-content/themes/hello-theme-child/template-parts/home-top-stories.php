@@ -4,7 +4,7 @@
 
      <?php
                     $categories = ['top-news', 'trending-now'];   
-                    $count = 3; 
+                    $count = 2; 
 
                    
                     $cat_ids = [];
