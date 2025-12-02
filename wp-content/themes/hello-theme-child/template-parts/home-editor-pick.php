@@ -12,7 +12,7 @@
         <?php
         // Categories
         $categories = ['editor-pick'];  
-        $count = 3;
+        $count = 2;
 
         // Convert category slugs to IDs
         $cat_ids = [];

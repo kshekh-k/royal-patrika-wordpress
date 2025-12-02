@@ -479,13 +479,50 @@ function news_header_ads_widgets()
         'after_title' => '</h2>',
     ));
     register_sidebar(array(
-        'name' => 'Google Ads Left',
-        'id' => 'google-ads-left',
+        'name' => 'Native Ads Right First',
+        'id' => 'native-ads-right-first',
         'before_widget' => '<div class="widget %2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h2 class="widgettitle">',
         'after_title' => '</h2>',
     ));
+
+    register_sidebar(array(
+        'name' => 'Native Ads Left First',
+        'id' => 'native-ads-left-first',
+        'before_widget' => '<div class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => '</h2>',
+    ));
+
+    register_sidebar(array(
+        'name' => 'Native Ads Left Second',
+        'id' => 'native-ads-left-second',
+        'before_widget' => '<div class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => '</h2>',
+    ));
+
+    register_sidebar(array(
+        'name' => 'Native Ads Right Second',
+        'id' => 'native-ads-right-second',
+        'before_widget' => '<div class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => '</h2>',
+    ));
+    register_sidebar(array(
+        'name' => 'Native Ads Center',
+        'id' => 'native-ads-center',
+        'before_widget' => '<div class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => '</h2>',
+    ));
+
+    
     register_sidebar(array(
         'name' => 'Google Ads Right',
         'id' => 'google-ads-right',
@@ -985,8 +1022,38 @@ function hs_count_post_views()
 
 add_action('wp', 'hs_count_post_views');
 
-// Default Images
+// Ad Default Images
+/*
+ * Get a default image with optional classes
+ * @param string $type   custom type (example: 'politics', 'sports', etc.)
+ * @param string $class  tailwind or any CSS classes for <img>
+ * @return string HTML <img> tag
+ */
+function hs_ad_default_image($type = 'default', $class = '')
+{
+    // Base path for all default images
+    $base = get_template_directory_uri() . '/assets/img/';
 
+    // Map category/type → default image
+    $images = [
+        'square' => 'promote-your-business-ad-square.png',         
+        'long' => 'promote-your-business-ad-long.png',         
+        'rectangle' => 'promote-your-business-ad-rectangle.png',         
+    ];
+
+    // Choose correct image
+    $file = isset($images[$type]) ? $images[$type] : $images['default'];
+
+    // Final URL
+    $url = $base . $file;
+
+    // Return image tag with classes
+    return '<img src="' . esc_url($url) . '" class="' . esc_attr($class) . '" alt="default-image">';
+}
+
+
+
+// Default Images
 /*
  * Get a default image with optional classes
  * @param string $type   custom type (example: 'politics', 'sports', etc.)
@@ -1006,7 +1073,7 @@ function hs_get_default_image($type = 'default', $class = '')
         'education' => 'no-image-education.png',
         'default' => 'no-image-default.png',
     ];
-    http:  // localhost/royal-patrika/wp-content/uploads/2025/11/no-image-default.png
+    // http:  // localhost/royal-patrika/wp-content/uploads/2025/11/no-image-default.png
     // Choose correct image
     $file = isset($images[$type]) ? $images[$type] : $images['default'];
 

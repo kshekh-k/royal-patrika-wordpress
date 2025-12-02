@@ -34,18 +34,30 @@ get_template_part('template-parts/home-top-4');
             </div>
             <div class="md:col-span-3 space-y-4 flex flex-col">
                 <div class="flex flex-col gap-2 md:flex-1">
-                <div class="flex justify-between items-center gap-2 border-b border-brand ">
-                    <h3 class="text-left text-lg text-neutral-900 uppercase"><b>Top</b>
-                        Videos</h3>
-                    <a href="https://www.youtube.com/@royalpatrika" target="_blank"
-                        class="text-sm font-semibold no-underline! py-2 flex justify-center text-center hover:text-blue-500 text-brand   transition ">
-                        View All
-                    </a>
+                    <div class="flex justify-between items-center gap-2 border-b border-brand ">
+                        <h3 class="text-left text-lg text-neutral-900 uppercase"><b>Top</b>
+                            Videos</h3>
+                        <a href="https://www.youtube.com/@royalpatrika" target="_blank"
+                            class="text-sm font-semibold no-underline! py-2 flex justify-center text-center hover:text-blue-500 text-brand   transition ">
+                            View All
+                        </a>
+                    </div>
+                    <?php echo do_shortcode('[youtube_videos count="1" filter="latest" layout="grid"]'); ?>
                 </div>
-                <?php echo do_shortcode('[youtube_videos count="1" filter="latest" layout="grid"]'); ?>
+                <div class="flex justify-center items-center md:flex-1">
+                     <div class="flex justify-center items-center">
+                    <!-- Native Ad Right First -->
+                    <?php if ( is_active_sidebar( "native-ads-right-first" ) ) :             
+                        dynamic_sidebar( "native-ads-right-first" );
+                        else :
+                            echo hs_ad_default_image(
+                                'square',
+                                'object-cover'
+                            );
+                        endif; 
+                    ?>
                 </div>
-                <div class="pt-2 flex justify-center items-center border border-neutral-200 p-3 md:flex-1">
-                    Ad Goes here
+                     
                 </div>
             </div>
         </div>
@@ -94,19 +106,70 @@ get_template_part('template-parts/home-top-4');
         <div class="flex flex-col sm:grid sm:grid-cols-12 gap-10">
             <aside class="col-span-6 lg:col-span-3 flex flex-col gap-2 order-2 lg:order-1">
                 <?php 
-                get_template_part('template-parts/home-tech-innovation'); 
-                get_template_part('template-parts/home-editor-pick'); 
-               
+                get_template_part('template-parts/home-tech-innovation');                              
+                ?>
+                 <div class="flex justify-center items-center">
+                    <!-- Native Ad Right Second -->
+                    <?php if ( is_active_sidebar( "native-ads-left-second" ) ) :             
+                        dynamic_sidebar( "native-ads-left-second" );
+                        else :
+                            echo hs_ad_default_image(
+                                'square',
+                                'object-cover'
+                            );
+                        endif; 
+                    ?>
+                </div>
+                <?php                 
+                get_template_part('template-parts/home-editor-pick');                
                 ?>
             </aside>
             <div class="col-span-12 lg:col-span-6 divide-y divide-neutral-200 flex flex-col gap-7  order-1 lg:order-2"> <?php   
                 get_template_part('template-parts/home-latest-articles'); 
-                ?></div>
-            <aside class="col-span-6 lg:col-span-3 flex flex-col gap-2 order-3">
-                <?php   
-                get_template_part('template-parts/home-weather');
-                get_template_part('template-parts/home-calendar');
                 ?>
+                <div class="flex justify-center items-center">
+                    <!-- Native Ad Right Second -->
+                    <?php if ( is_active_sidebar( "native-ads-center" ) ) :             
+                        dynamic_sidebar( "native-ads-center" );
+                        else :
+                            echo hs_ad_default_image(
+                                'rectangle',
+                                'object-cover'
+                            );
+                        endif; 
+                    ?>
+                </div>            
+            
+            </div>
+            <aside class="col-span-6 lg:col-span-3 flex flex-col gap-5 order-3">
+                <?php   
+                get_template_part('template-parts/home-weather'); ;
+                ?>
+                <div class="flex justify-center items-center">
+                    <!-- Native Ad Right Second -->
+                    <?php if ( is_active_sidebar( "native-ads-right-second" ) ) :             
+                        dynamic_sidebar( "native-ads-right-second" );
+                        else :
+                            echo hs_ad_default_image(
+                                'square',
+                                'object-cover'
+                            );
+                        endif; 
+                    ?>
+                </div>
+                <?php get_template_part('template-parts/home-calendar'); ?>
+                 <div class="space-y-4">
+                    <h3 class="text-left text-lg text-neutral-900 pb-3 border-b border-brand uppercase">
+                        <b>Poll</b>
+                    </h3>
+                    <?php  echo do_shortcode('[poll id="2"]');?>
+                  </div>
+                 <div class="space-y-4">
+                    <h3 class="text-left text-lg text-neutral-900 pb-3 border-b border-brand uppercase">
+                        <b>Tags</b>
+                    </h3>
+                   <?php get_template_part('template-parts/home-category-tags'); ?>  
+                  </div>
             </aside>
         </div>
 </section>
