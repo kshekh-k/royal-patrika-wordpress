@@ -115,11 +115,11 @@ global $wstheme_options,$theme_dir;
             <p class="text-sm text-neutral-400 font-normal! text-center md:text-left">Copyright &copy; <span id="currentYear"></span> All rights
                 reserved by Royal
                 Patrika | Powered by
-                <a href="https://royalpatrika.com"
-                    class="text-sm text-neutral-200! hover:text-brand! transition font-normal! no-underline!">www.helixosoft.com</a>
+                <a href="https://jobresultdekho.com/"
+                    class="text-sm text-neutral-200! hover:text-brand! transition font-normal! no-underline!">www.jobresultdekho.com</a>
             </p>
-            <div class="flex justify-center">
-                <?php dynamic_sidebar('social_media_widget'); ?>
+            <div class="flex justify-center">                  
+              <div class="flex gap-2 py-2"> <?php echo do_shortcode('[social_icons style="brand"]'); ?></div>
             </div>
         </div>
 

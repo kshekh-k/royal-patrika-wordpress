@@ -10,13 +10,9 @@ Template Name: E-paper
 */
 get_header(); ?>
 
-<div class="content-wrapper p-2 " id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <aside class="google-ads left">
-        <?php if (is_active_sidebar('google-ads-left')) : ?>
-            <?php dynamic_sidebar('google-ads-left'); ?>
-        <?php endif; ?>
-    </aside>
-    <section class="rp-e-paper-page">
+ 
+     
+    <section class="py-5" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <div class="wrapper">
 
         <?php
@@ -32,16 +28,16 @@ get_header(); ?>
                 $cat_id = $epaper_category->term_id;
                 $cat_name = $epaper_category->name;
         ?>
-                <div class="rp-e-paper-page-heading">
-                    <div class="heading">
-                        <h3 class="text-center big-news-title"><?php echo esc_html($cat_name); ?></h3>
-                    </div>
-                </div>
-                <div class="paper-post-content-dainik">
+           
+                  
+                        <h3 class="text-left text-lg font-bold lg:text-xl text-neutral-900 uppercase border-b border-brand"><?php echo esc_html($cat_name); ?></h3>
+                  
+              
+                <div class="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-4 gap-5 pt-5">
                     <?php
                     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                     $args = array(
-                        'posts_per_page' => 3,
+                        'posts_per_page' => 4,
                         'paged' => $paged,
                         'post_type' => 'epaper',
                         'tax_query' => array(
@@ -61,32 +57,36 @@ get_header(); ?>
                             $post_id = get_the_ID();
                             $post_pdf = get_field('e-paper', $post_id);
                     ?>
-                            <div class="col-md-4 mb-3 epaper-box">
-                                <div class="epaper_save_icon">
-                                    <h6 class="epaper_date"><?php echo esc_html($post_date); ?></h6>
-                                    <a class="epaper_button_sec" href="<?php echo esc_url($post_pdf); ?>"><button class="epaper_download"><i class="fa fa-download"></i></button></a>
+                            <div class="group epaper-box border border-neutral-200 bg-white p-3 relative transition hover:shadow-1">
+                                <div class="bg-brand epaper_top_right text-white p-2 flex justify-between items-center gap-5">
+                                    <h6 class="text-sm"><?php echo esc_html($post_date); ?></h6>
+                                    <div class="flex gap-1 flex-1 justify-between items-center">
+                                    <a class="text-sm" href="<?php echo esc_url($post_pdf); ?>"><button class="epaper_download"><i class="fa fa-download"></i></button></a>
                                     <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo esc_url($post_pdf); ?>" target="_blank" class="epaper_button_sec"><button class="epaper_download"><i class="fa fa-facebook"></i></button></a>
-                                    <br>
+                                    
                                     <a href="https://api.whatsapp.com/send?text=Check%20out%20this%20PDF%20<?php echo esc_url($post_pdf); ?>" target="_blank" class="epaper_button_sec"><button class="epaper_download"><i class="fa fa-whatsapp"></i></button></a>
-                                    <br>
-                                    <a href="https://twitter.com/intent/tweet?url=<?php echo esc_url($post_pdf); ?>&text=Check%20out%20this%20PDF" target="_blank" class="epaper_button_sec"><button class="epaper_download"><i class="fa fa-twitter"></i></button></a>
+                                    
+                                    <a href="https://x.com/intent/tweet?url=<?php echo esc_url($post_pdf); ?>&text=Check%20out%20this%20PDF" target="_blank" class="epaper_button_sec"><button class="epaper_download"><i class="fa-brands fa-x-twitter"></i></button></a>
                                 </div>
-                                <div class="epaper_innner_box">
-                                    <div class="epaper_img">
+                                </div>
+                                <div class=" flex flex-col gap-3 p-2">
+                                    <div class="epaper_img overflow-hidden bg-neutral-900">
                                         <?php if (has_post_thumbnail()) {
-                                            printf('<a href="%s">%s</a>', esc_url($post_link), get_the_post_thumbnail(get_the_ID(), 'large'));
+                                            printf('<a class="group-hover:scale-105 block group-hover:opacity-80 transition" href="%s">%s</a>', esc_url($post_link), get_the_post_thumbnail(get_the_ID(), 'full'));
                                         } ?>
                                     </div>
-                                    <a title="<?php the_title_attribute(); ?>" href="<?php echo esc_url($post_link); ?>">
-                                        <h3 class="epaper_name"><?php the_title(); ?></h3>
-                                    </a>
+                                   
+                                        <h3 class="text-sm font-semibold text-center"> <a title="<?php the_title_attribute(); ?>" href="<?php echo esc_url($post_link); ?>" class="group-hover:text-brand text-neutral-600 transition no-underline! "><?php the_title(); ?> </a></h3>
+                                   
                                 </div>
                             </div>
+                            
                     <?php
                         endwhile;
                         wp_reset_postdata();
                     ?>
-                        <div class="pagination">
+                      </div>
+                         <div class="flex justify-center gap-1 list-none py-4 md:py-6 lg:py-10 w-full">
                             <?php
                             echo paginate_links(array(
                                 'total' => $paper_loop->max_num_pages,
@@ -97,8 +97,8 @@ get_header(); ?>
                                 'end_size' => 2,
                                 'mid_size' => 1,
                                 'prev_next' => true,
-                                'prev_text' => sprintf('<i></i> %1$s', __('&laquo;', 'text-domain')),
-                                'next_text' => sprintf('%1$s <i></i>', __('&raquo;', 'text-domain')),
+                                'prev_text' => '',
+                                'next_text' => '',
                                 'add_args' => false,
                                 'add_fragment' => '',
                             ));
@@ -107,7 +107,7 @@ get_header(); ?>
                     <?php else : ?>
                         <p><?php esc_html_e('No posts found.', 'text-domain'); ?></p>
                     <?php endif; ?>
-                </div>
+              
         <?php
             endforeach;
         endif;
@@ -115,11 +115,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <aside class="google-ads right">
-        <?php if (is_active_sidebar('google-ads-right')) : ?>
-            <?php dynamic_sidebar('google-ads-right'); ?>
-        <?php endif; ?>
-    </aside>
-</div>
+     
+ 
 
 <?php get_footer(); ?>

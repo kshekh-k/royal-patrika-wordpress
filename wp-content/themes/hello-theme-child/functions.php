@@ -256,6 +256,8 @@ function my_primary_menu_add_depth_icon($item_output, $item, $depth, $args)
         return $item_output;
     }
 
+    
+
     /* Detect which menu we’re styling */
     $menu_class = $args->menu_class;
 
@@ -743,195 +745,270 @@ add_filter('sanitize_title', 'hindi_to_english_slug', 10);
 
 // Social Media Icons
 
+
+ 
 /**
- * Social Media Icons Widget (No jQuery – JS + CSS included inline)
+ * =========================================
+ * SOCIAL MEDIA ICONS WIDGET + SHORTCODE
+ * =========================================
  */
-class Social_Icons_Widget extends WP_Widget
-{
-    function __construct()
-    {
+
+/* -----------------------------------------
+ * WIDGET CLASS
+ * ----------------------------------------- */
+class Social_Icons_Widget extends WP_Widget {
+
+    public function __construct() {
         parent::__construct(
             'social_icons_widget',
             __('Advanced Social Icons', 'hello-theme-child'),
-            ['description' => __('Add unlimited social media icons', 'hello-theme-child')]
+            ['description' => __('Add social media icons', 'hello-theme-child')]
         );
 
-        // Print JS + CSS in admin footer
         add_action('admin_footer', [$this, 'admin_inline_scripts']);
     }
 
-    /**
-     * Widget Form (Admin)
-     */
-    public function form($instance)
-    {
-        $icons = !empty($instance['icons']) ? $instance['icons'] : [];
-        $name_base = $this->get_field_name('icons');
+    /* ---------- ADMIN FORM ---------- */
+    public function form($instance) {
+        $icons = $instance['icons'] ?? [];
+        $name  = $this->get_field_name('icons');
         ?>
 
-<div class="widget-content">
+        <div class="widget-content">
+            <div class="social-icons-repeatable" data-name="<?php echo esc_attr($name); ?>">
 
-    <!-- Repeatable Container -->
-    <div class="social-icons-repeatable" data-name="<?php echo esc_attr($name_base); ?>">
+                <?php foreach ($icons as $i => $icon): ?>
+                    <div class="social-icon-row">
+                        <input class="widefat"
+                            name="<?php echo $name . "[$i][url]"; ?>"
+                            value="<?php echo esc_attr($icon['url'] ?? ''); ?>"
+                            placeholder="Profile URL">
 
-        <?php foreach ($icons as $index => $icon): ?>
-        <div class="social-icon-row">
-
-            <input type="text" name="<?php echo $name_base . '[' . $index . '][url]'; ?>"
-                value="<?php echo esc_attr($icon['url']); ?>" class="widefat" placeholder="Icon URL">
-
-            <input type="text" name="<?php echo $name_base . '[' . $index . '][icon]'; ?>"
-                value="<?php echo esc_attr($icon['icon']); ?>" class="widefat" placeholder="FontAwesome class">
-
-            <button type="button" class="remove-icon button">Remove</button>
-            <hr>
-        </div>
-        <?php endforeach; ?>
-
-    </div>
-
-    <button type="button" class="add-icon button button-primary">+ Add More Icons</button>
-
-</div>
-
-<?php
-    }
-
-    /**
-     * Save Widget Fields
-     */
-    public function update($new, $old)
-    {
-        $instance = [];
-        $instance['icons'] = [];
-
-        if (!empty($new['icons'])) {
-            foreach ($new['icons'] as $icon) {
-                if (!empty($icon['url']) || !empty($icon['icon'])) {
-                    $instance['icons'][] = [
-                        'url' => sanitize_text_field($icon['url']),
-                        'icon' => sanitize_text_field($icon['icon']),
-                    ];
-                }
-            }
-        }
-
-        return $instance;
-    }
-
-    /**
-     * Front-End Output
-     */
-    public function widget($args, $instance)
-    {
-        echo $args['before_widget'];
-
-        if (!empty($instance['icons'])) {
-            echo '<div class="flex gap-2 py-2">';
-            foreach ($instance['icons'] as $icon) {
-                echo '<a href="' . esc_url($icon['url']) . '" target="_blank" class="block text-white hover:text-brand! ease-in-out duration-200">
-                        <i class="text-sm md:text-base ' . esc_attr($icon['icon']) . '"></i>
-                      </a>';
-            }
-            echo '</div>';
-        }
-
-        echo $args['after_widget'];
-    }
-
-    /**
-     * Inline JS + CSS for Admin
-     */
-    public function admin_inline_scripts()
-    {
-?>
-<style>
-.widget-content {
-    padding: 5px 0;
-}
-
-.social-icon-row {
-    padding-bottom: 10px;
-    display: flex;
-    gap: 5px;
-}
-
-.social-icon-row:not(:first-child) {
-    padding-top: 10px;
-    border-top: 1px solid rgb(0 0 0 / 0.1)
-}
-</style>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-
-    // Add new icon
-    document.addEventListener("click", function(e) {
-        if (e.target.classList.contains("add-icon")) {
-            e.preventDefault();
-
-            const widget = e.target.closest(".widget-content");
-            const container = widget.querySelector(".social-icons-repeatable");
-
-            const nameBase = container.getAttribute("data-name");
-            const index = container.querySelectorAll(".social-icon-row").length;
-
-            const row = document.createElement("div");
-            row.classList.add("social-icon-row");
-
-            row.innerHTML = `
-                        <input type="text"
-                            name="${nameBase}[${index}][url]"
-                            class="widefat"
-                            placeholder="Icon URL">
-
-                        <input type="text"
-                            name="${nameBase}[${index}][icon]"
-                            class="widefat"
+                        <input class="widefat"
+                            name="<?php echo $name . "[$i][icon]"; ?>"
+                            value="<?php echo esc_attr($icon['icon'] ?? ''); ?>"
                             placeholder="FontAwesome class">
+
+                        <input class="widefat"
+                            name="<?php echo $name . "[$i][title]"; ?>"
+                            value="<?php echo esc_attr($icon['title'] ?? ''); ?>"
+                            placeholder="Brand name (facebook, instagram)">
 
                         <button type="button" class="remove-icon button">Remove</button>
                         <hr>
-                    `;
+                    </div>
+                <?php endforeach; ?>
 
-            container.appendChild(row);
+            </div>
+
+            <button type="button" class="add-icon button button-primary">+ Add Icon</button>
+        </div>
+        <?php
+    }
+
+    /* ---------- SAVE ---------- */
+   public function update($new, $old)
+{
+    $instance = [];
+    $instance['icons'] = [];
+
+    if (!empty($new['icons'])) {
+        foreach ($new['icons'] as $icon) {
+            if (!empty($icon['url']) && !empty($icon['icon'])) {
+                $instance['icons'][] = [
+                    'url'   => esc_url_raw($icon['url']),
+                    'icon'  => sanitize_text_field($icon['icon']),
+                    'title' => sanitize_text_field($icon['title'] ?? ''),
+                ];
+            }
         }
-    });
+    }
 
-    // Remove icon
-    document.addEventListener("click", function(e) {
-        if (e.target.classList.contains("remove-icon")) {
-            e.preventDefault();
-            e.target.closest(".social-icon-row").remove();
-        }
-    });
+    // Shortcode ke liye globally save kar rahe
+    update_option('GLOBAL_SOCIAL_ICONS', $instance['icons']);
 
-});
-</script>
-<?php
+    return $instance;
+}
+
+
+    /* ---------- FRONTEND (PLAIN) ---------- */
+    public function widget($args, $instance)
+{
+    echo $args['before_widget'];
+    echo render_social_icons($instance['icons'] ?? [], 'plain');
+    echo $args['after_widget'];
+}
+
+    /* ---------- ADMIN JS ---------- */
+    public function admin_inline_scripts() {
+        ?>
+        <style>
+            .social-icon-row { display:flex; gap:6px; margin-bottom:6px; }
+        </style>
+
+        <script>
+        document.addEventListener('click', function(e){
+
+            if (e.target.classList.contains('add-icon')) {
+                const wrap = e.target.closest('.widget-content');
+                const box = wrap.querySelector('.social-icons-repeatable');
+                const name = box.dataset.name;
+                const i = box.children.length;
+
+                const row = document.createElement('div');
+                row.className = 'social-icon-row';
+                row.innerHTML = `
+                    <input class="widefat" name="${name}[${i}][url]" placeholder="Profile URL">
+                    <input class="widefat" name="${name}[${i}][icon]" placeholder="FontAwesome class">
+                    <input class="widefat" name="${name}[${i}][title]" placeholder="Brand name">
+                    <button type="button" class="remove-icon button">Remove</button>
+                    <hr>
+                `;
+                box.appendChild(row);
+            }
+
+            if (e.target.classList.contains('remove-icon')) {
+                e.target.closest('.social-icon-row').remove();
+            }
+        });
+        </script>
+        <?php
     }
 }
 
-// Register widget
+/* -----------------------------------------
+ * REGISTER WIDGET + SIDEBAR
+ * ----------------------------------------- */
 add_action('widgets_init', function () {
     register_widget('Social_Icons_Widget');
-});
 
-// Social Media widget area
-function mytheme_social_media_widget()
-{
     register_sidebar([
         'name' => 'Social Media Widget',
-        'id' => 'social_media_widget',
-        'before_widget' => '',  // no wrapper
-        'after_widget' => '',  // no wrapper
-        'before_title' => '',  // no title wrapper
-        'after_title' => '',
+        'id'   => 'social_media_widget',
     ]);
+});
+
+// Brand slug detection
+function detect_brand_slug(string $title = '', string $icon_class = ''): string
+{
+    $title = strtolower(trim($title));
+    $icon_class = strtolower($icon_class);
+
+    // Pehle title se try karo
+    if ($title) {
+        return $title;
+    }
+
+    // Agar title khali hai toh icon class se detect karo
+    $known = ['facebook', 'instagram', 'twitter', 'linkedin', 'youtube', 'github', 'telegram', 'whatsapp', 'x'];
+
+    foreach ($known as $slug) {
+        if (str_contains($icon_class, $slug)) {
+            return $slug;
+        }
+    }
+
+    return ''; // unknown
 }
 
-add_action('widgets_init', 'mytheme_social_media_widget');
 
+
+
+/* -----------------------------------------
+ * BRAND CLASS LOGIC
+ * ----------------------------------------- */
+function social_brand_class(string $brand_slug): string
+{
+    $brand_slug = strtolower(trim($brand_slug));
+
+    $map = [
+        'facebook'  => 'bg-blue-700',
+        'instagram' => 'bg-linear-to-tr from-yellow-400 via-pink-500 to-purple-600',
+        'twitter'   => 'bg-black',
+        'linkedin'  => 'bg-blue-700',
+        'youtube'   => 'bg-rose-700',
+        'github'    => 'bg-black',
+        'telegram'  => 'bg-blue-500',
+        'whatsapp'  => 'bg-green-500',
+        'x'         => 'bg-black',
+    ];
+
+    $color_class = $map[$brand_slug] ?? 'text-white';
+
+    return $color_class . ' hover:opacity-80 transition duration-200';
+}
+
+function social_anchor_class(string $style, string $brand_slug): string
+{
+    $style = strtolower(trim($style));
+
+    if ($style === 'brand') {
+        return social_brand_class($brand_slug);
+    }
+
+    // plain
+    return 'text-white hover:opacity-80 transition duration-200';
+}
+
+ 
+
+/* -----------------------------------------
+ * RENDER FUNCTION
+ * ----------------------------------------- */
+function render_social_icons($icons, $style = 'plain')
+{
+    if (empty($icons)) return '';
+
+    ob_start();
+ 
+
+    foreach ($icons as $icon) {
+
+        $url   = $icon['url']  ?? '';
+        $icls  = $icon['icon'] ?? '';
+        $title = $icon['title'] ?? '';
+
+        // yahan se brand nikal rahe hain (title ya icon se)
+        $brand_slug = detect_brand_slug($title, $icls);
+        $a_class    = esc_attr(social_anchor_class($style, $brand_slug));
+        $title_attr = esc_attr($title ?: ucfirst($brand_slug));
+
+        echo '<a href="' . esc_url($url) . '"
+                 target="_blank"
+                 title="' . $title_attr . '"
+                 aria-label="' . $title_attr . '"
+                 class="no-underline! sm:size-7 size-6 inline-flex justify-center items-center transition rounded-sm ' . $a_class . '">
+                <i class="text-sm md:text-base ' . esc_attr($icls) . '"></i>
+              </a>';
+    }
+
+    
+    return ob_get_clean();
+}
+
+
+/* -----------------------------------------
+ * SHORTCODE (GUARANTEED)
+ * ----------------------------------------- */
+add_action('init', function () {
+    add_shortcode('social_icons', function ($atts) {
+
+        $atts = shortcode_atts([
+            'style' => 'plain', // plain | brand
+        ], $atts);
+
+        $icons = get_option('GLOBAL_SOCIAL_ICONS');
+        if (empty($icons)) {
+            return '';
+        }
+
+        return render_social_icons($icons, $atts['style']);
+    });
+});
+
+
+
+// End Social media Icons
 function royalpatrika_customize_register($wp_customize)
 {
     $wp_customize->add_section('footer_contact', [
@@ -1377,15 +1454,18 @@ function hs_youtube_videos_shortcode($atts)
          * ------------------------------------------------------------------*/
         case 'grid':
             ?>
-<a href="https://www.youtube.com/watch?v=<?php echo $video_id; ?>" class="block no-underline! transition group " target="_blank">
+<a href="https://www.youtube.com/watch?v=<?php echo $video_id; ?>" class="block no-underline! transition group "
+    target="_blank">
     <div class="bg-white overflow-hidden space-y-2">
         <div class="relative">
             <img src="<?php echo $thumb; ?>" class="object-cover" alt="<?php echo $title; ?>">
-            <div class="flex justify-center items-center text-white flex-1 absolute inset-0 bg-black/70 group-hover:bg-brand/80 transition" > <i
-                    class="fa-brands fa-youtube text-4xl text-rose-500 group-hover:text-white transition"></i>
+            <div
+                class="flex justify-center items-center text-white flex-1 absolute inset-0 bg-black/70 group-hover:bg-brand/80 transition">
+                <i class="fa-brands fa-youtube text-4xl text-rose-500 group-hover:text-white transition"></i>
             </div>
         </div>
-        <h3 class="text-sm font-semibold line-clamp-2 max-h-12 pt-1 group-hover:text-brand text-neutral-900 transition"><?php echo $title; ?></h3>
+        <h3 class="text-sm font-semibold line-clamp-2 max-h-12 pt-1 group-hover:text-brand text-neutral-900 transition">
+            <?php echo $title; ?></h3>
     </div>
 </a>
 <?php
@@ -1397,18 +1477,23 @@ function hs_youtube_videos_shortcode($atts)
          * ------------------------------------------------------------------*/
         case 'list':
             ?>
-<a href="https://www.youtube.com/watch?v=<?php echo $video_id; ?>" class="block no-underline! transition group " target="_blank">
+<a href="https://www.youtube.com/watch?v=<?php echo $video_id; ?>" class="block no-underline! transition group "
+    target="_blank">
     <div class="flex gap-3 items-start">
-         <div class="relative w-32 h-20 flex justify-center items-center overflow-hidden shrink-0">
+        <div class="relative w-32 h-20 flex justify-center items-center overflow-hidden shrink-0">
             <img src="<?php echo $thumb; ?>" class="object-cover max-w-40" alt="<?php echo $title; ?>">
-            <div class="flex justify-center items-center text-white flex-1 absolute inset-0 bg-black/70 group-hover:bg-brand/80 transition" > <i
-                    class="fa-brands fa-youtube text-2xl text-rose-500 group-hover:text-white transition"></i>
+            <div
+                class="flex justify-center items-center text-white flex-1 absolute inset-0 bg-black/70 group-hover:bg-brand/80 transition">
+                <i class="fa-brands fa-youtube text-2xl text-rose-500 group-hover:text-white transition"></i>
             </div>
-        </div>        
+        </div>
         <div class="flex-1 space-y-2">
-            <h3 class="text-xs font-semibold line-clamp-3 max-h-16 pt-1 group-hover:text-brand text-neutral-900 transition"><?php echo $title; ?></h3>
+            <h3
+                class="text-xs font-semibold line-clamp-3 max-h-16 pt-1 group-hover:text-brand text-neutral-900 transition">
+                <?php echo $title; ?></h3>
             <p class="text-xs text-neutral-600">
-               <span><i class="fa-regular fa-eye"></i> <?php echo number_format($stats['viewCount']); ?> </span> <span class="w-5 text-center inline-block">|</span>
+                <span><i class="fa-regular fa-eye"></i> <?php echo number_format($stats['viewCount']); ?> </span> <span
+                    class="w-5 text-center inline-block">|</span>
                 <span><i class="fa-regular fa-thumbs-up"></i> <?php echo number_format($stats['likeCount']); ?></span>
             </p>
         </div>

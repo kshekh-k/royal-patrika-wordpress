@@ -68,37 +68,11 @@ $postCategories = '';
                                 }
                             ?>
                     </div>
-                    <div class="flex flex-col sm:flex-row justify-between gap-2 pt-2">
+                    <div class="flex flex-wrap justify-between gap-2 pt-2">
                         <div class="flex flex-col sm:flex-row gap-1 sm:gap-3 items-center">
                             <p class="text-base! my-0!">Follow us</p>
-                            <div class="flex gap-0.5 sm:gap-2 justify-center md:justify-start">
-                                <a class="rounded-sm text-white transition hover:opacity-85 bg-blue-700 no-underline! sm:size-7 size-6 inline-flex justify-center items-center ease-in-out duration-200"
-                                    href="https://www.facebook.com/royalpatrika/" target="_blank"><i
-                                        class="text-sm md:text-base fa fa-facebook"></i></a>
-
-                                <a class="rounded-sm text-white transition hover:opacity-85 bg-linear-to-tr from-yellow-400 via-pink-500 to-purple-600 no-underline! sm:size-7 size-6 inline-flex justify-center items-center ease-in-out duration-200"
-                                    href="https://www.instagram.com/royalpatrikaofficial?igsh=cjhzdTg0dzV5Mnlx"
-                                    target="_blank" data-action="share/whatsapp/share"><i
-                                        class="text-sm md:text-base fa fa-instagram"></i></a>
-                                <a class="rounded-sm text-white transition hover:opacity-85 bg-neutral-900 no-underline! sm:size-7 size-6 inline-flex justify-center items-center ease-in-out duration-200"
-                                    href="https://x.com/PatrikaRoyal" target="_blank"><i
-                                        class="text-sm md:text-base fa-brands fa-x-twitter"></i></a>
-
-                                <a class="rounded-sm text-white transition hover:opacity-85 bg-rose-700 no-underline! sm:size-7 size-6 inline-flex justify-center items-center ease-in-out duration-200 "
-                                    href="https://www.youtube.com/@royalpatrika"><i
-                                        class="text-sm md:text-base fa-brands fa-youtube"></i></a>
-
-                                <a class="rounded-sm text-white transition hover:opacity-85 bg-green-500 no-underline! sm:size-7 size-5 inline-flex justify-center items-center ease-in-out duration-200"
-                                    href="<?php echo 'https://wa.me/?text=' . rawurlencode(get_the_title()) . ' ' . createFriendlyURL(get_permalink()); ?>"
-                                    target="_blank" data-action="share/whatsapp/share"><i
-                                        class="text-sm md:text-base fa-brands fa-whatsapp"></i></a>
-
-                                <a class="rounded-sm text-white transition hover:opacity-85 bg-blue-500 no-underline! sm:size-7 size-6 inline-flex justify-center items-center ease-in-out duration-200"
-                                    href="https://t.me/royal_patrika_news" target="_blank"
-                                    data-action="share/telegram/share"><i
-                                        class="text-sm md:text-base fa-brands fa-telegram"></i></a>
-
-
+                            <div class="flex gap-0.5 sm:gap-2 justify-center md:justify-start [&>a]:text-white!">
+                                <?php echo do_shortcode('[social_icons style="brand"]'); ?>
                             </div>
                         </div>
                         <div class="flex flex-col sm:flex-row gap-1 sm:gap-3 items-center">
@@ -151,12 +125,13 @@ $postCategories = '';
                                     } else {
                                         // Fallback: Google AdSense
                                         ?>
-                        <ins class="adsbygoogle" style="display:block; text-align:center;"
+                                        <p class="text-center text-neutral-300">Google Ad Goes here</p>
+                        <!-- <ins class="adsbygoogle" style="display:block; text-align:center;"
                             data-ad-client="ca-pub-XXXXXXX" data-ad-slot="YYYYYYY" data-ad-format="auto"
                             data-full-width-responsive="true"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
+                        </script> -->
                         <?php
                                     }
 
@@ -179,7 +154,7 @@ $postCategories = '';
                 <h2 class="text-left text-lg text-neutral-900 uppercase border-b border-brand"><b>संबंधित</b>
                     खबरें</h2>
 
-                <div class="grid grid-cols-3 gap-5 pt-5 related-posts-list">
+                <div class="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 pt-5 related-posts-list">
                     <?php
                         // Get the categories of the current post
                         // $postCategories = get_the_category();

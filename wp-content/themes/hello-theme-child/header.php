@@ -111,7 +111,7 @@ window.addEventListener('load', function() {
         <div class="wrapper">
             <div class="flex justify-between gap-5">
                 <!--Social Media Icons  -->
-                <?php dynamic_sidebar('social_media_widget'); ?>
+                 <div class="flex gap-0.5 py-2"><?php echo do_shortcode('[social_icons]');  ?></div>
 
                 <div class="flex justify-end py-2">
                     <?php
