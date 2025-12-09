@@ -185,7 +185,7 @@ if ($post_count % 3 === 0 && $post_count < $total_posts) :
                 </div>
 
                 <!-- Pagination -->
-                <div class="flex justify-center gap-1 list-none pt-4 md:pt-8 lg:pt-14">
+                <div class="flex justify-center gap-1 list-none pt-4 md:pt-8 lg:pt-10">
                     <?php
                     echo paginate_links([
                         'total'      => $query->max_num_pages,
