@@ -47,14 +47,24 @@
             <?php if ($post_index === 1): ?>
 
             <!-- FIRST POST TEMPLATE -->
-            <?php if (has_post_thumbnail()): ?>
+             
             <a href="<?php the_permalink(); ?>"
-                class="w-full max-h-96 flex justify-center items-center overflow-hidden">
-                <?php the_post_thumbnail('large', [
-                        'class' => 'object-center object-cover size-auto min-w-full min-h-full max-w-none'
-                    ]); ?>
+                class="flex justify-center items-center w-full h-60 lg:h-40 overflow-hidden bg-neutral-100">
+               
+                      <?php
+                        if (has_post_thumbnail()) {
+                            the_post_thumbnail('large', [
+                                'class' => 'object-center object-cover size-auto min-w-full min-h-full max-w-none'
+                            ]);
+                        } else {
+                            echo hs_get_default_image(
+                                'default',
+                                'object-center object-cover size-auto min-w-full min-h-full max-w-none'
+                            );
+                        }
+                        ?>
             </a>
-            <?php endif; ?>
+            
             <div class="space-y-2 pb-2">
  
                 <h4 class="text-sm font-semibold text-neutral-900 leading-tight">

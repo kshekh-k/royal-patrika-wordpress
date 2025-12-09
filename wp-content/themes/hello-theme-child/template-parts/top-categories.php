@@ -65,7 +65,7 @@
 
         <?php endforeach; ?>
         <div class="pt-2 flex justify-center">
-                    <a href="<?php echo site_url(); ?>/category/category-slug" 
+                    <a href="<?php echo site_url(); ?>/all-categories" 
                         class="text-sm font-semibold no-underline! border border-neutral-200 rounded py-2 px-3 flex justify-center text-center text-neutral-900 hover:text-brand hover:bg-brand/20 hover:border-brand/30 flex-1 transition ">
                         View All Categories
                     </a>

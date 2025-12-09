@@ -106,7 +106,7 @@ function my_modify_main_ul_classes($args)
     if (isset($args['theme_location']) && $args['theme_location'] === 'primary') {
         // Desktop Header Navigation
         if ($args['menu_class'] === 'header-menu') {
-            $args['menu_class'] .= ' flex divide-x divide-neutral-200 lg:text-lg xl:text-xl font-semibold';
+            $args['menu_class'] .= ' flex divide-x divide-neutral-200 xl:text-lg font-semibold';
         }
 
         // Sidebar (Mobile) Navigation
@@ -147,7 +147,7 @@ function my_primary_menu_li_classes($classes, $item, $args, $depth)
     if (strpos($menu_class, 'header-menu') === 0) {
         // Add desktop LI border on level 0
         if ($depth === 0) {
-            $classes[] = 'last:border-r last:border-neutral-200';
+            $classes[] = 'last:border-r last:border-neutral-200 [&.current_page_item>a]:text-brand! [&.current_page_item>a]:bg-neutral-100!';
         }
 
         // Parent items with submenu
@@ -516,6 +516,42 @@ function news_header_ads_widgets()
     register_sidebar(array(
         'name' => 'Native Ads Center',
         'id' => 'native-ads-center',
+        'before_widget' => '<div class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => '</h2>',
+    ));
+
+
+    register_sidebar(array(
+        'name' => 'Native Cat Page Ad 1',
+        'id' => 'native-cat-page-ad-1',
+        'before_widget' => '<div class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => '</h2>',
+    ));
+
+    register_sidebar(array(
+        'name' => 'Native Cat Page Ad 2',
+        'id' => 'native-cat-page-ad-2',
+        'before_widget' => '<div class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => '</h2>',
+    ));
+
+    register_sidebar(array(
+        'name' => 'Native Cat Page Ad 3',
+        'id' => 'native-cat-page-ad-3',
+        'before_widget' => '<div class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => '</h2>',
+    ));
+    register_sidebar(array(
+        'name' => 'Native Cat Page Ad 4',
+        'id' => 'native-cat-page-ad-4',
         'before_widget' => '<div class="widget %2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h2 class="widgettitle">',
@@ -1104,7 +1140,7 @@ function hs_format_count($num)
 function hs_get_social_counts()
 {
     // Add your IDs + API Keys here
-    $yt_channel_id = 'UCOGGkMTKIeRAFl_iht0Z-cQ';
+    $yt_channel_id =  'UCOGGkMTKIeRAFl_iht0Z-cQ';
     $yt_api_key = 'AIzaSyAdrAhikG12_z-qKYh-MRYGKgCTet3rz0I';
 
     $fb_page_id = '639481959502611';
@@ -1308,8 +1344,8 @@ function hs_youtube_videos_shortcode($atts)
         'days'   => 7,         // for recent filter
     ], $atts);
 
-    $api_key     = 'AIzaSyB0SHwrWPm9VmU4k1E4EddJnnUMMScUCOQ';
-    $channel_id  = 'UCOGGkMTKIeRAFl_iht0Z-cQ';
+    // $api_key     = 'AIzaSyB0SHwrWPm9VmU4k1E4EddJnnUMMScUCOQ';
+    // $channel_id  = 'UCOGGkMTKIeRAFl_iht0Z-cQ';
 
     // Get videos based on filter
     $videos = hs_get_filtered_youtube_videos($api_key, $channel_id, $atts);

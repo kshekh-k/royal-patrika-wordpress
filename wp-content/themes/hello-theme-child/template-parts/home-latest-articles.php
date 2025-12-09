@@ -47,7 +47,7 @@ $q = new WP_Query([
 
         <div class="flex flex-col sm:flex-row gap-4 ">
              <!-- Thumbnail -->
-                <a href="<?php the_permalink(); ?>" class="flex justify-center items-center h-40 w-56 shrink-0 overflow-hidden bg-neutral-100">
+                <a href="<?php the_permalink(); ?>" class="flex justify-center items-center h-60 lg:h-40 sm:w-56 shrink-0 overflow-hidden bg-neutral-100">
                         <?php
                         if (has_post_thumbnail()) {
                             the_post_thumbnail('large', [

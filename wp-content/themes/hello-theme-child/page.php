@@ -1,7 +1,7 @@
 <?php if(!defined('ABSPATH')){ echo "No Script"; exit; }?>
 <?php get_header(); ?>
 
-<div class="wrapper">
+<div class="wrapper bg-red-500">
     <aside class="google-ads left">
         <?php if (is_active_sidebar('google-ads-left')) : ?>
             <?php dynamic_sidebar('google-ads-left'); ?>
